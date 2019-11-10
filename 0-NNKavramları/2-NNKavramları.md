@@ -22,16 +22,16 @@ Yapay Sinir Ağlarının temel kavramları
 | n<sup>[l]</sup>  | _l_ katmanındaki nöron sayısı |
 
 
-## 🧠 Yapay bir nöron ne yapar?
-It calculates a _weighted sum_ of its input, adds a bias and then decides whether it should be _fired_ or not due to an activaiton function
-> My detailed notes on activaiton functions are [here](https://github.com/asmaamirkhan/DeepLearningNotes/tree/master/6-NNConcepts/3-ActivationFunctions.md) 👩‍🏫
+## 🧠 What does an artificial neuron do?
+Girişinin ağırlıklı toplamını hesaplar, _bias_ ekler ve ardından bir aktivasyon fonksiyonu nedeniyle nöronun tetiklenip tetiklenmeyeceğine karar verir.
+> My detailed notes on activation functions are [here](https://github.com/asmaamirkhan/DeepLearningNotes/tree/master/6-NNConcepts/3-ActivationFunctions.md) 👩‍🏫
 
 
 
 
-## 👩‍🔧 Parameters Dimension Control
+## 👩‍🔧 Parametreler Boyut Kontrolü
 
-| Parameter        | Dimension     |
+| Parametre        | Boyut     |
 | ---------------  |---------------|
 | w<sup>[<i>l</i>]</sup>   |  (n<sup>[<i>l</i>]</sup>,n<sup>[<i>l-1</i>]</sup>) |
 | b<sup>[<i>l</i>]</sup>   |  (n<sup>[<i>l</i>]</sup>,1) |
@@ -39,16 +39,16 @@ It calculates a _weighted sum_ of its input, adds a bias and then decides whethe
 | db<sup>[<i>l</i>]</sup>  |  (n<sup>[<i>l</i>]</sup>,1) |
 
 
-> Making sure that these dimensions are true help us to write better and bug-free :bug: codes
+> Bu boyutların doğru olduğundan emin olmak, daha iyi ve hatasız 🐛 kodlar yazmamıza yardımcı olur.
 
 ## 🎈 Summary of Forward Propagation Process
 
 |                  |                 |
 | ---------------- | --------------- |
-| **Input:**       |  a<sup>[<i>l</i>-1]</sup> |
-| **Output:**      |  a<sup>[<i>l</i>]</sup>, chache (z<sup>[<i>l</i>]</sup>) |
+| **Giriş:**       |  a<sup>[<i>l</i>-1]</sup> |
+| **Çıkış:**       |  a<sup>[<i>l</i>]</sup>, chache (z<sup>[<i>l</i>]</sup>) |
 
-**Vectorized Equations:**
+**Vektörize Edilmiş Denklemler:**
 
 <img src="../res/formulas/ForwardProp.png" height="80"  />
 
@@ -56,10 +56,10 @@ It calculates a _weighted sum_ of its input, adds a bias and then decides whethe
 
 |                  |                 |
 | ---------------- | --------------- |
-| **Input:**       |  da<sup>[<i>l</i>]</sup> |
-| **Output:**      | da<sup>[<i>l</i>-1]</sup>, dW<sup>[<i>l</i>]</sup>, db<sup>[<i>l</i>]</sup> |
+| **Giriş:**       |  da<sup>[<i>l</i>]</sup> |
+| **Çıkış :**      | da<sup>[<i>l</i>-1]</sup>, dW<sup>[<i>l</i>]</sup>, db<sup>[<i>l</i>]</sup> |
 
-**Vectorized Equations:**
+**Vektörize Edilmiş Denklemler:**
 
 <img src="../res/formulas/BackProp1.png" height="30"  />
 <br>
@@ -75,21 +75,21 @@ It calculates a _weighted sum_ of its input, adds a bias and then decides whethe
 
 > 😵🤕
 
-## ✨ Parameters vs Hyperparameters
+## ✨ Parametreler vs Hiper-parametreler
 
-**Parameters:**
+**Parametreler:**
 * W<sup>[<i>1</i>]</sup>, W<sup>[<i>2</i>]</sup>, W<sup>[<i>3</i>]</sup>
 * b<sup>[<i>1</i>]</sup>, b<sup>[<i>2</i>]</sup>
 * ......
 
 
-**Hyperparameters:**
+**Hiper-parametreler:**
 
-* Learning rate
-* Number of iterations
-* Number of hidden layers
-* Number of hidden units
-* Choice of activation function
+* Öğrenme hızı
+* İterasyon sayısı
+* Gizli katmanların sayısı
+* gizli birimlerin sayısı
+* Aktivasyon Fonksiyonunun Seçimi 
 * ......
 
-> We can say that hyperparameters control parameters 🤔
+> Hiperparametrelerin parametreleri kontrol ettiğini söyleyebiliriz 🤔
