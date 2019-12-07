@@ -1,16 +1,19 @@
 # 👩‍💻 Yapay Sinir Ağlarıyla ilgili Pyhton Kod Parçaları
 
-[//]: ------------------------------------------------------------------------------
-<!-- ------------------------ General Functions --------------------------------- -->
-[//]: ------------------------------------------------------------------------------
-
 ## 📚 ML'de Genel Kod Parçaları
 
-Sigmoid Fonksiyonu
+### 💥 Sigmoid Fonksiyonu
 
-**Formül:**
+{% tabs %}
+{% tab title="➗ Formül" %}
 
-<img src="../res/formulas/Sigmoid.png" height="45"  />
+
+$$sigmoid(x)=\frac{1}{1+exp(-x)}$$
+
+{% endtab %}
+
+{% tab title="👩‍💻 Kod" %}
+
 
 ```python
 def sigmoid(x):
@@ -23,18 +26,26 @@ def sigmoid(x):
     """
     
     result = 1 /( 1 + np.exp(-x) )
-    
+
     return result
 ```
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### 🚀 Sigmoid Gradient
 
-Sigmoid Gradient
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+ _backpropagation_ kullanarak loss fonksiyonlarını optimize etmek için _gradient_'leri hesaplayan fonksiyon{% endtab %}
 
-**Açıklama:** _backpropagation_ kullanarak loss fonksiyonlarını optimize etmek için _gradient_'leri hesaplayan fonksiyon
-**Formül:**
+{% tab title="➗ Formül" %}
 
-<img src="../res/formulas/SigmoidGradient.png" height="30"  />
+$$\sigma^'(x)=\sigma(x)(1-\sigma(x))$$
+
+{% endtab %}
+
+{% tab title="👩‍💻 Kod" %}
+
 
 ```python
     def sigmoid_derivative(x):
@@ -49,13 +60,19 @@ Sigmoid Gradient
     
     s = 1 / (1 + np.exp(-x))
     ds = s * (1 - s)
-    
+
     return ds
 ```
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
 
-Dizileri (Veya resimleri) Yeniden Şekillendirme
+
+### 👩‍🔧 Dizileri (Veya resimleri) Yeniden Şekillendirme
+
+{% tabs %}
+{% tab title="👩‍💻 Kod" %}
+
 
 ```python
     def arr2vec(arr, target):
@@ -66,26 +83,32 @@ Dizileri (Veya resimleri) Yeniden Şekillendirme
     Dönüş değeri:
     v -- (length*height*depth, 1) boyutunda bir vektör
     """
-    
+
     v = image.reshape(image.shape[0] * image.shape[1] * image.shape[2], 1)
-    
+
     return v
 ```
+{% endtab %}
 
-[//]: ------------------------------------------------------------------------------
+{% endtabs %}
 
-Satırları Normalize Etme
+### 💥 Satırları Normalize Etme
 
-**Açıklama:** X'in her satır vektörünü normuna göre bölme.
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+X'in her satır vektörünü normuna göre bölme.
+{% endtab %}
 
-**Formül:**
+{% tab title="➗ Formül" %}
 
+$$Normalization(x)=\frac{x}{||x||}$$
 
-<img src="../res/formulas/Normalization.png" height="40"  />
+{% endtab %}
+
+{% tab title="👩‍💻 Kod" %}
 
 
 ```python
- 
 def normalizeRows(x):
     """
     Argümanlar:
@@ -94,25 +117,32 @@ def normalizeRows(x):
     Dönüş değeri:
     x -- Normalize edilmiş (satıra göre) Numpy matrisi.
     """
-    
+
     # Normları hesaplama
     x_norm = np.linalg.norm(x, axis=1, keepdims=True)
-    
-    # x'i normuna bölme  
+
+    # x'i normuna bölme 
     x = x / x_norm
-    
+
     return x
 ```
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### 🎨 Softmax Fonksiyonu
 
-Softmax Fonksiyonu
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Algoritmanın iki veya daha fazla sınıfı sınıflandırması gerektiğinde kullanılan normalleştirme fonksiyonu
+{% endtab %}
 
-**Açıklama:**  Algoritmanın iki veya daha fazla sınıfı sınıflandırması gerektiğinde kullanılan normalleştirme fonksiyonu
+{% tab title="➗ Formül" %}
 
-**Formül:**
+$$Softmax(x_i)=\frac{exp(x_i)}{\sum_{j}exp(x_j)}$$
 
-<img src="../res/formulas/Softmax.png" height="45"  />
+{% endtab %}
+
+{% tab title="👩‍💻 Kod" %}
 
 
 ```python
@@ -131,235 +161,248 @@ Softmax Fonksiyonu
 
     # X_exp'nin her satırını toplayan bir vektör x_sum oluşturma
     x_sum = np.sum(x_exp, axis=1, keepdims=True)
-    
+
     # Softmax (x)'in x_exp'i x_sum ile bölerek hesaplanması.
     # numpy broadcasting otomatik olarak kullanılacak
     s = x_exp / x_sum
 
     return s
 ```
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### 🤸‍♀️ L1 Loss Fonksiyonu
 
-L1 Loss Fonksiyonu
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Kayıp, modelin performansını değerlendirmek için kullanılır. Kayıp ne kadar büyükse, tahminlerin (ŷ) gerçek değerlerden (y) o kadar farklı olmasıdır. Derin öğrenmede, modeli eğitmek ve maliyeti en aza indirmek için _Gradient Descent_ gibi optimizasyon algoritmaları kullanıyoruz.
+{% endtab %}
 
-**Açıklama:**  The loss is used to evaluate the performance of the model. The bigger the loss is, the more different that predictions ( ŷ ) are from the true values ( y ). In deep learning, we use optimization algorithms like Gradient Descent to train the model and to minimize the cost.
+{% tab title="➗ Formüla" %}
 
-Kayıp, modelin performansını değerlendirmek için kullanılır. Kayıp ne kadar büyükse, tahminlerin (ŷ) gerçek değerlerden (y ) o kadar farklı olmasıdır. Derin öğrenmede, modeli eğitmek ve maliyeti en aza indirmek için Gradient Descent gibi optimizasyon algoritmaları kullanıyoruz.
+$$L_1(\hat{y},y)=\sum_{i=0}^{m}(|y^{(i)}-\hat{y}^{(i)}|)$$
 
-**Formula:**
+{% endtab %}
 
-
-<img src="../res/formulas/L1Function.png" height="50"  />
+{% tab title="👩‍💻 Kod" %}
 
 
 ```python
 def L1(yhat, y):
     """
-    Arguments:
-    yhat -- vector of size m (predicted labels)
-    y -- vector of size m (true labels)
-    
-    Returns:
-    loss -- the value of the L1 loss function defined above
+    Argümanlar:
+    yhat --  m boyutunda bir vektör (tahmin edilen etiketler)
+    y -- m boyutunda bir vektör (doğru etiketler)
+
+    Dönüş değeri: 
+    loss -- yanda tanımlanan L1 fonksiyonunun değeri
     """
-    
+
     loss = np.sum(np.abs(y - yhat))
-    
+
     return loss
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
+### 🤸‍♂️ L2 Loss Fonksiyonu
 
-[//]: ------------------------------------------------------------------------------
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Kayıp, modelin performansını değerlendirmek için kullanılır. Kayıp ne kadar büyükse, tahminlerin (ŷ) gerçek değerlerden (y) o kadar farklı olmasıdır. Derin öğrenmede, modeli eğitmek ve maliyeti en aza indirmek için _Gradient Descent_ gibi optimizasyon algoritmaları kullanıyoruz.
+{% endtab %}
 
-<details>
-<summary>L2 Loss Function</summary>
+{% tab title="➗ Formül" %}
 
-**Description:**  The loss is used to evaluate the performance of the model. The bigger the loss is, the more different that predictions ( ŷ ) are from the true values ( y ). In deep learning, we use optimization algorithms like Gradient Descent to train the model and to minimize the cost.
+$$L_2(\hat{y},y)=\sum_{i=0}^{m}(y^{(i)}-\hat{y}^{(i)})^2$$
 
-**Formula:**
+{% endtab %}
 
-
-<img src="../res/formulas/L2Function.png" height="50"  />
+{% tab title="👩‍💻 Kod" %}
 
 
 ```python
 def L2(yhat, y):
     """
-    Arguments:
-    yhat -- vector of size m (predicted labels)
-    y -- vector of size m (true labels)
-    
-    Returns:
-    loss -- the value of the L2 loss function defined above
+    Argümanlar:
+    yhat -- m boyutunda bir vektör(tahmin edilen etiketler)
+    y -- m boyutunda bir vektör(doğru etiketler)
+
+    Dönüş değeri:
+    loss -- yanda tanımlanan L1 fonksiyonunun değeri
     """
-    
+
     loss = np.sum((y - yhat) ** 2)
-    
+
     return loss
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### 🏃‍♀️ Yayılma Fonksiyonnu _Propagation Function_
 
-<details>
-<summary>Propagation Function</summary>
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Parametreleri öğrenmek için "ileri" ve "geri" yayılma adımlarını yapmak.
+{% endtab %}
 
-**Description:**  Doing the "forward" and "backward" propagation steps for learning the parameters
+{% tab title="➗ Formül" %}
 
-**Formula:**
+$$\frac{\partial J}{\partial w}=\frac{1}{m}X(A-Y)^T$$
 
-<img src="../res/formulas/GradW.png" height="50"  />
-<br/>
-<img src="../res/formulas/GradB.png" height="50"  />
+$$\frac{\partial J}{\partial b}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})$$
+
+{% endtab %}
+
+{% tab title="👩‍💻 Kod" %}
 
 
 ```python
 def propagate(w, b, X, Y):
     """
-    Implementation of the cost function and its gradient for the propagation
+    Cost fonksiyonunu ve gradient'leri hasaplamanın emplemantasyonu
 
-    Arguments:
-    w -- weights, a numpy array of size (num_px * num_px * 3, 1)
-    b -- bias, a scalar
-    X -- data of size (num_px * num_px * 3, number of examples)
-    Y -- true "label" vector (containing 0 if non-cat, 1 if cat) of size (1, number of examples)
+    Argümanlar:
+    w -- ağırlıklar, (num_px * num_px * 3, 1) boyutunda bir Numpy dizisi
+    b -- önyargı (bias), bir skalerdir
+    X -- (num_px * num_px * 3, örnek sayısı) boyutunda veriler
+    Y -- doğru etiket vektörü (kedi değilse 0, kediyse 1), (1, örnek sayısı) boyutunda
 
-    Return:
-    cost -- negative log-likelihood cost for logistic regression
-    dw -- gradient of the loss with respect to w, thus same shape as w
-    db -- gradient of the loss with respect to b, thus same shape as b
-    
+    Dönüş değeri:
+    cost -- lojistik regresyon için negatif log olabilirlik cost'u
+    dw -- w'ye göre kaybın gradyanı, bu nedenle w ile aynı boyutta
+    db -- b'ye göre kaybın gradyanı, bu nedenle b ile aynı boyutta
+
     """
-    
+
     m = X.shape[1]
-    
-    # FORWARD PROPAGATION (FROM X TO COST)
-    
-    # computing activation
+
+    # İLERİ YAYILMA (X’DEN MALİYETE)
+
+    # aktivasyonu hesaplama
     A = sigmoid( np.dot(w.T, X) + b ) 
-    
-    # computing cost
+
+    # cost'u hesaplama
     cost = - np.sum( Y * np.log(A) + (1-Y) * np.log(1 - A) ) / m 
-    
-    # BACKWARD PROPAGATION (TO FIND GRAD)
-    
+
+    # GERİ YAYILMA (GRAD'ı BULMAK İÇİN)
+
     dw = (np.dot(X,(A-Y).T))/m
     db = np.sum(A-Y)/m
-    
+
     grads = {"dw": dw,
              "db": db}
-    
+
     return grads, cost
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
+### 💫 Gradyan İnişi _Gradient Descent_ \(Optimizasyon\)
 
-[//]: ------------------------------------------------------------------------------
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Amaç, maliyet fonksiyonunu _J_'yi en aza indirerek _ω_ ve _b_'yi öğrenmektir.
+{% endtab %}
 
-<details>
-<summary>Gradient Descent (Optimization)</summary>
+{% tab title="➗ Formül" %}
 
-**Description:**  The goal is to learn _ω_ and _b_ by minimizing the cost function _J_. For a parameter _ω_
+$$w=w-\alpha dw$$
 
-**Formula:**
+&#x3B1; öğrenme hızıdır _learning rate_
 
-<img src="../res/formulas/OptimizationFunction.png" height="30"  />
+{% endtab %}
 
+{% tab title="👩‍💻 Kod" %}
 
-Where *α* is the learning rate
 
 ```python
 def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
     """
-    This function optimizes w and b by running a gradient descent algorithm
-    
-    Arguments:
-    w -- weights, a numpy array of size (num_px * num_px * 3, 1)
-    b -- bias, a scalar
-    X -- data of shape (num_px * num_px * 3, number of examples)
-    Y -- true "label" vector (containing 0 if non-cat, 1 if cat), of shape (1, number of examples)
-    num_iterations -- number of iterations of the optimization loop
-    learning_rate -- learning rate of the gradient descent update rule
-    print_cost -- True to print the loss every 100 steps
-    
-    Returns:
-    params -- dictionary containing the weights w and bias b
-    grads -- dictionary containing the gradients of the weights and bias with respect to the cost function
-    costs -- list of all the costs computed during the optimization, this will be used to plot the learning curve.
+    gradient descent algoritması çalıştırarak w ve b'yi optimize eder
+
+    Argümanlar:
+    w -- ağırlıklar, (num_px * num_px * 3, 1) boyutunda bir Numpy dizisi
+    b -- önyargı (bias), bir skalerdir
+    X -- (num_px * num_px * 3, kayıt sayısı) boyutunda veriler
+    Y -- doğru etiket vektörü (kedi değilse 0, kediyse 1), (1, örnek sayısı) boyutunda
+    num_iterations -- optimizasyon döngüsünün iterasyon sayısı
+    learning_rate -- gradient descent'in öğrenme hızı
+    print_cost -- True ise kaybı her 100 adım yazdırır
+
+    Dönüş değeri:
+    params -- ağırlıkları ve bias'ı içeren bir dictionary
+    grads -- cost fonksiyonuna göre ağırlıkları ve bias'ı içeren bir dictionary
+    costs -- optimizasyon esnasında bütün kayıp değerlerini içeren bir list, öğrenme eğrisini çizerken kullanılacak
     """
-    
+
     costs = []
-    
+
     for i in range(num_iterations):
-        
-        
-        # Cost and gradient calculation
+
+
+        # Cost ve gradient'ı hesaplama
         grads, cost = propagate(w, b, X, Y)
-        
-        # Retrieve derivatives from grads
+
+        # türevleri grad'lardan elde etme 
         dw = grads["dw"]
         db = grads["db"]
-        
-        # update rule
+
+        # kuralı güncelleme
         w = w - learning_rate*dw
         b = b - learning_rate*db
-        
-        # Record the costs
+
+        # cost'ları kaydetme
         if i % 100 == 0:
             costs.append(cost)
-        
-        # Print the cost every 100 training iterations (optional)
+
+        # kaybı her 100 iterasyonda yazdırır (opsiyonel)
         if print_cost and i % 100 == 0:
             print ("Cost after iteration %i: %f" %(i, cost))
-    
+
     params = {"w": w,
               "b": b}
-    
+
     grads = {"dw": dw,
              "db": db}
-    
+
     return params, grads, costs
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
+## 🕸 Basit Bir NN Temel Kod Parçları
 
+2 katmanlı ağın fonksiyonları
 
-[//]: ------------------------------------------------------------------------------
-<!-- ------------------------ Basic NN Functions ------------------------------- -->
-[//]: ------------------------------------------------------------------------------
+> Giriş katmanı, 1 gizli katman ve çıkış katmanı
 
-## 🕸 Basic Code Snippets for Simple NN
+### 🚀 Parametreleri Başlatma _Initialization_
 
-Functions of 2-layer NN
-> Input layer, 1 hidden layer and output layer
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+`W`'leri ve `b`'leri başlatma konusunda, `W`'ler **Simetriği kırma** adına rastgele değerlerle başlatmalıyız, `b`'yi ise sıfır olarak başlatabiliriz.
+{% endtab %}
 
-
-[//]: ------------------------------------------------------------------------------
-
-<details>
-<summary>Parameter Initialization</summary>
-
-**Description:**  Initializing `W`s and `b`s, `W`s must be initialized randomly in order to do **symmetry-breaking**, we can do _zero initalization_ for `b`s
+{% tab title="👩‍🏫 Kod" %}
 
 
 ```python
 def initialize_parameters(n_x, n_h, n_y):
     """
-    Argument:
-    n_x -- size of the input layer
-    n_h -- size of the hidden layer
-    n_y -- size of the output layer
-    
-    Returns:
-    params -- python dictionary containing your parameters:
-                    W1 -- weight matrix of shape (n_h, n_x)
-                    b1 -- bias vector of shape (n_h, 1)
-                    W2 -- weight matrix of shape (n_y, n_h)
-                    b2 -- bias vector of shape (n_y, 1)
+    Argümanlar:
+    n_x -- giriş katmanının boyutu
+    n_h -- gizli katmanın boyutu
+    n_y -- çıkış katmanının boyutu
+
+    Dönüş değeri:
+    params -- parametreleri içeren bir:
+                    W1 -- (n_h, n_x) boyutundaki ağırlıklar matrisi
+                    b1 -- (n_h, 1) boyutundaki bias vektörü
+                    W2 -- (n_y, n_h) boyutundaki ağırlıklar matrisi
+                    b2 -- (n_y, 1) boyutundaki bias vektörü
     """
-    # multiplying with 0.01 to minimize values
+    # değerleri küçültmek için 0.01 ile çarpma
     W1 = np.random.randn(n_h,n_x) * 0.01
     b1 = np.zeros((n_h,1))
     W2 = np.random.randn(n_y,n_h) * 0.01
@@ -369,192 +412,207 @@ def initialize_parameters(n_x, n_h, n_y):
                   "b1": b1,
                   "W2": W2,
                   "b2": b2}
-    
+
     return parameters
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### ⏩ İleri Yayılma
 
-<details>
-<summary>Forward Propagation</summary>
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Each layer accepts the input data, processes it as per the activation function and passes to the next layer
+{% endtab %}
 
-**Description:**  Each layer accepts the input data, processes it as per the activation function and passes to the next layer
+{% tab title="👩‍💻 Kod" %}
 
 
 ```python
 def forward_propagation(X, parameters):
     """
-    Argument:
-    X -- input data of size (n_x, m)
-    parameters -- python dictionary containing your parameters (output of initialization function)
-    
-    Returns:
-    A2 -- The sigmoid output of the second activation
-    cache -- a dictionary containing "Z1", "A1", "Z2" and "A2"
+    Argümanlar:
+    X -- (n_x, m) boyutundaki giriş verileri
+    parameters -- parametreleri içeren dictionary (başlatma fonksiyonunun çıkış değeri)
+
+    Dönüş değeri:
+    A2 -- ikinci aktivasyonun sigmoid çıkışı
+    cache -- "Z1", "A1", "Z2" and "A2" değerlerini içeren dictionary
     """
 
-    # Retrieving each parameter from the dictionary "parameters"
+    # parameters'den parametreleri elde etme
     W1 = parameters['W1']
     b1 = parameters['b1']
     W2 = parameters['W2']
     b2 = parameters['b2']
-    
+
     Z1 = np.dot(W1, X) + b1
     A1 = np.tanh(Z1)
     Z2 = np.dot(W2, A1) + b2
     A2 = sigmoid(Z2)
-        
+
     cache = {"Z1": Z1,
              "A1": A1,
              "Z2": Z2,
              "A2": A2}
-    
+
     return A2, cache
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### 🚩 Maliyet Fonksiyonu _Cost_
 
-<details>
-<summary>Cost Function</summary>
+{% tabs %}
+{% tab title=".👩‍🏫 Açıklama" %}
+Çıkış katmanı nedeniyle ayarlanan **tüm** eğitimin _loss_ fonksiyonlarının ortalaması
+{% endtab %}
 
-**Description:**  The average of the loss functions of the **entire** training set due to the output layer -_from A2 in our example_-
+{% tab title="➗ Formül" %}
 
-**Formula:**
+$$J=-\frac{1}{m}\sum_{i=1}^{m}(y^{(i)}log(a^{[2](i)}) + (1-y^{(i)}log(1-a^{[2](i)})))$$
 
-<img src="../res/formulas/CostNN.png" height="40"  />
+{% endtab %}
+
+{% tab title="👩‍💻 Kod" %}
+
 
 ```python
 def compute_cost(A2, Y):
     """
-    Computes the cross-entropy cost given in equation (13)
-    
-    Arguments:
-    A2 -- The sigmoid output of the second activation, of shape (1, number of examples)
-    Y -- "true" labels vector of shape (1, number of examples)   
-    
-    Returns:
-    cost -- cross-entropy cost given equation (13)
-    
+    Formülde verilen cross-entropy maliyetini hesaplar
+    Argümanlar:
+    A2 -- ikinci aktivasyonun sigmoid çıkışı, (1, örnek sayısı) boyutunda
+    Y -- "true" etiket vektörü (1, örnek sayısı) boyutunda  
+
+    Dönüş değeri:
+    cost -- formülde verilen cross-entropy maliyeti
+
     """
-    
-    # Number of examples
+
+    # örnek sayısı
     m = Y.shape[1] 
 
-    # Computing the cross-entropy cost
+    # cross-entropy maliyetini hesaplama
     logprobs = np.multiply(np.log(A2), Y) + (1 - Y) * np.log(1 - A2)
     cost = - np.sum(logprobs) / m
     cost = float(np.squeeze(cost))  
-    
+
     return cost
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### ⏪ Geri Yayılma
+
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+Ağırlıkların uygun şekilde ayarlanması daha düşük hata oranlarını garanti eder ve modellemeyi genellemesini artırarak güvenilir kılar.
+{% endtab %}
+
+{% tab title="➗ Formül" %}
 
 
-<details>
-<summary>Back Propagation</summary>
+![](../res/SummaryGD.PNG)
+{% endtab %}
 
-**Description:** Proper tuning of the weights ensures lower error rates, making the model reliable by increasing its generalization.
+{% tab title="👩‍💻 Kod" %}
 
-**Formula:**
-
-<img src="../res/SummaryGD.PNG" width="400"  />
 
 ```python
 def backward_propagation(parameters, cache, X, Y):
     """
-    Implement the backward propagation using the instructions above.
-    
-    Arguments:
-    parameters -- python dictionary containing our parameters 
-    cache -- a dictionary containing "Z1", "A1", "Z2" and "A2".
-    X -- input data of shape (2, number of examples)
-    Y -- "true" labels vector of shape (1, number of examples)
-    
+    Daha önce verilen talimatları kullanarak geriye doğru yayılımı uygular
+
+    Argümanlar:
+    parameters -- parametrelerimizi içeren dictionary 
+    cache -- "Z1", "A1", "Z2" and "A2" değerlerini içeren dictionary
+    X -- (2, örnek sayısı) boyutundaki giriş verileri
+    Y -- "true" etiket vektörü, (1, örnek sayısı) boyutunda
+
     Returns:
-    grads -- python dictionary containing your gradients with respect to different parameters
+    grads -- farklı parametrelere göre gradyanları içeren dictionary
     """
     m = X.shape[1]
-    
-    # Retrieving W1 and W2 from the dictionary "parameters".
+
+    # parameters'dan W1 ve W2'yi elde etme
     W1 = parameters['W1']
     W2 = parameters['W2']
-        
-    # Retrieving also A1 and A2 from dictionary "cache".
+
+    # cache'den A1 ve A2'yi elde etme
     A1 = cache['A1']
     A2 = cache['A2']
-    
-    # Backward propagation: calculating dW1, db1, dW2, db2. 
+
+    # Geri yayılma: calculating dW1, db1, dW2, db2 hesaplama 
     dZ2 = A2 - Y
     dW2 = np.dot(dZ2, A1.T) / m
     db2 = np.sum(dZ2, axis = 1, keepdims = True) / m
     dZ1 = np.dot(W2.T, dZ2) * (1 - A1 ** 2)
     dW1 = np.dot(dZ1, X.T) / m
     db1 = np.sum(dZ1, axis = 1, keepdims = True) / m
-    
+
     grads = {"dW1": dW1,
              "db1": db1,
              "dW2": dW2,
              "db2": db2}
-    
+
     return grads
 ```
-</details>
+{% endtab %}
+{% endtabs %}
 
-[//]: ------------------------------------------------------------------------------
+### 🔃 Parametreleri Güncelleme
 
+{% tabs %}
+{% tab title="👩‍🏫 Açıklama" %}
+_Gradient descent_'i tamamlamak için öğrenme hızına bağlı olarak parametrelerin güncellenmesi
+{% endtab %}
 
+{% tab title="➗ Formül" %}
 
-<details>
-<summary>Updating Parameters</summary>
+$$\theta := \theta - \alpha \frac{\partial J}{\partial \theta}$$
 
-**Description:**  Updating the parameters due to the learning rate to complete the gradient descent
+{% endtab %}
 
+{% tab title="👩‍💻 Kod" %}
 
-**Formula:**
-
-<img src="../res/formulas/UpdatingNN.png" height="40"  />
 
 ```python
 def update_parameters(parameters, grads, learning_rate = 1.2):
     """
-    Updates parameters using the gradient descent update rule given above
+    Daha önce verilen gradient descent güncelleme kuralını kullanarak parametreleri günceller
     
     Arguments:
-    parameters -- python dictionary containing your parameters 
-    grads -- python dictionary containing your gradients 
-    
-    Returns:
-    parameters -- python dictionary containing your updated parameters 
+    parameters -- parametrelerimizi içeren dictionary 
+    grads -- gradyanlarımızı içeren dictionary 
+
+    Dönüş değeri:
+    parameters -- güncellenmiş parametreleri içeren dictionary 
     """
-    # Retrieving each parameter from the dictionary "parameters"
+    # "parameters"'dan parametreleri elde etme
     W1 = parameters['W1']
     b1 = parameters['b1']
     W2 = parameters['W2']
     b2 = parameters['b2']
-    
-    # Retrieving each gradient from the dictionary "grads"
+
+    # "grads"dan gradyanları elde etme
     dW1 = grads['dW1']
     db1 = grads['db1']
     dW2 = grads['dW2']
     db2 = grads['db2']
-    
-    # Updating rule for each parameter
+
+    # Kuralı her parametre için güncelleme
     W1 = W1 - learning_rate * dW1
     b1 = b1 - learning_rate * db1
     W2 = W2 - learning_rate * dW2
     b2 = b2 - learning_rate * db2
-    
+
     parameters = {"W1": W1,
                   "b1": b1,
                   "W2": W2,
                   "b2": b2}
-    
+
     return parameters
 ```
-</details>
-
-[//]: ------------------------------------------------------------------------------
+{% endtab %}
+{% endtabs %}
