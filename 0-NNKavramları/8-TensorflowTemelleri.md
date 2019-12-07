@@ -12,7 +12,7 @@
 ## 👩‍💻 Kod Örneği
 Aşağıdaki formülü hesaplamak için:
 
-_loss = L(ŷ, y) = (ŷ<sup>(i)</sup>-y<sup>(i)</sup>)<sup>2</sup>_:
+$$loss=L(\hat{y},y)=(\hat{y}^{(i)}-y^{(i)})^2$$
 
 ```python
 # Tensörleri oluşturma ve arasındaki işlemi yapma 

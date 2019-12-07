@@ -16,7 +16,7 @@ Modelin daha iyi genelleşmesi için öğrenme algoritmasında ufak değişiklik
 ### 🔩 L2 Regularization (Weight decay)
 En yaygın düzenlileştirme türüdür, aşağıdaki formüle göre uygulanır 
 
-<img src="../res/formulas/CostL2.png" height="40"  />
+$$J=Loss+\frac{\lambda}{2m}-\sum ||w||^{2}$$
 
 Burada, lambda regülasyon parametresidir. Daha iyi sonuçlar için değeri optimize edilmiş olan **hiperparametredir**. L2 regülasyonu, ağırlıkları sıfıra indirgemeye zorladığı için ağırlık azalması _(Weight decay)_ olarak da bilinir (ancak tam olarak sıfır değildir)
 

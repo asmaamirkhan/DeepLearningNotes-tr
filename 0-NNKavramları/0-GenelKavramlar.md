@@ -1,11 +1,11 @@
 # 🔎 Esas Problem
 Aşağıda verilen veri seti için:  
 
-<img src="../res/formulas/Dataset.png" height="25"  />
+$$[(x^{1},y^{1}), (x^{2},y^{2}), ...., (x^{m},y^{m})]$$
 
 Bizim amacımız:
 
-<img src="../res/formulas/GoodOutput.png" height="25"  />
+$$\hat{y}^{(i)} \approx y^{(i)}$$
 
 
 ## 📚 Temel Kavramlar ve Notasyonlar
@@ -13,7 +13,7 @@ Bizim amacımız:
 | Kavram          | Açıklama      |
 | --------------- |---------------|
 | `m`             | Veri setindeki örnek sayısı   |
-| x<sup>(i)</sup> | Veri setindeki `i`'inci örnek  |
+| $$x^{(i)}$$  | Veri setindeki `i`'inci örnek  |
 | `ŷ`             | Tahmin edilen (predicted) çıktı |
 | Kayıp Fonksiyonu _Loss Function_ `𝓛(ŷ, y)` | **Tek** bir örnek için hata hesaplama fonksiyonu |
 | Cost Gunction `𝙹(w, b)` | Tüm eğitim setinin kayıp fonksiyonlarının ortalaması  |
@@ -26,8 +26,9 @@ Bizim amacımız:
 ## 📉 Gradient Descent
 Genel Formül:
 
-<img src="../res/formulas/GradientDescentW.png" height="40"  />
-<img src="../res/formulas/GradientDescentB.png" height="40"  />
+$$w:=w-\alpha\frac{dJ(w,b)}{dw}$$
+
+$$b:=b-\alpha\frac{dJ(w,b)}{dw}$$
 
 
 > `α` _(alpha)_ **Öğrenme Hızı**'dir (Learning Rate) 
@@ -35,11 +36,11 @@ Genel Formül:
 ## 🥽 Öğrenme Hızı (Learning Rate)
 Model ağırlıkları her güncellendiğinde karşılık gelen tahmini hata nedeniyle her Gradient Descent tekrarının adımının boyutunu belirleyen pozitif bir skalardır, bu nedenle bir sinir ağı modelinin ne kadar hızlı veya yavaş bir problemi öğrendiğini kontrol eder.
 
-**İyi Öğrenme Hızı:**
+### 🎀 İyi Öğrenme Hızı
 
 <img src="../res/GoodSGD.gif" width="300"  />
 
-**Kötü Öğrenme Hızı:**
+### 💢 Kötü Öğrenme Hızı
 
 <img src="../res/BadSGD.gif" width="300"  />
 

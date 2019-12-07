@@ -14,7 +14,7 @@ Softmax regresyonunun lojistik regresyonun genelleştirdiğini söyleyebiliriz.
 ### 📚 Notasyon
 C = sınıf sayısı = çıkış katmanının birim sayısı
 
-Yani,  ŷ<sub>_j_</sub>  (C, 1) boyutunda bir vektördür.
+Yani,  $$\hat{y}_j$$   (C, 1) boyutunda bir vektördür.
 
 ### 🎨 Softmax Katmanı
 Softmax, çıktı katmanından hemen önce bir sinir ağı katmanı vasıtasıyla uygulanır. Softmax katmanı, çıkış katmanı ile aynı sayıda düğüme sahip olmalıdır.
@@ -23,8 +23,7 @@ Softmax, çıktı katmanından hemen önce bir sinir ağı katmanı vasıtasıyl
 
 ### 💥 Softmax Aktivasyon Fonksiyonu
 
-<img src="../res/formulas/Softmax.png" height="50"  />
-
+$$Softmax(x_i)\frac{exp(x_i)}{\sum_{j}exp(x_j)}$$
 
 ### 🔨 Hard Max Fonksiyonu 
 Softmax katmanının çıktısını alır ve  _1 vs 0 vector_ (adlandırdığıma göre 🤭) vektörüne dönüştürür, o da bizim  _ŷ_'iz olacak
@@ -40,7 +39,7 @@ Ve bunun gibi 🐾
 
 ### 🔎 Kayıp Fonksiyonu
 
-<img src="../res/formulas/SoftmaxLoss.png" height="50"  />
+$$L(\hat{y},y)=-\sum_{j=1}^{c}y_jlog(\hat{y}_j)$$
 
 > Y ve  ŷ (C,m) boyutunda matrislerdir 👩‍🔧
 

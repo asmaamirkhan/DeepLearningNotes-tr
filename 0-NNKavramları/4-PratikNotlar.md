@@ -8,7 +8,7 @@ _Veri Hazırlama_'nın bir
 
 **Formül:**
 
-<img src="../res/formulas/NormalizedData.png" height="30"  />
+$$normalized=\frac{x_{i}-\mu }{\sigma}$$
 
 > Fayda: Bu, Cost function'ın  _J_ optimizasyonunu hem daha hızlı hem de daha kolay yapar 😋
 

@@ -5,10 +5,10 @@
 
 | Terim            | Açıklama   |
 | ---------------  |---------------|
-| Vectorization    | Python kodunu döngü kullanmadan hızlandırma yöntemi |
-| Broadcasting     | Dizileri genişleterek Python kodunu daha hızlı çalıştırmak için başka bir uöntem |
-| Rank of an Array | Bir dizinin sahip olduğu boyut sayısı |
-| Rank 1 Array     | Tek bir boyuta sahip bir dizi         |
+| 👩‍🔧 Vectorization    | Python kodunu döngü kullanmadan hızlandırma yöntemi |
+| ⚙ Broadcasting     | Dizileri genişleterek Python kodunu daha hızlı çalıştırmak için başka bir uöntem |
+| 🔢 Rank of an Array | Bir dizinin sahip olduğu boyut sayısı |
+| 1️⃣ Rank 1 Array     | Tek bir boyuta sahip bir dizi         |
 
 > Bir skaler sıfır rank'a sahip sayılır ❗❕
 
@@ -42,27 +42,23 @@ v_result = np.dot(array1, array2)
 # v_result: 244.4311
 ``` 
 
-<details>
-<summary>Bir dizinin (veya matrisin) her elemanına üstel işlem uygulanması</summary>
+#### 📈 Bir dizinin (veya matrisin) her elemanına üstel işlem uygulanması
 
 ```python
 array = np.random.rand(1000)
 exp = np.exp(array)
 ```
-</details>
 
-<details>
-<summary>Sigmoid Fonksiyonunun Vektörize Edilmiş Versiyonu </summary>
+#### 🚀 Sigmoid Fonksiyonunun Vektörize Edilmiş Versiyonu
 
 ```python
 array = np.random.rand(1000)
 sigmoid = 1 / (1 + np.exp(-array))
 ```
-</details>
 
 ### 👩‍💻 Numpy'de Ortak Desteklenen İşlemler
-<details>
-<summary>Ortak Tek Dizi Fonksiyonları</summary>
+
+#### 🤸‍♀️ Ortak Tek Dizi Fonksiyonları
 
 * Dizideki her elemanın karekökünü alma
   * `np.sqrt(x)`
@@ -75,20 +71,14 @@ sigmoid = 1 / (1 + np.exp(-array))
 * Dizideki her bir eleman üzerine **logaritmik** fonksiyonlar uygulama
   * `np.log(x)`, `np.log10(x)`, `np.log2(x)`
 
-</details>
-
-<details>
-<summary>Ortak Çoklu Dizi Fonksiyonları</summary>
+#### 🤸‍♂️ Ortak Çoklu Dizi Fonksiyonları
 
 * **Aritmetik** işlemleri dizilerdeki karşılık gelen elemanlara uygulama
   * `np.add(x, y)`, `np.subtract(x, y)`, `np.divide(x, y)`, `np.multiply(x, y)`
 * Dizideki karşılık gelen elemanlara kuvvet işlemi uygulama
   * `np.power(x, y)`
 
-</details>
-
-<details>
-<summary>Ortak sıralı fonksiyonlar</summary>
+#### ➰ Ortak Dizili _Sequence_ Fonksiyonlar
 
 * Bir dizinin **ortalama**sını bulma
   * `np.mean(x)`
@@ -102,10 +92,6 @@ sigmoid = 1 / (1 + np.exp(-array))
   * `np.max(x)`, `np.min(x)`
 * Bir dizinin maximum ve minimum değerinin **indis**ini bulma
   * `np.argmax(x)`, `np.argmin(x)`
-</details>
-
-
-
 
 ## 💉 Broadcasting
 Aritmetik işlemler sırasında numpy'nin farklı boyutlardaki dizileri nasıl ele aldığını açıklar. Bazı kısıtlamalara bağlı olarak, daha küçük dizi daha büyük dizi boyunca yayınlanır, böylece uyumlu şekillere sahip olurlar.
@@ -136,8 +122,7 @@ print(a + b)
 #          [ 6  8 10]]
 ``` 
 
-<details>
-<summary> Matristen <i><b>a</b></i> skalar çıkartma</summary>
+#### ➖ Bir matristen 'a' skalar çıkartma
 
 ```python
 a = np.array( [[0, 1, 2], 
@@ -147,7 +132,6 @@ print(a - c)
 # Output: [[-2 -1  0]
 #          [ 3  4  5]]
 ```
-</details>
 
 ## 1️⃣ Rank 1 Array
 

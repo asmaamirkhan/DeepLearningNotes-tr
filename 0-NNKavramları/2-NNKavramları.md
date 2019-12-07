@@ -12,64 +12,62 @@ Yapay Sinir Ağlarının temel kavramları
 
 | Terim            | Açıklama      |
 | ---------------  |---------------|
-| Giriş Katmanı    | NN'nin girişlerini içeren katmandır |
-| Gizli Katman     | Hesaplamalı işlemlerin yapıldığı katman |
-| Çıkış Katmanı    | NN'nin son katmanı ve tahmin edilen değerin _ŷ_ üretilmesinden sorumludur |
-| Nöron            | Bir matematik fonksiyonu için bir yer tutucu, girdilere bir fonksiyon uygular ve çıktı sağlar |
-| Aktivasyon Fonksiyonu | Dönüşümler uygulayarak bir düğümün giriş sinyalini bir çıkış sinyaline dönüştüren bir fonksiyon |
-| Shallow NN       | Az sayıda gizli katmana sahip NN (bir veya iki)  |
-| Deep NN          | Çok sayıda gizli katmanı olan NN |
-| n<sup>[l]</sup>  | _l_ katmanındaki nöron sayısı |
+| 🌚 Giriş Katmanı    | NN'nin girişlerini içeren katmandır |
+| 🌜 Gizli Katman     | Hesaplamalı işlemlerin yapıldığı katman |
+| 🌝 Çıkış Katmanı    | NN'nin son katmanı ve tahmin edilen değerin _ŷ_ üretilmesinden sorumludur |
+| 🧠 Nöron            | Bir matematik fonksiyonu için bir yer tutucu, girdilere bir fonksiyon uygular ve çıktı sağlar |
+| 💥 Aktivasyon Fonksiyonu | Dönüşümler uygulayarak bir düğümün giriş sinyalini bir çıkış sinyaline dönüştüren bir fonksiyon |
+| 👶 Shallow NN       | Az sayıda gizli katmana sahip NN (bir veya iki)  |
+| 💪 Deep NN          | Çok sayıda gizli katmanı olan NN |
+| $$n^{[l]}$$  | _l_ katmanındaki nöron sayısı |
 
 
-## 🧠 What does an artificial neuron do?
+## 🧠 Yapay bir nöron ne yapar?
 Girişinin ağırlıklı toplamını hesaplar, _bias_ ekler ve ardından bir aktivasyon fonksiyonu nedeniyle nöronun tetiklenip tetiklenmeyeceğine karar verir.
-> My detailed notes on activation functions are [here](https://github.com/asmaamirkhan/DeepLearningNotes/tree/master/6-NNConcepts/3-ActivationFunctions.md) 👩‍🏫
-
-
-
+> Aktivasyon fonksiyonları ile ilgili ayrıntılı notlarım: [burada](./3-AktivasyonFonksiyonları.md) 👩‍🏫
 
 ## 👩‍🔧 Parametreler Boyut Kontrolü
 
 | Parametre        | Boyut     |
 | ---------------  |---------------|
-| w<sup>[<i>l</i>]</sup>   |  (n<sup>[<i>l</i>]</sup>,n<sup>[<i>l-1</i>]</sup>) |
-| b<sup>[<i>l</i>]</sup>   |  (n<sup>[<i>l</i>]</sup>,1) |
-| dw<sup>[<i>l</i>]</sup>  |  (n<sup>[<i>l</i>]</sup>,n<sup>[<i>l-1</i>]</sup>) |
-| db<sup>[<i>l</i>]</sup>  |  (n<sup>[<i>l</i>]</sup>,1) |
+| $$w^{[l]}$$        |  $$(n^{[l]},n^{[l-1]})$$ |
+| $$b^{[l]}$$        |  $$(n^{[l]},1)$$ |
+| $$dw^{[l]}$$       |  $$(n^{[l]},n^{[l-1]})$$ |
+| $$db^{[l]}$$       |  $$(n^{[l]},1)$$ |
 
 
 > Bu boyutların doğru olduğundan emin olmak, daha iyi ve hatasız 🐛 kodlar yazmamıza yardımcı olur.
 
-## 🎈 Summary of Forward Propagation Process
+## 🎈 İleri Yayılım Sürecinin Özeti
 
 |                  |                 |
 | ---------------- | --------------- |
-| **Giriş:**       |  a<sup>[<i>l</i>-1]</sup> |
-| **Çıkış:**       |  a<sup>[<i>l</i>]</sup>, chache (z<sup>[<i>l</i>]</sup>) |
+| **Giriş:**       |  $$a^{[l-1]}$$ |
+| **Çıkış:**       |  $$a^{[l]}, chache (z^{[l]})$$ |
 
-**Vektörize Edilmiş Denklemler:**
+### 👩‍🔧 Vektörize Edilmiş Denklemler:
 
-<img src="../res/formulas/ForwardProp.png" height="80"  />
+$$Z^{[l]} =W^{[l]}A^{[l-1]}+b^{[l]}$$
+$$A^{[l]} = g^{[l]}(Z^{[l]})$$
 
-## 🎈 Summary of Back Propagation Process
+## 🎈 Geri Yayılım Sürecinin Özeti
 
 |                  |                 |
 | ---------------- | --------------- |
-| **Giriş:**       |  da<sup>[<i>l</i>]</sup> |
-| **Çıkış :**      | da<sup>[<i>l</i>-1]</sup>, dW<sup>[<i>l</i>]</sup>, db<sup>[<i>l</i>]</sup> |
+| **Giriş:**       |  $$da^{[l]}$$ |
+| **Çıkış :**      | $$da^{[l-1]}, dW^{[l]}, db^{[l]}$$ |
 
 **Vektörize Edilmiş Denklemler:**
 
-<img src="../res/formulas/BackProp1.png" height="30"  />
-<br>
-<img src="../res/formulas/BackProp2.png" height="50"  />
-<br>
-<img src="../res/formulas/BackProp3.png" height="50"  />
-<br>
-<img src="../res/formulas/BackProp4.png" height="30"  />
+$$dZ^{[l]}=dA^{[l]} * {g^{[l]}}'(Z^{[l]})$$
 
-## ➰➰ To Put Forward Prop. and Back Prop. Together
+$$dW^{[l]}=\frac{1}{m}dZ^{[l]}A^{[l-1]T}$$
+
+$$db^{[l]}=\frac{1}{m}np.sum(dZ^{[l]}, axis=1, keepdims=True)$$
+
+$$dA^{[l-1]}=W^{[l]T}dZ^{[l]}$$
+
+## ➰➰ İleri ve Geri Yayılımı Bir Arada
 
 <img src="../res/ForBackSummary.png" width="500"  />
 
@@ -77,13 +75,12 @@ Girişinin ağırlıklı toplamını hesaplar, _bias_ ekler ve ardından bir akt
 
 ## ✨ Parametreler vs Hiper-parametreler
 
-**Parametreler:**
-* W<sup>[<i>1</i>]</sup>, W<sup>[<i>2</i>]</sup>, W<sup>[<i>3</i>]</sup>
-* b<sup>[<i>1</i>]</sup>, b<sup>[<i>2</i>]</sup>
+### 👩‍🏫 Parametreler
+* $$W^{[1]}, W^{[2]}, W^{[3]}$$
+* $$b^{[1]}, b^{[2]}$$
 * ......
 
-
-**Hiper-parametreler:**
+### 👩‍🔧 Hiper-parametreler
 
 * Öğrenme hızı
 * İterasyon sayısı

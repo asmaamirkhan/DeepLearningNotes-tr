@@ -17,8 +17,7 @@ Bu çıkış sinyali şimdi yığındaki bir sonraki katmana girdi olarak kullan
 
 **Formül:**
 
-<img src="../res/formulas/LinearActivation.png" height="30"  />
-
+$$linear(x)=x$$
 
 **Grafik:**
 
@@ -30,8 +29,7 @@ Bu çıkış sinyali şimdi yığındaki bir sonraki katmana girdi olarak kullan
 
 **Formül:**
 
-<img src="../res/formulas/Sigmoid.png" height="40"  />
-
+$$sigmoid(x)=\frac{1}{1+exp(-x)}$$
 
 **Grafik:**
 
@@ -44,7 +42,7 @@ Neredeyse her zaman sigmoid fonksiyonundan üstündür
 
 **Formül:**
 
-<img src="../res/formulas/Tanh.png" height="40"  />
+$$tanh(x)=\frac{2}{1+e^{-2x}}-1$$
 
 > Sigmoid fonksiyonunun kaydırılmış versiyonu 🤔
 
@@ -62,8 +60,13 @@ Başka ve çok popüler bir seçenek
 
 **Formül:**
 
-<img src="../res/formulas/Relu.png" height="50"  />
-
+$$
+relu(x)=\left\{\begin{matrix}
+0, if x<0
+\\
+x,if x\geq0
+\end{matrix}\right.
+$$
 
 **Grafik:**
 
@@ -71,14 +74,19 @@ Başka ve çok popüler bir seçenek
 
 
 Yani türev, z pozitif olduğunda 1 ve z negatif olduğunda 0'dır.
-> *Disadvantage:* z negatif iken türev=0'dır 😐
+> *Dezavantaj:* z negatif iken türev=0'dır 😐
 
 ### 🎩 Sızdıran Relu
 
 **Formül:**
 
-<img src="../res/formulas/LeakyRelu.png" height="50"  />
-
+$$
+leaky\_relu(x)=\left\{\begin{matrix}
+0.01x, if x<0
+\\
+x,if x\geq0
+\end{matrix}\right.
+$$
 
 **Grafik:**
 
