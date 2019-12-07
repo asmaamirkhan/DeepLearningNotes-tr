@@ -481,6 +481,7 @@ $$J=-\frac{1}{m}\sum_{i=1}^{m}(y^{(i)}log(a^{[2](i)}) + (1-y^{(i)}log(1-a^{[2](i
 def compute_cost(A2, Y):
     """
     Formülde verilen cross-entropy maliyetini hesaplar
+    
     Argümanlar:
     A2 -- ikinci aktivasyonun sigmoid çıkışı, (1, örnek sayısı) boyutunda
     Y -- "true" etiket vektörü (1, örnek sayısı) boyutunda  
@@ -530,7 +531,7 @@ def backward_propagation(parameters, cache, X, Y):
     X -- (2, örnek sayısı) boyutundaki giriş verileri
     Y -- "true" etiket vektörü, (1, örnek sayısı) boyutunda
 
-    Returns:
+    Dönüş değeri:
     grads -- farklı parametrelere göre gradyanları içeren dictionary
     """
     m = X.shape[1]
@@ -582,7 +583,7 @@ def update_parameters(parameters, grads, learning_rate = 1.2):
     """
     Daha önce verilen gradient descent güncelleme kuralını kullanarak parametreleri günceller
     
-    Arguments:
+    Argümanlar:
     parameters -- parametrelerimizi içeren dictionary 
     grads -- gradyanlarımızı içeren dictionary 
 
