@@ -1,46 +1,47 @@
 ---
-description: 🚪 Beginning to solve problems of computer vision with Tensorflow and Keras 
+description: 🚪 Tensorflow ve Keras ile bilgisayar görüşü problemlerini çözmeye giriş 
 ---
-# 🚪 Introduction to Computer Vision
+# 🚪 Bilgisayar Görüşüne Giriş
 
-## 👗 What is MNIST?
-The MNIST database: **(Modified National Institute of Standards and Technology database)**
+## 👗 MNIST Nedir?
+MNIST'in açılımı: **(Modified National Institute of Standards and Technology database)**
 
-* 🔎 Fashion-MNIST is consisting of a training set of 60,000 examples and a test set of 10,000 examples
-* 🎨 Types:
-  * 🔢 MNIST: for handwritten digits
-  * 👗 Fashion-MNIST: for fashion
-* 📃 Properties:
-  * 🌚 Grayscale
+* 🔎 Fashion-MNIST 60.000 örnek eğitim setinden ve 10.000 örnek test setinden oluşur
+* 🎨 Türleri:
+  * 🔢 MNIST: el yazısı rakamlar için
+  * 👗 Fashion-MNIST: moda için (kıyafet)
+* 📃 Özellikler:
+  * 🌚 Gri tonlama _Grayscale_
   * 28x28 px
-  * 10 different categories
+  * 10 farklı kategori
   * [Repo](https://github.com/zalandoresearch/fashion-mnist)
 
-## 📚 Important Terms
-| Term            | Description   |
+## 📚 Önemli Terim
+| Terim           | Açıklama   |
 | --------------- |---------------|
-| ➰ Sequential      | That defines a SEQUENCE of layers in the neural network |
-| ⛓ Flatten         | Flatten just takes that square and turns it into a 1 dimensional set (used for input layer)   |
-| 🔷 Dense           | Adds a layer of neurons |
-| 💥 Activation Function | A formula that introduces non-linear properties to our Network |
-| ✨ Relu         | An activation function by the rule: If X>0 return X, else return 0 |
-| 🎨 Softmax         | An activation function that takes a set of values, and effectively picks the biggest one |
+| ➰ Sequential      | Bu sinir ağında bir katmanlar **dizisi** tanımlar |
+| ⛓ Flatten          | Yassılaştır sadece o kareyi alır ve onu 1 boyutlu bir kümeye dönüştürür (giriş katmanı için kullanılır) |
+| 🔷 Dense           | Bir nöron katmanı ekler |
+| 💥 Activation Function | Doğrusal olmayan özellikleri ağa tanıtan bir formül |
+| ✨ Relu            | If X>0 return X, else return 0 kuralına sahip bir aktivasyon fonksiyonudur |
+| 🎨 Softmax         | Bir dizi değer alan ve en büyüğünü seçen bir aktivasyon fonksiyonudur |
 
-> The main purpose of activation function is to convert a input signal of a node in a NN to an output signal. That output signal now is used as a input in the next layer in the stack.
 
-## 💫 Notes on performance
-* Values in -MNIST are between 0-255 but neural networks work better with normalized data, so we can divide every value by 255 so the values are between 0,1.
-* There are multiple criterias to stop trainig process, we can specify number of epochs or a threshold or both
-  * Epochs: number of iterations
-  * Threshold: a threshold for accuracy or loss after each iteration
-  * Threhold with maximum number of epochs
+> Aktivasyon fonksiyonunun temel amacı, bir NN'deki bir düğümün giriş sinyalini bir çıkış sinyaline dönüştürmektir. Bu çıkış sinyali şimdi yığındaki bir sonraki katmana girdi olarak kullanılır 💥
 
-> We can check the accuracy at the end of each epoch by Callbacks 💥
+## 💫 Performans Hakkında Notlar
+* MNIST'deki değerler 0-255 arasındadır ancak sinir ağları normalleştirilmiş verilerle daha iyi çalışır, bu nedenle her değeri 255'e bölebiliriz, böylece değerler 0,1 arasındadır.
+* Eğitim sürecini durdurmak için birden fazla kriter var, _epoch_ sayısını ya da eşiğini ya da her ikisini birden belirleyebiliriz.
+  * Epochs: iterasyon sayısı
+  * Eşik _Threshold_ : her iterasyon sonrasında accuracy veya loss için bir eşik değeri
+  * Eşik değeri ve maksimum epoch sayısı
 
-## 👩‍💻 My Codes
+> Her epoch sonunda, accuracy'yi Callbacks ile kontrol edebiliriz 💥
+
+## 👩‍💻 Kodlarım
 - [👗 Fashion MNIST](./0-Fashion-MNIST.ipynb)
 - [1️⃣ Digit MNIST](./1-DIGIT-MNIST.ipynb)
 
-## 🧐 References
+## 🧐 Referanslar
 * [Official Documentation of Keras](https://keras.io/)
 * [More About Activation Functions](https://keras.io/activations/)
