@@ -1,90 +1,88 @@
-# 🌟 Advanced Concepts About Convolutional Neural Networks
+# 🌟 Evrişimli Sinir Ağları ile İlgili İleri Kavramlar
 
-## Important Terms
-| Term                | Description   |
+## Önemli Terimler
+| Terim               | Açıklama      |
 | ------------------- |---------------|
-| 🔷 Padding             | Adding additional border(s) to the image before convolution  |
-| 🌠 Strided Convolution | Convolving by `s` steps |
-| 🏐 Convolutions Over Volume | Applying convs on n-dimensional input (such as an RGB image) |
+| 🔷 Padding             | _Convolution_'dan önce görüntüye ek kenar(lar) ekleme  |
+| 🌠 Strided Convolution | `s` adım atarak _convolution_ yapma |
+| 🏐 Convolutions Over Volume | _Convolution_'ları n boyutlu girişe uygulama (örneğin RGB görüntüsü) |
 
 ## 🙌 Padding
 Adding an additional one border _or more_ to the image so the image is n+2*n+2 and after convolution we end up with n * n image which is the origianl size of the image
 
-`p` = number of added borders
+Resme `n+2 x n+2` olacak şekilde görüntüye bir veya daha fazla kenar ekleyerek ve _convolution_'dan sonra görüntünün orijinal boyutu olan `n x n` resimle sonuçlanır.
 
-> For convention: it is filled by 0
+`p` = eklenen sınır sayısı
 
-## 🤔 How much to pad?
-For better understanding let's say that we have two concepts:
+> For convention: 0 ile doldurulur
+
+## 🤔 Ne kadar 'pad' edilmeli?
+Daha iyi anlaşılması için iki kavramımız olduğunu varsayalım:
 
 ### 🕵️‍♀️ Valid Convolutions
-It means no padding so:
+_Padding_ yok demektir, yani:
 
 `n x n`  *  `f x f`  ➡  `n-f+1 x n-f+1`
 
 ### 🥽 Same Convolutions
 Pad so that output size is the **same** as the input size.
 
-So we want that 🧐: 
+Çıktı boyutunun, girdi boyutuyla **aynı** olmasını sağlayacak kadar _pad_ edilir
+
+Yani biz istiyoruz ki 🧐: 
 
 `n+2p-f+1` = `n`
 
-Hence:
+Bundan dolayı:
 
 `p` = `(f-1)/2`
 
-> For convention f is chosen to be odd 👩‍🚀
+> For convention: f tek sayı olarak seçilir 👩‍🚀
 
 
-### 👀 Visualization
+### 👀 Görselleştirme
 <img src="../res/Conv.gif" width="250"  />
 
 
 ## 🔢 Strided Convolution
-Another approach of convolutions, we calculate the output by applying filter on regions by some value `s`. 
+_Convolution_'ların başka bir yaklaşımı,Bölgelere belirli bir  `s` (adım sayısı) değerine göre filtre uygulayarak çıktıyı hesaplıyoruz. 
 
-### 👀 Visualization 
+### 👀 Görselleştirme
 <img src="../res/StridedConv.gif" width="250"  />
 
 
-## 🤗 To Generalize
-
-For an `n*n` image and `f*f` filter, with `p` padding and stride `s`; the output image size can be calculated by the following formula
+## 🤗 Genellemek İçin
+Bir `n x n`'lik görüntü ve `f x f`'lik filtre için, `p` padding miktarı ve `s` striding miktarı ile; çıkış görüntünün boyutu aşağıdaki formülle hesaplanabilir
 
 $$\left \lfloor{\frac{n+2p-f}{s}+1}\right \rfloor \times \left \lfloor{\frac{n+2p-f}{s}+1}\right \rfloor$$
 
 ## 🚀 Convolutions Over Volume
-To apply convoltion operation on an RGB image; for example on 10x10 px RGB image, technically the image's dimension is 10x10x3 so we can apply for example a 3x3x3 filter _or fxfx3_ 🤳
+RGB görüntüsü üzerine _convolution_ işlemini uygulamak için; örneğin, 10x10 piksel RGB görüntüsünde, teknik olarak görüntünün boyutu 10x10x3'tür, bu nedenle örneğin 3x3x3'lük _veya fxfx3_'lük filtre uygulayabiliriz 🤳
 
+> Filtreler özel bir renk kanalına uygulanabilir 🎨
 
-> Filters can be applied on a special color channel 🎨
-
-### 👀 Visualization
+### 👀 Görselleştirme
 
 <img src="../res/ConvVolume.png" width="400"  />
 
-## 🤸‍♀️ Multiple Filters
+## 🤸‍♀️ Birden Fazla Filtre
 
 <img src="../res/ConvMulti.png" width="400"  />
 
 
-## 🎨 Types of Layer In A Convolutional Network
-
-| Layer                | Description   |
+## 🎨 CNN'lerin Katman Türleri
+| Katman               | Açıklama   |
 | -------------------- |---------------|
-| 💫 Convolution `CONV`   | Filters to estract features |
-| 🌀 Pooling `POOL`       | A technique to reduce size of representation and to speed up the computations |
-| ⭕ Fully Connected `FC` | standard single neural network layer (one dimensional) |
+| 💫 Convolution `CONV`   | Özellikleri çıkarmak için filtreler |
+| 🌀 Pooling `POOL`       | Gösterme boyutunu düşürme ve hesaplamaları hızlandırma tekniği |
+| ⭕ Fully Connected `FC` | Standart tek sinir ağı katmanı (tek boyutlu) |
 
+> 👩‍🏫 Genellikle insanlar bir NN'deki katman sayısını bildirdiğinde, yalnızca ağırlıkları ve parametreleri olan katman sayısını söylerler
 
+> Kabul: `CONV1` + `POOL1` = `LAYER1`
 
-> 👩‍🏫 Usually when people report number of layers in an NN they just report the number off layers that have weights and params 
+## 🤔 Neden Convolotion'ları Kullanalım?
+Ayarlanacak parametreleri düşürdüklerinden dolayı daha iyi performans 💫
 
-> Convention: `CONV1` + `POOL1` = `LAYER1`
-
-## 🤔 Why Convolotions?
-- Better performance since they decrease the parameters that will be tuned 💫
-
-
-## 🧐 References
+## 🧐 Referanslar
 - [Convolutional Neural Networks (CNN) Introduction (😍✨✨✨)](https://indoml.com/2018/03/07/student-notes-convolutional-neural-networks-cnn-introduction/)
