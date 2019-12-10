@@ -13,7 +13,7 @@
 | Terim                   | Soru                                     | Giriş           | Çıkış        | Problem Türü |
 | ----------------------- | ---------------------------------------- | --------------- | ------------ | ------------- |
 | 🧒👧 Face Verification | Bu aranan kişi mi? 🕵️‍♂️                    | Face image / ID | True / False | 1:1           |
-| 👸 Face Recognition    | Bu kişi kimdir? 🧐                   | Face image      | ID of `K` faces in DB | 1:K  |
+| 👸 Face Recognition    | Bu kişi kimdir? 🧐                       | Face image      | `K` yüzünüz DB'deki ID'si | 1:K  |
 
 ## 🤸‍♀️ Çözüm Yaklaşımı
 
