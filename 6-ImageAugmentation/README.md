@@ -1,26 +1,26 @@
 ---
-description: 🤡 Concepts of Image Augmentation Technique
+description: 🤡 Image Augmentation Tekniği Kavramları
 ---
 
 # 🤡 Image Augmentation
-- 💥 Basics of Image Augmentation which is a technique to avoid overfitting
-- ⭐ When we have got a small dataset we are able to manipluate the dataset without changing the underlying images to open up whole scenarios for training and to be able to train by variuos techniques of image augmentation 
+- 💥 _Overfitting_'den kaçınmak için kullanılan bir teknik olan _Image Augmentation_ Temelleri
+- ⭐ Küçük bir veri setine sahip isek, veri setini eğitim için tüm senaryoları açacak ve _Image Augmentation_'in çeşitli teknikleriyle çalıştırabilecek temel görüntüleri değiştirmeden manipüle edebiliyoruz.
 
-> Note: Image augmentation is needed for both training and test set 😅
+> Not: Image Augmentation Hem eğitim hem de test seti için gereklidir 😅
 
-## 🚩 Basic Concept of Image Augmentation
+## 🚩 Image Augmentation'ın Temel Kavramları
 
-👩‍🏫 The concept is very simple though:
+👩‍🏫 KOnsept çok basittir:
 
-If we have limited data, then the chances of you having data to match potential future predictions is also limited, and logically, the less data we have, the less chance we have of getting accurate predictions for data that our model hasn't yet seen.
+Verilerimiz sınırlıysa, gelecekteki olası öngörüleri karşılayacak verilere sahip olma ihtimalimiz de sınırlıdır ve mantıksal olarak ne kadar az veriye sahipsek, modelimizin henüz görmediği veriler için doğru tahminler alma şansımız o kadar azdır.
 
-> 🙄 If we are training a model to spot cats, and our model has never seen what a cat looks like when lying down, it might not recognize that in future.
+> 🙄 Eğer kedileri tespit etmek için bir model eğitiyorsak ve modelimiz bir kedinin uzanırken nasıl göründüğünü hiç görmemişse, gelecekte de tanımayabilir.
 
 - Augmentation simply amends our images on-the-fly while training using **transforms** like rotation. 
 - So, it could 'simulate' an image of a cat lying down by rotating a 'standing' cat by 90 degrees. 
 - As such we get a cheap :sparkles: way of extending our dataset beyond what we have already.
 
-> 🔎 Note: Doing image augmentation in runtime is prefered rather than to do it on memory to keep original data as it is 🤔
+> 🔎 Not: Doing image augmentation in runtime is prefered rather than to do it on memory to keep original data as it is 🤔
 
 
 ## 🤸‍♀️ Image Augmentation Techniques
@@ -79,4 +79,3 @@ train_datagenerator = ImageDataGenerator(
 * [More About Image Augmentation](https://github.com/keras-team/keras-preprocessing)
 * [More About Image Pre-processing](https://keras.io/preprocessing/image/)
 * [Detailed Image Augmentation Techniques](http://datahacker.rs/020-cnn-data-augmentations/)
-
