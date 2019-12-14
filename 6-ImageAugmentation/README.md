@@ -10,43 +10,50 @@ description: 🤡 Image Augmentation Tekniği Kavramları
 
 ## 🚩 Image Augmentation'ın Temel Kavramları
 
-👩‍🏫 KOnsept çok basittir:
+👩‍🏫 Konsept çok basittir:
 
 Verilerimiz sınırlıysa, gelecekteki olası öngörüleri karşılayacak verilere sahip olma ihtimalimiz de sınırlıdır ve mantıksal olarak ne kadar az veriye sahipsek, modelimizin henüz görmediği veriler için doğru tahminler alma şansımız o kadar azdır.
 
 > 🙄 Eğer kedileri tespit etmek için bir model eğitiyorsak ve modelimiz bir kedinin uzanırken nasıl göründüğünü hiç görmemişse, gelecekte de tanımayabilir.
 
-- Augmentation simply amends our images on-the-fly while training using **transforms** like rotation. 
-- So, it could 'simulate' an image of a cat lying down by rotating a 'standing' cat by 90 degrees. 
-- As such we get a cheap :sparkles: way of extending our dataset beyond what we have already.
+- Büyütme, döndürme gibi **dönüşümler** kullanarak eğitim yaparken, görüntülerimizi anında değiştirir. 
+- Bu nedenle, 'ayakta' olan bir kediyi 90 derece döndürerek uzanmış bir kedinin görüntüsünü 'taklit edebilir'.
+- Bu şekilde, elimizdeki ver seti ucuz ✨ bir şekilde büyütmüş oluyoruz.
 
-> 🔎 Not: Doing image augmentation in runtime is prefered rather than to do it on memory to keep original data as it is 🤔
+> 🔎 Not: Orijinal veriyi olduğu gibi değiştirmemek adına Image Augmentation'ı bellekte yapmak yerine çalışma zamanında _runtime'da_ yapılması tercih edilir 🤔
 
 
-## 🤸‍♀️ Image Augmentation Techniques
-### ✅ Mirroring 
-Flipping the image horizontally
+## 🤸‍♀️ Image Augmentation Teknikleri
+### ✅ Yansıtma (Mirroring) 
+Görüntüyü eksene göre yansıtmak
 
-#### 🚀 Example
+#### 🚀 Örnek
 <img src="../res/Mirroring.jpg" width="400"  />
 
 
-### ✂ Random Cropping 
-Picking an image and taking random crops
+### ✂ Rastgele Kesme (Random Cropping) 
+Bir görüntüyü alıp rastgele kesimler almak
 
-#### 🚀 Example
+#### 🚀 Örnek
 <img src="../res/Cropping.jpg" width="400"  />
 
-### 🎨 Color Shifting 
-Adding and subtracting some values from color channels
+### 🎨 Renk Kaydırma (Color Shifting) 
+Renk kanallarına değerler ekleme ve çıkarma
 
-#### 🚀 Example
+#### 🚀 Örnek
 <img src="../res/ColorShifting.jpg" width="400"  />
 
 
-## 👩‍💻 Code Example
+### 📐 (Açı Dönüştürme) Shearing Transformation
+Açı dönüşümü görüntünün açısını kaydırır
 
-The following code is used to do image augmentation
+#### 🚀 Example
+<img src="../res/ShearingTransform.jpg" width="400"  />
+
+
+## 👩‍💻 Kod Örneği
+
+Aşağıdaki kod parçası Image Augmentation yapmak için kullanılır
 
 ```python
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -62,20 +69,20 @@ train_datagenerator = ImageDataGenerator(
       fill_mode = 'nearest')
 ```
 
-| Parameter       | Description   |
+| Parametre       | Açıklama      |
 | --------------- |---------------|
-| `rescale` | Rescaling images, NNs work better with normalized data so we rescale images so values are between 0,1 |
-| `rotation_range` | A value in degrees (0–180), a range within which to randomly **rotate** pictures    |
-| Height and width shifting |  Randomly shifts pictures vertically or horizontally |
-| `shear_range` | Randomly applying shearing transformations |
-| `zoom_range` | Randomly zooming inside pictures |
-| `horizontal_flip` | Randomly flipping half of the images horizontally |
-|  `fill_mode` | A strategy used for filling in newly created pixels, which can appear after a rotation or a width/height shift. |
+| `rescale` | Görüntüleri yeniden ölçeklendirme, NN'ler normalleştirilmiş verilerle daha iyi çalışır, bu yüzden görüntüleri yeniden ölçeklendirirsek değerler 0,1 arasında olur |
+| `rotation_range` | Derece cinsinden bir değer (0-180), içinde resimlerin rasgele döndürülmesi için bir aralık |
+| Height and width shifting |  Görüntüleri dikey veya yatay olarak rasgele kaydırır |
+| `shear_range` | Rastgele açı dönüşümü uygular |
+| `zoom_range` | Fotoğrafları rasgele yakınlaştırır |
+| `horizontal_flip` | Rgörüntülerin yarısını yatay olarak rasgele çevirir |
+|  `fill_mode` | Yeni oluşturulan pikselleri doldurmak için kullanılan, bir döndürmeden veya genişlik / yükseklik kaymasından sonra görünebilecek bir stratejidir |
 
 
-> Full code example is [here 🐾](./0-ImageAugmentation.ipynb) 👈
+> Full kod örneği [burada 🐾](./0-ImageAugmentation.ipynb) 👈
 
-## 🧐 References
+## 🧐 Referanslar
 * [More About Image Augmentation](https://github.com/keras-team/keras-preprocessing)
 * [More About Image Pre-processing](https://keras.io/preprocessing/image/)
 * [Detailed Image Augmentation Techniques](http://datahacker.rs/020-cnn-data-augmentations/)
