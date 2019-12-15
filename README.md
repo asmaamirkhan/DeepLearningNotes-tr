@@ -26,7 +26,7 @@ description: Derin Öğrenme Hakkında Notlarım
 | 1. | [👀  Hızlı Görsel Bilgiler](./Z-HızlıGörselBilgiler)                   |
 
 ## 🙌 Söz
-Öğrenme algoritmanızın iki ana bilgi kaynağı vardır; bir tanesi **veri**, diğeri **elle** müdahele ederek yaptığımız dokunuşlar 🤔🚀
+Öğrenme algoritmanızın iki ana bilgi kaynağı vardır; bir tanesi **veri**, diğeri de **elle** müdahele ederek yaptığımız dokunuşlar 🤔🚀
 
 ## ⭐ Lütfen..
 - ✨ _Pull Request_ açarak içeriği iyileştirmeme ve artırmama yardımcı olun
