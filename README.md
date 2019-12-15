@@ -19,18 +19,18 @@ description: Derin Öğrenme Hakkında Notlarım
 | 8. | [🕵️‍♀️ Popüler Obje Algılama Teknikleri](./8-ObjeAlgılama)                 |
 | 9. | [➰ Dizi Modelleri](./9-DiziModelleri)                                  |
 
-## 💉 Extensions
-| #  | Title                                                                   |
-| -- |-------------------------------------------------------------------------|
-| 0. | [📚 PDFs that I found and recommend](./Z-UsefulPDFs/README.md)                   |
-| 1. | [👀 Visual materials for quick info](./Z-QuickVisualInfo)              |
+## 💉 Eklentiler
+| #  | Başlık                                                                 |
+| -- |----------------------------------------------------------------------- |
+| 0. | [📚 Tavsiye ettiğim faydalı PDF'ler](./Z-FaydalıPDFler/README.md)      |
+| 1. | [👀  Hızlı Görsel Bilgiler](./Z-HızlıGörselBilgiler)                   |
 
-## 🙌 Quote
-Your learning algorithm has two main sources of knowledge; one is the **data** and other is whatever you **hand design** 🤔🚀
+## 🙌 Söz
+Öğrenme algoritmanızın iki ana bilgi kaynağı vardır; bir tanesi **veri**, diğeri **elle** müdahele ederek yaptığımız dokunuşlar 🤔🚀
 
-## ⭐ Please..
-- ✨ Help me to improve and to increase the content by openning a _pull request_
-- 👓 Tell me your suggestions by sending me an [email](mailto:asmaamirkhan.am@gmail.com) or openning an issue
+## ⭐ Lütfen..
+- ✨ _Pull Request_ açarak içeriği iyileştirmeme ve artırmama yardımcı olun
+- 👓 Bana bir [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya _issue_ açarak önerilerinizi söyleyin
 
-## 🤝 Contact
-Find me on [LinkedIn](https://www.linkedin.com/in/asmaamirkhan/) and feel free to mail me, [Asmaa 🦋](mailto:asmaamirkhan.am@gmail.com)
+## 🤝 İletişim
+Bana [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya [LinkedIn](https://www.linkedin.com/in/asmaamirkhan/) üzerinden ulaşarak benimle iletişime geçebilirsiniz, **Asmaa 🦋**
