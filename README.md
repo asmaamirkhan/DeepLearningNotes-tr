@@ -3,6 +3,11 @@ description: Derin Öğrenme Hakkında Notlarım
 ---
 
 # 💫 Derin Öğrenme Notları
+[DeepLearningNotes 🦋](https://dl.asmaamir.com/) projemin Türkçe versiyonu
+
+## 🎈 Açıklama
+- 🤝 Türkçe içeriğine katkıda bulunmak adına İngilizce olan DeepLearningNotes projemin çevirisidir
+- 🐛 Dil hataları veya düzgün çevrilmeyen cümleler bulduğunuzda Pull Request veya Issue açarak bana bildirmeniz hoş olur 😇
 
 ## 📑 İçerikler
 
