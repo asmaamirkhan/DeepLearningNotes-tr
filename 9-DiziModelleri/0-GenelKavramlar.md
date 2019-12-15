@@ -41,3 +41,4 @@ Dizileri bu şekilde temsil ederek verileri sinir ağlarına aktarabiliriz ✨
 
 ### 🙄 Dezavantaj
 - Eğer sözlüğümüz 10.000 kelimeden oluşuyorsa, her vektör 10.000 boyutlu olacaktır 🤕 
+- Bu gösterim anlamsal özellikleri yakalayamaz 💔
