@@ -18,5 +18,5 @@ description: 👀 Kısa sürede fazla bilgi veren görsel materyaller
 ### 🧠 Makine Öğrenmesi Akıl Haritası
 <img src="../res/MLMindMap.jpg" width="400"  />
 
-## Takip Edilmesi Gereken Kaliteli Kaynaklar
+## 🐾 Takip Edilmesi Gereken Kaliteli Kaynaklar
 * [Instagram AI Machine Learning](https://www.instagram.com/ai_machine_learning/)
