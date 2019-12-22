@@ -1,6 +1,6 @@
 <!--Index-->
 - [💫 Derin Öğrenme Notları](README.md)
-- [🚀 İngilizce](https://dl.asmaamir.com/)
+- [🚀 English Version](https://dl.asmaamir.com/)
 - [💎 Yapay Sinir Ağları Kavramları](0-NNKavramlar%C4%B1/README.md)
   - [🔎 Esas Problem](0-NNKavramlar%C4%B1/0-GenelKavramlar.md)
   - [👷‍♀️ Yapay Sinir Ağlarının Uygulanması Üzerine Notlar](0-NNKavramlar%C4%B1/1-UygulamaNotlar%C4%B1.md)
