@@ -1,3 +1,6 @@
+## Başka Versiyon
+- [🚀 İngilizce](https://dl.asmaamir.com/)
+
 <!--Index-->
 
 - [💫 Derin Öğrenme Notları](README.md)
@@ -43,5 +46,3 @@
 
 <!--Index-->
 
-## Başka Versiyon
-- [🚀 İngilizce](https://dl.asmaamir.com/)
