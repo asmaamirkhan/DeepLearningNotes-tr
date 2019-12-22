@@ -1,6 +1,7 @@
 ## Başka Versiyon
 - [🚀 İngilizce](https://dl.asmaamir.com/)
 
+# Summary
 <!--Index-->
 
 - [💫 Derin Öğrenme Notları](README.md)
