@@ -1,9 +1,5 @@
-## Başka Versiyon
-- [🚀 İngilizce](https://dl.asmaamir.com/)
-
-# Summary
 <!--Index-->
-
+- [🚀 İngilizce Versiyonu](https://dl.asmaamir.com/)
 - [💫 Derin Öğrenme Notları](README.md)
   - [💎 Yapay Sinir Ağları Kavramları](0-NNKavramlar%C4%B1/README.md)
     - [🔎 Esas Problem](0-NNKavramlar%C4%B1/0-GenelKavramlar.md)
