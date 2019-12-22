@@ -42,3 +42,6 @@
   - [👀 Hızlı Görsel Bilgiler](Z-H%C4%B1zl%C4%B1G%C3%B6rselBilgiler/README.md)
 
 <!--Index-->
+
+## Başka Versiyon
+- [🚀 İngilizce](https://dl.asmaamir.com/)
