@@ -46,8 +46,9 @@ Dizileri bu şekilde temsil ederek verileri sinir ağlarına aktarabiliriz ✨
 
 ### 🔢 Embedded Matrix
 <!-- Çeviremedim 😢 -->
-For a given word _w_, the embedding matrix _E_ is a matrix that maps its 1-hot representation $o_w$ to its embedding $e_w$ as follows:
+For a given word _w_, the embedding matrix _E_ is a matrix that maps its 1-hot representation $$o_w$$ to its embedding $$e_w$$ as follows:
 $$e_w=Eo_w$$
+>  Çeviremedim 😢
 
 ### 🎀 Avantajlar
 - **Benzer** anlama sahip olan kelimelerin **benzer** bir gösterimi vardır.
