@@ -16,7 +16,7 @@ $$\hat{y}^{(i)} \approx y^{(i)}$$
 | $$x^{(i)}$$  | Veri setindeki `i`'inci örnek  |
 | `ŷ`             | Tahmin edilen (predicted) çıktı |
 | Kayıp Fonksiyonu _Loss Function_ `𝓛(ŷ, y)` | **Tek** bir örnek için hata hesaplama fonksiyonu |
-| Cost Gunction `𝙹(w, b)` | Tüm eğitim setinin kayıp fonksiyonlarının ortalaması  |
+| Cost Function `𝙹(w, b)` | Tüm eğitim setinin kayıp fonksiyonlarının ortalaması  |
 | Convex Function | Tek bir yerel değere sahip bir fonksiyon |
 | Non-Convex Function | Çok sayıda farklı yerel değere sahip bir fonksiyon |
 | Gradient Descent | Cost Function'ın global değerini bulmak için kullanılan iteratif bir optimizasyon yöntemidir |
