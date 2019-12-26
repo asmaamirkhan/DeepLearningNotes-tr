@@ -90,6 +90,9 @@ Eğitim veri setine uygun son bir modelin tarafsız _(unbiased)_ bir değerlendi
 
 > TADAAA işimiz bitti 🤗🎉🎊
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/4-practicalaspects)
+
 ## 🧐 Referanslar
 * [About Train, Validation and Test Sets in Machine Learning](https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7)
 * [Bias and Variance in Machine Learning](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)

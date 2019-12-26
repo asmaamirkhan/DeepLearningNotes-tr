@@ -90,3 +90,6 @@ $$dA^{[l-1]}=W^{[l]T}dZ^{[l]}$$
 * ......
 
 > Hiperparametrelerin parametreleri kontrol ettiğini söyleyebiliriz 🤔
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/2-nnconcepts)

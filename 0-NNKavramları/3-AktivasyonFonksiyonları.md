@@ -118,6 +118,9 @@ Not:
 
 > Bu fonksiyonlardan hangisinin en iyi sonucu verdiğinden emin değil isen 😵, hepsini dene 🤕 ve farklı validasyon seti üzerinden değerlendir ve hangisinin daha iyi çalıştığını gör ve kullan 🤓😇
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/3-activationfunctions)
+
 ## 🧐 Daha Fazla Oku
 * [Which Activation Function Should I Use? (Siraj Raval :sparkles:)](https://www.youtube.com/watch?v=-7scQpJT7uo)
 * [Activation Functions in Neural Networks](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)

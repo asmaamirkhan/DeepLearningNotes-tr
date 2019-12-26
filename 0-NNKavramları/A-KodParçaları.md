@@ -617,3 +617,6 @@ def update_parameters(parameters, grads, learning_rate = 1.2):
 ```
 {% endtab %}
 {% endtabs %}
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/a-codesnippets)

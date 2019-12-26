@@ -190,6 +190,9 @@ print(np.dot(a,b))
 # ERROR: shapes (4,1) and (4,1) not aligned: 1 (dim 1) != 4 (dim 0)
 ```
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/1-implementationnotes)
+
 > Özet: Kodlarımızı daha hatasız ve kolay hata ayıklamak için rank 1 dizilerini kullanmaktan kaçınmalıyız 🐛
 
 ## 🧐 Referanslar

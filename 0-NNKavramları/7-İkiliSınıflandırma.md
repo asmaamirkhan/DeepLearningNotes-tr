@@ -43,5 +43,8 @@ $$L(\hat{y},y)=-\sum_{j=1}^{c}y_jlog(\hat{y}_j)$$
 
 > Y ve  ŷ (C,m) boyutunda matrislerdir 👩‍🔧
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/7-multiclassclassification)
+
 ## 🧐 Daha Fazla Oku
 * [Long story short from Google documentation](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/softmax)

@@ -125,3 +125,6 @@ def cost(logits, labels):
         
     return cost
 ```
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/8-tensorflowbasics)
