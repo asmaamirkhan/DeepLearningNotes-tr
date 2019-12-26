@@ -20,3 +20,6 @@ description: 👀 Kısa sürede fazla bilgi veren görsel materyaller
 
 ## 🐾 Takip Edilmesi Gereken Kaliteli Kaynaklar
 * [Instagram AI Machine Learning](https://www.instagram.com/ai_machine_learning/)
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/z-quickvisualinfo)

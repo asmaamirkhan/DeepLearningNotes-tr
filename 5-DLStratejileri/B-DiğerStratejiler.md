@@ -38,3 +38,6 @@ Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz 
 ## 🔃 End to End Learning vs Transfer Learning
 
 <img src="../res/E2EVsTL.png" width="400"  />
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies/b-otherstrategies)

@@ -55,6 +55,9 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 ## 👩‍🔧 Emplementasyon
 - [Implementation of AlexNet](https://github.com/pytorch/vision/blob/master/torchvision/models/alexnet.py   )
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/3-classiccnns)
+
 ## 🧐 Daha Fazla Oku
 - [Detailed LeNet-5](https://engmrk.com/lenet-5-a-classic-cnn-architecture/)
 - [Detailed AlexNet](https://engmrk.com/alexnet-implementation-using-keras/)

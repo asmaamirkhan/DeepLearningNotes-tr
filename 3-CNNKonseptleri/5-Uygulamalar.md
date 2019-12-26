@@ -95,3 +95,6 @@ Açıklama:
 - $$J_{Content}$$ G ie C arasındaki benzerliği ifade eder
 - $$J_{Style}$$ G ile S arasındaki benzerliği ifade eder
 - _α_ ve _β_ hiperparametrelerdir
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/5-applications)

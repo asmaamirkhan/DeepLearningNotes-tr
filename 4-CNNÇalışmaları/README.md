@@ -70,6 +70,9 @@ dense_15 (Dense)             (None, 10)                1290
 Her katmanın çıktısının görselleştirilmesi [burada](./1-CNNVisualization.ipynb) mevcuttur 🔎
 
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/4-cnnworks)
+
 ## 🧐 Referanslar
 * [Binary Cross-Entropy](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 * [RMSProp Explained](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)

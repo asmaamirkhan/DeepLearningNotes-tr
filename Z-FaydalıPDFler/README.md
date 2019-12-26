@@ -22,3 +22,7 @@ description: Tavsiye ettiğim faydalı PDF'lerin listesi
 - [✨ Recurrent Neural Networks Cheatsheet](RNNCheatsheet.pdf)
 
 <!--Index-->
+
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/z-usefulpdfs)

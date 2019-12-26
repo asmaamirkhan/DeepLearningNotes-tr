@@ -62,3 +62,5 @@ Yeni bir projemiz olduğunda, bir ilk model üretmek ve ardından en iyi modeli 
 
 > O yüzden sadece aşırı düşünme! **(Hem ML problemlerinde hem de hayat problemlerinde 🤗🙆‍)**
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/7-appliedml/1-guidelines)

@@ -47,5 +47,8 @@ Let's say that we have a `28x28x192` dimensional input, if we apply `32` filters
 
 Diyelim ki `28x28x192` boyutlu girişimiz var, `1x1x192` boyutunda `32` filtre ve [SAME](./1-GenelKavramlar-P2.md#same-convolutions) padding uygularsak çıkışımız `28x28x32` ✨
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/4-otherapproaches)
+
 ## 🧐 Daha Fazla Oku
 - [Detailed ResNets](https://engmrk.com/residual-networks-resnets/)

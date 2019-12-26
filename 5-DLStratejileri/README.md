@@ -14,3 +14,5 @@ description: 🥽 Derin Öğrenme Bağlamında Kullanılan Popüler Stratejiler
 ## 👩‍💻 Kodum
 - [🚙 Transfer Learning, Dog vs Cat 🐶🐱](./0-TransferLearningDogvsCat.ipynb)
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies)

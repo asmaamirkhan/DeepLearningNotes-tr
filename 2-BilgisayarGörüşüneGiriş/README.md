@@ -42,6 +42,9 @@ MNIST'in açılımı: **(Modified National Institute of Standards and Technology
 - [👗 Fashion MNIST](./0-Fashion-MNIST.ipynb)
 - [1️⃣ Digit MNIST](./1-DIGIT-MNIST.ipynb)
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/2-intro2computervision)
+
 ## 🧐 Referanslar
 * [Official Documentation of Keras](https://keras.io/)
 * [More About Activation Functions](https://keras.io/activations/)

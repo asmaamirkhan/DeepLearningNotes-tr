@@ -56,6 +56,9 @@ print(model.predict([10.0]))
 ## 🔃 Geleneksel Programlamaya vs. Makine Öğrenmesi
 <img src="../res/TraditionalProgvsML.JPG" width="350"  />
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/1-helloworld)
+
 ## 🧐 Referanslar
 * [Official Documentation of Keras](https://keras.io/)
 * [More About Sequential model](https://keras.io/getting-started/sequential-model-guide/)

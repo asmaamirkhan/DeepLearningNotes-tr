@@ -108,6 +108,8 @@ _Anchor boxes_, görüntü boyunca yerleştirilmiş ve farklı şekil ve boyutla
 
 <img src="../res/RCNNChart.png" width="400"  />
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/8-objectdetection/0-regionbasedalgorithms)
 
 ## 🔎 Daha Fazla Oku
 - [A Step-by-Step Introduction to the Basic Object Detection Algorithms](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)

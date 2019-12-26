@@ -41,3 +41,6 @@ description: 🕵️‍♀️ Popüler Obje Algılama Teknikleri
 
 ## 🤸‍♀️ Obje Algılama Serisi
 <img src="../res/ObjectDetectionSeries.png" width="600"  />
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/8-objectdetection)

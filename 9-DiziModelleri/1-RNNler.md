@@ -88,6 +88,9 @@ Derin tekrarlayan ağlarla sonuçlanan yukarıdaki dönüşümlerin her biri iç
 ### 🧙‍♀️ Çözümler
 - RNN'deki Vanishing Gradients problemi üzerine [Yazımı](./2-VanishingGradients.md) okuyabilirsin  🤸‍♀️
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/1-rnns)
+
 ## 🧐 Daha Fazla Oku
 - [Recurrent Neural Networks Cheatsheet ✨](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks#)
 - [All About RNNs 🚀](https://medium.com/@jianqiangma/all-about-recurrent-neural-networks-9e5ae2936f6e)

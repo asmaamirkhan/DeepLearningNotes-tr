@@ -83,6 +83,9 @@ Birinci denklemde, _sigmoid_ fonksiyonunu kullanarak neyin çıktısı alınaca�
 
 > GRU, LSTM'den daha yeni, LSTM daha güçlü, ancak GRU'nun uygulanması daha kolay 🚧
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/2-vanishinggradients)
+
 ## 🧐 Daha Fazla Oku
 - [What are RNNs and GRUs](https://towardsdatascience.com/what-is-a-recurrent-nns-and-gated-recurrent-unit-grus-ea71d2a05a69)
 - [Understanding GRU Networks](https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be)

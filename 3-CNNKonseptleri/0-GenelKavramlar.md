@@ -84,5 +84,8 @@ If we have an `n*n` image and we convolove it by `f*f` filter the the output ima
 ### 💡 Çözüm
 Resimlere [_pading_](./1-CommonConcepts-P2.md#padding) işlemini uygulayabiliriz 💪 
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/0-commonconcepts)
+
 ## 🧐 Referanslar
 * [More on Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF)

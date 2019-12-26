@@ -20,3 +20,6 @@ Doğal Dil İşleme Hakkında Karışık Bilgiler
 - Sequence-to-Sequence model
 
 > TODO: Add details
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/4-aboutnlp)

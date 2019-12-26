@@ -39,3 +39,6 @@ Gelecekte almayı umduğumuz verileri yansıtmak için -_aynı dağıtımdan(dis
 
 ## 🙄 Dev/test setleri ve değerlendirme ölçütleri ne zaman değiştirilmeli?
 **Öneri:** Eğer dev/test setleri değerlendirme ölçütüyle iyi çalışıyorsa ve gerçek hayat uygulamasında iyi çalışmıyorsa dev/test setlerini ve/veya değerlendirme ölçütü değiştirilmelidir 🏳 
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/7-appliedml/0-evaluation)

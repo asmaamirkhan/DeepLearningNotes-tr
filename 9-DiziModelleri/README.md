@@ -25,3 +25,6 @@ description: ⛓ Dizi Modellerinin Temelleri
   - ✔ Dizi sırasını koruyabilen
   - ✔ Girdi verilerini çok kısa kesmek yerine uzun vadeli bağımlılıkları takip eden
   - ✔ Parametreleri dizi boyunca paylaşabilen (Dizi boyunca eskiyi silip **tekrar** öğrenmeyen)
+
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels)
