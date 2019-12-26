@@ -25,11 +25,11 @@ Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz 
 ### ➕ Avantajlar:
 
 * 🦸‍♀️ Verinin gücünü gösterir
-* ✨ Less hand designing of components needed
+* ✨ Less hand designing of components needed (çeviremedim 😢)
 
 ### ➖ Dezavantajlar:
 
-* 🤸‍♀️ Büyük miktarda veriye ihtiyaç olabilir
+* 💔 Büyük miktarda veriye ihtiyaç olabilir
 * 🔎 Excludes potentially useful hand designed components
 
 ### 🚩 Kullanma Kararını Verme İçin Talimatlar

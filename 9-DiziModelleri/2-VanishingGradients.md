@@ -37,7 +37,7 @@ Mevcut birim için bilgi tutan ve onu daha sonra ağa iletecek bir vektör.
 <img src="../res/GRU.png" width="600"  />
 
 ### 🎉 GRU Özeti
-- **vanishing gradient** problemni gidermek için bir çözümdür 
+- **vanishing gradient** problemini gidermek için bir çözümdür 
 - Model her seferinde yeni girişi kaybetmekte kalmıyor, ilgili bilgileri saklıyor ve ağın bir sonraki zaman adımlarına aktarıyor
 
 ## 🤸‍♀️ Long Short-Term Memory (LSTM)
@@ -59,7 +59,7 @@ Odaklandığımız nesnenin tekil olduğunu unuttuğumuzda, yeni nesnenin artık
 
 $$\Gamma ^{<t>}_u = \sigma(W_u[a^{<t-1>}, x^{<t>}]+b_u)$$
 
-Sıfırlama kapısında olduğuna benzer şekilde, burada $$\ Gamma_u^{<t>}$$ yine 0 ile 1 arasındaki değerlerindan oluşan bir vektördür. Bu, $$c^{⟨t⟩}$$ 'i hesaplamak için, $$\tilde{c}^{<t>}$$ ile _element-wise_ çarpılacaktır.
+Sıfırlama kapısında olduğuna benzer şekilde, burada $$\ Gamma_u^{<t>}$$ yine 0 ile 1 arasındaki değerlerden oluşan bir vektördür. Bu, $$c^{⟨t⟩}$$ 'i hesaplamak için, $$\tilde{c}^{<t>}$$ ile _element-wise_ çarpılacaktır.
 
 ### 👩‍🔧 Hücreyi Güncelleme
 Yeni nesneyi güncellemek için önceki hücre durumumuza ekleyebileceğimiz yeni bir sayı vektörü oluşturmamız gerekiyor. Kullandığımız denklem aşağıdaki gibidir:

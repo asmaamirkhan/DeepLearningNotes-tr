@@ -14,10 +14,10 @@ Metin işleme bağlamında (örneğin: Doğal Dil İşleme _NLP_)
 | $$T^{(i)}_y$$    | `i`'inci çıkış dizisinin uzunluğu          |
 
 ## 🚀 One Hot Encoding
-Kelimeleri temsil etmenin bir yolu, böylece onları kolayca kullanabilriz
+Kelimeleri temsil etmenin bir yolu, böylece onları kolayca kullanabiliriz
 
 ### 🔎 Örnek
-Diyelim ki 10 kelimeden oluşan (🤭) bir sözlüğümüz var ve sözlüğkteki kelimeler: 
+Diyelim ki 10 kelimeden oluşan (🤭) bir sözlüğümüz var ve sözlükteki kelimeler: 
 - Car, Pen, Girl, Berry, Apple, Likes, The, And, Boy, Book.
 
 Ve Bizim $$X^{(i)}$$: **The Girl Likes Apple And Berry**

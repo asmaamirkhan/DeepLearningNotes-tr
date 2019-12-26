@@ -1,7 +1,7 @@
 # 🚙 Transfer Learning
 Kısaca: Bir görevden öğrenmek ve öğrenilenleri başka farklı görevler için kullanmak 🛰🚙
 
-## ❓ Transfer Learning Ndeir?
+## ❓ Transfer Learning Nedir?
 - 🕵️‍♀️ Transfer Learning, bir görev için eğitilmiş bir modelin, ilgili ikinci bir görevde yeniden kullanıldığı bir makine öğrenme tekniğidir. 
 - 🌟 Ek olarak, ikinci görevi modellerken hızlı ilerleme veya gelişmiş performans sağlayan bir optimizasyon yöntemidir.. 
 - 🤸‍♀️ Transfer Learning, yalnızca ilk görevden öğrenilen model özellikleri genel ise, derin öğrenmede işe yarar.

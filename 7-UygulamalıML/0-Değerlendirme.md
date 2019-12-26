@@ -13,7 +13,7 @@
 
 Daha iyi bir değerlendirme için, ölçümlerimizi şu şekilde sınıflandırmamız gerekir:
 
-| Değerlendirme Ölçütü Türü | Description                                    |
+| Değerlendirme Ölçütü Türü | Açıklama                                    |
 | ------------------------- | ---------------------------------------------- |
 | ✨ Optimizing Metric     |  **En iyi** değerde olması gereken bir ölçüm |
 | 🤗 Satisficing Metric (tatmin edici) |  Sadece **yeterince iyi** olması gereken bir ölçüm  |

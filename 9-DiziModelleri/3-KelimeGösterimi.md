@@ -59,7 +59,6 @@ $$e_w=Eo_w$$
 
 ## 🔄 Word2Vec
 - Word2vec, Verilen bir kelimenin diğer kelimelerle çevrili olma olasılığını tahmin ederek kelime embedding'lerini öğrenme stratejisidir.
-- This is done by making context and target word pairs which further depends on the **window size** we take.
 - Bu, daha sonra aldığımız **pencere boyutu**na bağlı olan bağlam (context) ve hedef (target) kelime çiftleri yaparak yapılır.
   - **Pencere boyutu**: Bağlam sözcüğünün soluna ve sağına bakan bir parametredir
 
