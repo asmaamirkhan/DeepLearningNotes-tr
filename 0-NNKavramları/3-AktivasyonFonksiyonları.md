@@ -2,7 +2,7 @@
 Aktivasyon Fonksiyonlarının temel amacı, bir A-NN'deki bir düğümün giriş sinyalini bir dönüşüm uygulayarak bir çıkış sinyaline dönüştürmektir.
 Bu çıkış sinyali şimdi yığındaki bir sonraki katmana girdi olarak kullanılır.
 
-## 📃 Types of Activaiton Functions
+## 📃 Aktivasyon Fonksiyonlarının Türleri
 
 | Fonksiyon                    | Açıklama                                                  |
 | ---------------------------- | --------------------------------------------------------- |
