@@ -6,7 +6,7 @@ Bir sinir ağı, insan beyninden sonra kendini modelleyen bir makine öğrenmesi
 
 Yapay sinir ağları derin öğrenme olarak adlandırılan şeyi gerçekleştirebilir. Beynin temel birimi **nöron** olsa da, yapay bir sinir ağının temel yapı taşı basit sinyal işlemeyi gerçekleştiren bir **algılayıcıdır** ve bunlar daha sonra büyük bir ağa bağlanır.
 
-## 🎨 NN Türleri
+## 📑 NN Türleri
 Birçok tür sinir ağı vardır, uygun türü seçmek, çözmeye çalıştığımız soruna bağlıdır, örneğin
 
 | Tür                    | Açıklama                                                         | Uygulama                    | 
@@ -17,7 +17,7 @@ Birçok tür sinir ağı vardır, uygun türü seçmek, çözmeye çalıştığ�
 | 🤨 Özel NN / Hibrit   | Karmaşık problemler için                                          | Otonom Sürüş               |
 
 
-## 📑 Denetimli Öğrenmede Veri Türleri
+## 🎨 Denetimli Öğrenmede Veri Türleri
 * 🚧 Yapılandırılmış Veriler
   * Tablolar
   * Giriş alanlarımız ve çıktı alanımız var
