@@ -112,7 +112,7 @@ Peki, eğer lineer işlevi kullanırsak, NN sadece girişin lineer bir fonksiyon
 * Eğer çıkış 0 veya 1 ise (ikili sınıflandırma) ➡ *sigmoid* çıkış katmanı için uygundur
 * Diğer bütün birimler için ➡ *Relu* ✨ 
   
-> Aktivasyon fonksiyonu için relu'nun varsayılan seçenek olduğunu söyleyebiliriz
+> Aktivasyon fonksiyonu için Relu'nun varsayılan seçenek olduğunu söyleyebiliriz
 
 Not:
 

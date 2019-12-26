@@ -18,12 +18,12 @@ En yaygın düzenlileştirme türüdür, aşağıdaki formüle göre uygulanır
 
 $$J=Loss+\frac{\lambda}{2m}-\sum ||w||^{2}$$
 
-Burada, lambda regülasyon parametresidir. Daha iyi sonuçlar için değeri optimize edilmiş olan **hiperparametredir**. L2 regülasyonu, ağırlıkları sıfıra indirgemeye zorladığı için ağırlık azalması _(Weight decay)_ olarak da bilinir (ancak tam olarak sıfır değildir)
+Burada, lambda regülasyon parametresidir. Daha iyi sonuçlar için değeri optimize edilmiş olan **hiper-parametredir**. L2 regülasyonu, ağırlıkları sıfıra indirgemeye zorladığı için ağırlık azalması _(Weight decay)_ olarak da bilinir (ancak tam olarak sıfır değildir)
 
 ### 🔩 Dropout
 Bazı nöronları **rastgele** belirli bir oranda elimine ederek başka bir düzenlileştirme yöntemi 
 
-> Simply: For each node of probability p, don’t update its input or output weights during backpropagation (Just drop it 😅)
+> Basitçe: Her p olasılığına sahip düğümü için, _backpropagation_ sırasında giriş veya çıkış ağırlıklarını güncellemiyoruz (Yani onu düşürüyoruz 😅)
 
 Daha iyi görselleştirme:
 <p float="left">

@@ -89,7 +89,7 @@ $$dA^{[l-1]}=W^{[l]T}dZ^{[l]}$$
 * Aktivasyon Fonksiyonunun Seçimi 
 * ......
 
-> Hiperparametrelerin parametreleri kontrol ettiğini söyleyebiliriz 🤔
+> Hiper-parametrelerin parametreleri kontrol ettiğini söyleyebiliriz 🤔
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/2-nnconcepts)

@@ -1,4 +1,4 @@
-# 🏃‍♀️ Tensorflow'ya Hızlı Giriş
+# 🏃‍♀️ Tensorflow'a Hızlı Giriş
 
 ## 🚩 Tensorflow'daki programların ana akışı
 1. Daha _execute_ edilmemiş _tensor_'ları oluştur
@@ -7,7 +7,7 @@
 4. Bir _Session_ oluştur
 5. _Session_'ı çalıştır. Bu, yukarıda yazdığın işlemleri yürütecektir.
 
-> Özetle, değişkenleri başlatm, bir _Session_ oluştur ve _Session_'ın içindeki işlemleri çalıştır 👩‍🏫
+> Özetle, değişkenleri başlat, bir _Session_ oluştur ve _Session_'ın içindeki işlemleri çalıştır 👩‍🏫
 
 ## 👩‍💻 Kod Örneği
 Aşağıdaki formülü hesaplamak için:
@@ -72,7 +72,7 @@ def sigmoid(z):
     z değeri için sigmoid fonksiyonunu hesaplar
     
     Argümanlar:
-    z -- giriş değeri, skaler veya vectör
+    z -- giriş değeri, skaler veya vektör
     
     Dönüş değeri: 
     results -- z'nin sigmoid değeri 

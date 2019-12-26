@@ -51,7 +51,7 @@ $$\sigma^'(x)=\sigma(x)(1-\sigma(x))$$
     def sigmoid_derivative(x):
     """
     Sigmoid fonksiyonunun gradient'ını (eğim veya türev olarak da adlandırılır), x girdisine göre hesaplar
-    Arguments:
+    Argümanlar:
     x -- scaler veya Numpy dizisi
 
     Dönüş değeri:
@@ -422,7 +422,7 @@ def initialize_parameters(n_x, n_h, n_y):
 
 {% tabs %}
 {% tab title="👩‍🏫 Açıklama" %}
-Each layer accepts the input data, processes it as per the activation function and passes to the next layer
+Her katman giriş verilerini alır, aktivasyon fonksiyonuna göre işler ve sonraki katmana geçirir
 {% endtab %}
 
 {% tab title="👩‍💻 Kod" %}

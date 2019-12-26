@@ -18,7 +18,7 @@ Rastgele örnek, global bir minimumda bulunmamızda yardımcı olur ve yerel bir
 - Yaygın olarak kullanılır, daha hızlı yakınsar ve daha stabildir
 - Kısım _batch_ büyüklüğü veri kümesine bağlı olarak değişebilir
 
-> 1 ≤ batch-size ≤ m, batch-size bir hiperparametredir ❗
+> 1 ≤ batch-size ≤ m, batch-size bir hiper-parametredir ❗
 
 ### 🔃 Karşılaştırma
 
@@ -107,7 +107,7 @@ $$b = b-\alpha \frac{v^{corrected}_{db}}{\sqrt{S^{corrected}_{db}}+\epsilon}$$
 
 > 😵😵😵
 
-## 👩‍🏫 Hipreparametrelerin Seçimi (önerilen değerler)
+## 👩‍🏫 Hiper-parametrelerin Seçimi (önerilen değerler)
 * _α_: ayarlanması gerekiyor
 * _β1_: 0.9
 * _β2_: 0.999

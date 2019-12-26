@@ -3,8 +3,7 @@
 
 Lojistik regresyonun 0 ile 1,0 arasında bir ondalıklı sayı ürettiğini hatırla, Örneğin, bir e-posta sınıflandırıcısından 0,8'lik bir lojistik regresyon çıktısı, bir e-postanın% 80'i spam olma olasılığını ve% 20'sinin spam olmadığını gösterir. Yani, bir e-postanın spam olma ve spam olmama ihtimalinin toplamı 1.0'dir.
 
-Softmax bu fikri **ÇOKLU-SINIF** dünyasına genişletiyor. Yani, Softmax, her sınıfa çok sınıflı bir problemde ondalık olasılıklar verir.
-Softmax extends this idea into the **MULTI-CLASS** world. That is, Softmax assigns decimal probabilities to each class in a multi-class problem. **Bu olasılıkların toplamı 1.0'e eşittir**.
+Softmax bu fikri **ÇOKLU-SINIF** dünyasına genişletiyor. Yani, Softmax, her sınıfa çok sınıflı bir problemde ondalık olasılıklar verir. **Bu olasılıkların toplamı 1.0'e eşittir**.
 
 * Onun diğer ismi _Maximum Entropy (MaxEnt) Classifier_
 

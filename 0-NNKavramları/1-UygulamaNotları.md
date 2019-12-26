@@ -6,7 +6,7 @@
 | Terim            | Açıklama   |
 | ---------------  |---------------|
 | 👩‍🔧 Vectorization    | Python kodunu döngü kullanmadan hızlandırma yöntemi |
-| ⚙ Broadcasting     | Dizileri genişleterek Python kodunu daha hızlı çalıştırmak için başka bir uöntem |
+| ⚙ Broadcasting     | Dizileri genişleterek Python kodunu daha hızlı çalıştırmak için başka bir yöntem |
 | 🔢 Rank of an Array | Bir dizinin sahip olduğu boyut sayısı |
 | 1️⃣ Rank 1 Array     | Tek bir boyuta sahip bir dizi         |
 
@@ -109,7 +109,7 @@ Aynı şekilde: Elimizde `(m,n)` boyutundaki **A** matrisi olsun. `(m,1)` boyutu
 <img src="../res/Broadcasting.jpg" width="400"  />
 
 
-### 👩‍💻 Kod Örnekleri:
+### 👩‍💻 Kod Örnekleri
 (1,n) boyutundaki vektörü (2,n) boyutundaki matrise ekleme
 
 ```python
@@ -135,7 +135,7 @@ print(a - c)
 
 ## 1️⃣ Rank 1 Array
 
-### 👩‍💻 Code Example
+### 👩‍💻 Kod Örneği
 
 ```python
 x = np.random.rand(5)
@@ -159,7 +159,7 @@ print('shape:', z.shape, 'rank:', z.ndim)
 ### 🤔 Neden kullanılmaması tavsiye edilir?
 Rank 1 arrays, bulunması ve düzeltilmesi zor olan hatalara neden olabilir, örneğin:
 
-Dot operation on rank 1 arrays:
+Rank-1 dizilerindeki _dot_ işlemi:
 ```python
 a = np.random.rand(4)
 b = np.random.rand(4)
@@ -173,7 +173,7 @@ print(np.dot(a,b))
 # 0.354194202098512
 ```
 
-Dot operation on rank 2 arrays:
+Rank-2 dizilerindeki _dot_ işlemi:
 
 ```python
 a = np.random.rand(4,1)
@@ -193,7 +193,7 @@ print(np.dot(a,b))
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/1-implementationnotes)
 
-> Özet: Kodlarımızı daha hatasız ve kolay hata ayıklamak için rank 1 dizilerini kullanmaktan kaçınmalıyız 🐛
+> Özet: Kodlarımızı daha hatasız ve kolay hata ayıklamak için rank-1 dizilerini kullanmaktan kaçınmalıyız 🐛
 
 ## 🧐 Referanslar
 * [Official Documentation of Broadcasting in NumPy](https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html)

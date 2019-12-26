@@ -27,7 +27,7 @@ Fikir ➡ Kod ➡ Deney ➡ Fikir 🔁
 | Kısım                        | Açıklama                                                                   |
 | ---------------------------- | -------------------------------------------------------------------------- |
 | Training Set                 |  Modeli eğitmek için kullanılır                                            |
-| Development (Validation) Set |  Model hiperparametrelerini ayarlarken tarafsız _(unbiased)_ bir değerlendirme yapmak için kullanılır |
+| Development (Validation) Set |  Model hiper-parametrelerini ayarlarken tarafsız _(unbiased)_ bir değerlendirme yapmak için kullanılır |
 | Test Set                     |  **Son** modelin tarafsız _(unbiased)_ bir değerlendirmesini sağlamak için kullanılır                 |
 
 ### 🤓 Training Set
