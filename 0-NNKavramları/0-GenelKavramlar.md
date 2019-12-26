@@ -44,6 +44,8 @@ Model ağırlıkları her güncellendiğinde karşılık gelen tahmini hata nede
 
 <img src="../res/BadSGD.gif" width="300"  />
 
+## 🌞 Yazının Aslı
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/0-generalconcepts)
 
 ## 🧐 Referanslar
 * [Introduction to Artificial Neural Networks (ANN)](https://searchenterpriseai.techtarget.com/definition/neural-network)
