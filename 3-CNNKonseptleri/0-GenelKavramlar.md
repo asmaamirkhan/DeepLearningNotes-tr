@@ -6,7 +6,7 @@
 | Convolution     | Görüntüye bir filtre uygulayarak görüntüdeki bazı özellikler vurgulanır. |
 
 
-## 🎀 Convolution Örenği
+## 🎀 Convolution Örneği
 <img src="../res/ConvolutionEx.png" width="450"  />
 
 #### 🤔 -7'yi nasıl bulduk? 
@@ -23,7 +23,7 @@ _element wise_ çarpma yaptık, sonra sonuç matrisinin toplamını hesapladık;
 ```
 Ve diğer elemanlar için bu şekilde devam eder 🙃
 
-### 👼 Hesaplamayı Göreselleştirme
+### 👼 Hesaplamayı Görselleştirme
 
 <img src="../res/ConvCal.gif" width="350"  />
 
@@ -31,7 +31,7 @@ Ve diğer elemanlar için bu şekilde devam eder 🙃
 ## 🔎 Kenar Algılama
 Evrişim _Convolution_ işleminin bir uygulaması
 
-### 🔎 Kenar Algılama Örenkleri
+### 🔎 Kenar Algılama Örnekleri
 <img src="../res/ConvolutionExH.JPG" width="450"  />
 
 > Sonuç: yatay çizgiler ortaya çıkıyor
@@ -73,8 +73,6 @@ w7    w8   w9
 Bu sayede, elle elde etmek yerine otomatik olarak yatay, dikey, açılı veya herhangi bir kenar tipini öğrenebiliriz.
 
 ## 🤸‍♀️ Hesaplamalı Detaylar
-If we have an `n*n` image and we convolove it by `f*f` filter the the output image will be `n-f+1*n-f+1` 
-
 `n*n`'lik bir resmimiz varsa ve `f*f`'lik bir filtre uygulamak istersek, sonuç resmi `n-f+1*n-f+1` boyutunda olacaktır 
 
 ### 😐 Olumsuz Yanları

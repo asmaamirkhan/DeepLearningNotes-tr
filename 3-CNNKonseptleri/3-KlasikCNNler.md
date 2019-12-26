@@ -46,11 +46,12 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 ### 🙌 Ağın Özeti
 <img src="../res/VGG16Summary.jpg" width="450"  />
 
-### 🔎 Daha Ayrınıtılı
+### 🔎 Daha Ayrıntılı
 <img src="../res/VGG.gif" width="500"  />
 
 ### 😐 Olumsuz Yanları
 - It is painfully slow to train (It has 138 million parameters 🙄)
+- Eğitilmesi aşırı yavaş (138 milyon parametresi var 🙄)
 
 ## 👩‍🔧 Emplementasyon
 - [Implementation of AlexNet](https://github.com/pytorch/vision/blob/master/torchvision/models/alexnet.py   )

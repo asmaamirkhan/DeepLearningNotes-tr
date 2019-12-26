@@ -17,7 +17,7 @@ Bir high-level **Yapay Sinir Ağları API'si**, Python ile yazılmış ve Tensor
 ## 👩‍🔬 En Basit Sinir Ağı
 Bir nöron içeren bir katman içerir.
 
-### 👩‍💻 Kod Örenği
+### 👩‍💻 Kod Örneği
 ```python
 # modeli tanımla
 model = Sequential()
@@ -43,7 +43,7 @@ ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
 ```python
 model.fit(xs, ys, epochs=500)
 ```
-Her şey tammalandı😎! Şimdi sinir ağımızı yeni verilerle test edebiliriz 🎉
+Her şey tamamlandı😎! Şimdi sinir ağımızı yeni verilerle test edebiliriz 🎉
 
 ### 👩‍💻 Kod Örneği
 ```python

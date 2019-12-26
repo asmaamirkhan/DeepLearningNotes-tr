@@ -8,8 +8,6 @@
 | 🏐 Convolutions Over Volume | _Convolution_'ları n boyutlu girişe uygulama (örneğin RGB görüntüsü) |
 
 ## 🙌 Padding
-Adding an additional one border _or more_ to the image so the image is n+2*n+2 and after convolution we end up with n * n image which is the origianl size of the image
-
 Resme `n+2 x n+2` olacak şekilde görüntüye bir veya daha fazla kenar ekleyerek ve _convolution_'dan sonra görüntünün orijinal boyutu olan `n x n` resimle sonuçlanır.
 
 `p` = eklenen sınır sayısı
@@ -25,8 +23,6 @@ _Padding_ yok demektir, yani:
 `n x n`  *  `f x f`  ➡  `n-f+1 x n-f+1`
 
 ### 🥽 Same Convolutions
-Pad so that output size is the **same** as the input size.
-
 Çıktı boyutunun, girdi boyutuyla **aynı** olmasını sağlayacak kadar _pad_ edilir
 
 Yani biz istiyoruz ki 🧐: 
@@ -45,7 +41,7 @@ Bundan dolayı:
 
 
 ## 🔢 Strided Convolution
-_Convolution_'ların başka bir yaklaşımı,Bölgelere belirli bir  `s` (adım sayısı) değerine göre filtre uygulayarak çıktıyı hesaplıyoruz. 
+_Convolution_'ların başka bir yaklaşımı, bölgelere belirli bir  `s` (adım sayısı) değerine göre filtre uygulayarak çıktıyı hesaplıyoruz. 
 
 ### 👀 Görselleştirme
 <img src="../res/StridedConv.gif" width="250"  />

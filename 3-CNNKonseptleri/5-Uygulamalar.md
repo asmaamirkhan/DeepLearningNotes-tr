@@ -57,7 +57,7 @@ Yani:
 
 $$L=max(d(a,p)-d(a,n)+margin, 0)$$
 
-> Kayıp denklemine başka bir **hiperparametre** olan *margin* adlı değişken eklenir. _Margin_, benzeşmezliğin ne kadar olması gerektiğini, yani eğer margin = 0.2 ve d(a, p) = 0.5 ise, d (a, n) en az 0.7'ye eşit olmalıdır. _Margin_, iki görüntüyü daha iyi ayırt etmemize yardımcı oluyor 🤸‍♀️
+> Kayıp denklemine başka bir **hiper-parametre** olan *margin* adlı değişken eklenir. _Margin_, benzeşmezliğin ne kadar olması gerektiğini, yani eğer margin = 0.2 ve d(a, p) = 0.5 ise, d (a, n) en az 0.7'ye eşit olmalıdır. _Margin_, iki görüntüyü daha iyi ayırt etmemize yardımcı oluyor 🤸‍♀️
 
 Bu nedenle, bu kayıp fonksiyonunu kullanarak:
 - 👩‍🏫 Gradyanları hesaplayabiliriz ve gradyanların yardımıyla,
@@ -67,7 +67,7 @@ Ağı eğitmek için de:
 - 👩‍🏫 _Anchor_ görüntüsü alıyoruz ve pozitif ve negatif görüntüleri rastgele örnekleriz ve kayıp fonksiyonunu hesaplarız
 - 🤹‍♂️ Gradyanları güncelliyoruz
 
-## 🌠 Nöral Stil Aktarımı (Neural Style Transfer)
+## 🌠 Sinirsel Stil Aktarımı (Neural Style Transfer)
 Bir içerik görüntüsü **C** (content) ve stil görüntüsü **S** (style) vererek bir **G** görüntüsü oluşturma
 
 ### 👀 Göreslleştirme
@@ -77,11 +77,11 @@ Bir içerik görüntüsü **C** (content) ve stil görüntüsü **S** (style) ve
 Bu nedenle **G**'yi üretmek için NN'miz **S**'nin özelliklerini öğrenmeli ve **C**'ye uygun filtreler uygulamalı.
 
 ### 👩‍🎓 Metodoloji
-Genellikle istenen performansı elde etmek için NN'nin parametrelerini _-ağırlıklarını ve bias'larını-_ optimize ediyoruz, burada Nöral Stil Aktarımı'nda rastgele piksel değerlerinden oluşan boş bir görüntüden başlıyoruz ve görüntünün piksel değerlerini değiştirerek bir maliyet _cost_ fonksiyonunu optimize ediyoruz 🧐
+Genellikle istenen performansı elde etmek için NN'nin parametrelerini _-ağırlıklarını ve bias'larını-_ optimize ediyoruz, burada Sinirsel Stil Aktarımı'nda rastgele piksel değerlerinden oluşan boş bir görüntüden başlıyoruz ve görüntünün piksel değerlerini değiştirerek bir maliyet _cost_ fonksiyonunu optimize ediyoruz 🧐
 
 Başka bir deyişle, biz:
 - ⭕ **Rastgele** piksellerden oluşan bir resimle başlıyoruz
-- 👩‍🏫 Bir maliyet (cost) _J_ fonkisyonunu tanımlıyoruz
+- 👩‍🏫 Bir maliyet (cost) _J_ fonksiyonunu tanımlıyoruz
 - 👩‍🔧 Maliyet fonksiyonunu azaltmak için iteratif bir şekilde pikselleri güncelliyoruz
 
 > Uzun lafın kısası: NN'leri eğitirken ağırlıkları ve bias'ları güncelleriz, ancak stil aktarımında ağırlıkları ve bias'ları sabit tutarız ve bunun yerine imajımızı güncelleriz 🙌
@@ -94,7 +94,7 @@ $$J(G)=\alpha J_{Content}(C,G)+\beta J_{Style}(S,G)$$
 Açıklama:
 - $$J_{Content}$$ G ie C arasındaki benzerliği ifade eder
 - $$J_{Style}$$ G ile S arasındaki benzerliği ifade eder
-- _α_ ve _β_ hiperparametrelerdir
+- _α_ ve _β_ hiper-parametrelerdir
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/5-applications)
