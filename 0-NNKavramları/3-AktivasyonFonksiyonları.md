@@ -116,7 +116,7 @@ Peki, eğer lineer işlevi kullanırsak, NN sadece girişin lineer bir fonksiyon
 
 Not:
 
-> Bu fonksiyonlardan hangisinin en iyi sonucu verdiğinden emin değil isen 😵, hepsini dene 🤕 ve farklı validasyon seti üzerinden değerlendir ve hangisinin daha iyi çalıştığını gör ve kullan 🤓😇
+> Bu fonksiyonlardan hangisinin en iyi sonucu verdiğinden emin değil isen 😵, hepsini dene 🤕 ve farklı doğrulama setleri üzerinden değerlendir ve hangisinin daha iyi çalıştığını gör ve kullan 🤓😇
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/3-activationfunctions)

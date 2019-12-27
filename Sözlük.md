@@ -21,6 +21,8 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 Loss Function | Kayıp Fonksiyonu  |
 | 📚 Cost Function | Maliyet Fonksiyonu |
 | 📚 Training Set | Eğitim Seti |
+| 🦋 Validation Set | Doğrulama Seti|
+| 📚 Test Set | Test Seti |
 | 📚 Convex Function | Konveks Fonksiyon |
 | 🦋 Non-Convex Function | Konveks Olmayan Fonksiyon |
 | 📚 Gradient Descent | Gradyan İnişi |
@@ -31,6 +33,14 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | ❓ Dot Product    |  |
 | ❓ Outer Product  |  |
 | ❓ element wise multiplication |  |
+| 📚 Activation Function | Aktivasyon Fonksiyonu |
+| 🦋 Binary Classification | İkili Sınıflandırma |
+| 📚 Hidden Layer | Gizli Katman |
+| 📚 Bias | yanlılık |
+| 📚 Biased / Unbiased | Yanılıklı / Yanılıksız |
+| 📚 Overfitting | Aşırı Öğrenme |
+| 📚 Under-fitting | Eksik Öğrenme |
+| 📚 Regularization | Düzenlileştirme |
 
 
 ## 👷‍♀️ Yapılacaklar
