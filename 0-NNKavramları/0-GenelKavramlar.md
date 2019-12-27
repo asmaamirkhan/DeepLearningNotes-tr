@@ -13,17 +13,17 @@ $$\hat{y}^{(i)} \approx y^{(i)}$$
 | Kavram          | Açıklama      |
 | --------------- |---------------|
 | `m`             | Veri setindeki örnek sayısı   |
-| $$x^{(i)}$$  | Veri setindeki `i`'inci örnek  |
-| `ŷ`             | Tahmin edilen (predicted) çıktı |
+| $$x^{(i)}$$     | Veri setindeki `i`'inci örnek  |
+| `ŷ`             | Tahmin edilen çıktı |
 | Kayıp Fonksiyonu _Loss Function_ `𝓛(ŷ, y)` | **Tek** bir örnek için hata hesaplama fonksiyonu |
-| Cost Function `𝙹(w, b)` | Tüm eğitim setinin kayıp fonksiyonlarının ortalaması  |
-| Convex Function | Tek bir yerel değere sahip bir fonksiyon |
-| Non-Convex Function | Çok sayıda farklı yerel değere sahip bir fonksiyon |
-| Gradient Descent | Cost Function'ın global değerini bulmak için kullanılan iteratif bir optimizasyon yöntemidir |
+| Cost Function _Maliyet Fonksiyonu_ `𝙹(w, b)` | Tüm eğitim setinin kayıp fonksiyonlarının ortalaması  |
+| Konveks Fonksiyon | Tek bir yerel değere sahip bir fonksiyon |
+| Konveks Olmayan Fonksiyon | Çok sayıda farklı yerel değere sahip bir fonksiyon |
+| Gradyan İnişi _Gradient Descent_ | Maliyet Fonksiyonunun global değerini bulmak için kullanılan iteratif bir optimizasyon yöntemidir |
 
-> Başka bir deyişle: `Cost Function`  `w` ve `b` veri seti için ne kadar iyi olduklarını ölçer. Ona dayanarak, en iyi `w` ve `b` değerleri, `𝙹(w, b)`'ı mümkün olduğunca küçülten değerlerdir 
+> Başka bir deyişle: Maliyet Fonksiyonu `w` ve `b` veri seti için ne kadar iyi olduklarını ölçer. Ona dayanarak, en iyi `w` ve `b` değerleri, `𝙹(w, b)`'ı mümkün olduğunca küçülten değerlerdir 
 
-## 📉 Gradient Descent
+## 📉 Gradyan İnişi 
 Genel Formül:
 
 $$w:=w-\alpha\frac{dJ(w,b)}{dw}$$
@@ -34,7 +34,7 @@ $$b:=b-\alpha\frac{dJ(w,b)}{dw}$$
 > `α` _(alpha)_ **Öğrenme Hızı**'dir (Learning Rate) 
 
 ## 🥽 Öğrenme Hızı (Learning Rate)
-Model ağırlıkları her güncellendiğinde karşılık gelen tahmini hata nedeniyle her Gradient Descent tekrarının adımının boyutunu belirleyen pozitif bir skalardır, bu nedenle bir sinir ağı modelinin ne kadar hızlı veya yavaş bir problemi öğrendiğini kontrol eder.
+Model ağırlıkları her güncellendiğinde karşılık gelen tahmini hata nedeniyle her Gradyan İnişi tekrarının adımının boyutunu belirleyen pozitif bir skalardır, bu nedenle bir sinir ağı modelinin ne kadar hızlı veya yavaş bir problemi öğrendiğini kontrol eder.
 
 ### 🎀 İyi Öğrenme Hızı
 

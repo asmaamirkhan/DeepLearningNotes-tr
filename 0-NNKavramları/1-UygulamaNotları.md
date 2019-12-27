@@ -3,17 +3,17 @@
 
 ## 📚 Terimler
 
-| Terim            | Açıklama   |
-| ---------------  |---------------|
-| 👩‍🔧 Vectorization    | Python kodunu döngü kullanmadan hızlandırma yöntemi |
-| ⚙ Broadcasting     | Dizileri genişleterek Python kodunu daha hızlı çalıştırmak için başka bir yöntem |
-| 🔢 Rank of an Array | Bir dizinin sahip olduğu boyut sayısı |
-| 1️⃣ Rank 1 Array     | Tek bir boyuta sahip bir dizi         |
+| Terim             | Açıklama   |
+| ----------------- |---------------|
+| 👩‍🔧 Vektörleştirme | Python kodunu döngü kullanmadan hızlandırma yöntemi |
+| ⚙ Yayma _(Broadcasting)_ | Dizileri genişleterek Python kodunu daha hızlı çalıştırmak için başka bir yöntem |
+| 🔢 Dizi Rankı     | Bir dizinin sahip olduğu boyut sayısı |
+| 1️⃣ Rank-1 Dizisi  | Tek bir boyuta sahip bir dizi         |
 
-> Bir skaler sıfır rank'a sahip sayılır ❗❕
+> Bir skalar sıfır rank'a sahip sayılır ❗❕
 
-## 🔩 Vectorization
-Vectorization, Python veya Matlab kodunu döngü kullanmadan hızlandırmak için kullanılır. Onu kullanan bir fonksiyon kodun çalışma süresini verimli bir şekilde en aza indirmeye yardımcı olabilir. Vektörlerin _dot product_'ı, vektörlerin _outer products_'ı ve _element wise multiplication_ gibi vektör üzerinden çeşitli işlemler gerçekleştirilebilmektedir
+## 🔩 Vektörleştirme _(Vectorization)_
+Vektörleştirme, Python veya Matlab kodunu döngü kullanmadan hızlandırmak için kullanılır. Onu kullanan bir fonksiyon kodun çalışma süresini verimli bir şekilde en aza indirmeye yardımcı olabilir. Vektörlerin _dot product_'ı, vektörlerin _outer products_'ı ve _element wise multiplication_ gibi vektör üzerinden çeşitli işlemler gerçekleştirilebilmektedir
 
 ### ➕ Avantajlar
 * Daha hızlı (paralel işlemlere izin verir) 👨‍🔧
@@ -49,7 +49,7 @@ array = np.random.rand(1000)
 exp = np.exp(array)
 ```
 
-#### 🚀 Sigmoid Fonksiyonunun Vektörize Edilmiş Versiyonu
+#### 🚀 Sigmoid Fonksiyonunun Vektörleştirilmiş Versiyonu
 
 ```python
 array = np.random.rand(1000)
@@ -93,7 +93,7 @@ sigmoid = 1 / (1 + np.exp(-array))
 * Bir dizinin maximum ve minimum değerinin **indis**ini bulma
   * `np.argmax(x)`, `np.argmin(x)`
 
-## 💉 Broadcasting
+## 💉 Yayma
 Aritmetik işlemler sırasında numpy'nin farklı boyutlardaki dizileri nasıl ele aldığını açıklar. Bazı kısıtlamalara bağlı olarak, daha küçük dizi daha büyük dizi boyunca yayınlanır, böylece uyumlu şekillere sahip olurlar.
 
 **Uygulamalı olarak:**
@@ -133,7 +133,7 @@ print(a - c)
 #          [ 3  4  5]]
 ```
 
-## 1️⃣ Rank 1 Array
+## 1️⃣ Rank-1 Dizisi
 
 ### 👩‍💻 Kod Örneği
 
@@ -154,10 +154,10 @@ print('shape:', z.shape, 'rank:', z.ndim)
 # Output: shape: (5, 2, 2) rank: 3
 ```
 
-> rank 1 arrays'ının kullanılmaması tavsiye edilmektedir
+> Rank-1 dizilerinin kullanıl**ma**ması tavsiye edilmektedir
 
 ### 🤔 Neden kullanılmaması tavsiye edilir?
-Rank 1 arrays, bulunması ve düzeltilmesi zor olan hatalara neden olabilir, örneğin:
+Rank-1 Dizileri, bulunması ve düzeltilmesi zor olan hatalara neden olabilir, örneğin:
 
 Rank-1 dizilerindeki _dot_ işlemi:
 ```python
@@ -190,10 +190,10 @@ print(np.dot(a,b))
 # ERROR: shapes (4,1) and (4,1) not aligned: 1 (dim 1) != 4 (dim 0)
 ```
 
+> Özet: Kodlarımızı daha hatasız ve kolay hata ayıklamak için rank-1 dizilerini kullanmaktan kaçınmalıyız 🐛
+
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/1-implementationnotes)
-
-> Özet: Kodlarımızı daha hatasız ve kolay hata ayıklamak için rank-1 dizilerini kullanmaktan kaçınmalıyız 🐛
 
 ## 🧐 Referanslar
 * [Official Documentation of Broadcasting in NumPy](https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html)
