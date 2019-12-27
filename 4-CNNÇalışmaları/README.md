@@ -69,6 +69,8 @@ dense_15 (Dense)             (None, 10)                1290
 ## 👀 Görselleştirme
 Her katmanın çıktısının görselleştirilmesi [burada](./1-CNNVisualization.ipynb) mevcuttur 🔎
 
+## 👷‍♀️ Ağ Görselleştirme Aracı
+[Netron ✨✨](https://github.com/lutzroeder/netron)
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/4-cnnworks)
