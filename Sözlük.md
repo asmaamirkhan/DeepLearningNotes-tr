@@ -37,7 +37,7 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 🦋 Binary Classification | İkili Sınıflandırma |
 | 📚 Hidden Layer | Gizli Katman |
 | 📚 Bias | yanlılık |
-| 📚 Biased / Unbiased | Yanılıklı / Yanılıksız |
+| 📚 Biased / Unbiased | Yanlılıklı / Yanlılıksız |
 | 📚 Overfitting | Aşırı Öğrenme |
 | 📚 Under-fitting | Eksik Öğrenme |
 | 📚 Regularization | Düzenlileştirme |
