@@ -11,7 +11,7 @@ MNIST'in açılımı: **(Modified National Institute of Standards and Technology
   * 🔢 MNIST: el yazısı rakamlar için
   * 👗 Fashion-MNIST: moda için (kıyafet)
 * 📃 Özellikler:
-  * 🌚 Gri tonlama _Grayscale_
+  * 🌚 Gri tonlama (siyah-beyaz)
   * 28x28 px
   * 10 farklı kategori
   * [Repo](https://github.com/zalandoresearch/fashion-mnist)
@@ -33,7 +33,7 @@ MNIST'in açılımı: **(Modified National Institute of Standards and Technology
 * MNIST'deki değerler 0-255 arasındadır ancak sinir ağları normalleştirilmiş verilerle daha iyi çalışır, bu nedenle her değeri 255'e bölebiliriz, böylece değerler 0,1 arasındadır.
 * Eğitim sürecini durdurmak için birden fazla kriter var, _epoch_ sayısını ya da eşiğini ya da her ikisini birden belirleyebiliriz.
   * Epochs: iterasyon sayısı
-  * Eşik _Threshold_ : her iterasyon sonrasında accuracy veya loss için bir eşik değeri
+  * Eşik: her iterasyon sonrasında accuracy veya loss için bir eşik değeri
   * Eşik değeri ve maksimum epoch sayısı
 
 > Her epoch sonunda, accuracy'yi Callbacks ile kontrol edebiliriz 💥

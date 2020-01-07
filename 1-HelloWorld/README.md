@@ -5,17 +5,17 @@ description: 👩‍💻 Yapay Sinir Ağları Kodlamasına Giriş
 Her ilk uygulamada olduğu gibi, bize tüm metodoloji hakkında bir fikir veren süper basit bir şeyle başlamalıyız
 
 ## ✨ Keras Nedir?
-Bir high-level **Yapay Sinir Ağları API'si**, Python ile yazılmış ve TensorFlow, CNTK veya Theano'nun üzerinde çalışabilir.
+Yüksek seviyeli bir **Yapay Sinir Ağları API'si**, _Python_ ile yazılmış ve _TensorFlow_, _CNTK_ veya _Theano_'nun üzerinde çalışabilir.
 
 ## 📚 Önemli Terimler
 | Terim           | Açıkalama     |
 | --------------- |---------------|
 | Dense           | Bir sinir ağında bir nöron katmanı      |
 | Loss Function   | Tahminlerinin ne kadar yanlış olduğunu ölçmenin matematiksel bir yolu |
-| Optimizer       | Minimum kayıp fonksiyonunun _Loss Function_ değerine karşılık gelen parametre değerlerini bulmak için kullanan algoritma(lar) |
+| Optimizer       | Minimum kayıp fonksiyonunun değerine karşılık gelen parametre değerlerini bulmak için kullanan algoritma(lar) |
 
 ## 👩‍🔬 En Basit Sinir Ağı
-Bir nöron içeren bir katman içerir.
+Bir sinirden oluşan bir katman içerir.
 
 ### 👩‍💻 Kod Örneği
 ```python

@@ -50,6 +50,8 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 Data Augmentation | Veri Artırma |
 | 📚 Optimizer | Eniyileyici |
 | 📚 Tensor | Tensör |
+| 📚 Computer Vision | Bilgisayar Görüşü |
+| 📚 Threshold | Eşik |
 
 
 ## 👷‍♀️ Yapılacaklar
