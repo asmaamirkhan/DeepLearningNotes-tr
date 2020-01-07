@@ -26,6 +26,10 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 Convex Function | Konveks Fonksiyon |
 | 🦋 Non-Convex Function | Konveks Olmayan Fonksiyon |
 | 📚 Gradient Descent | Gradyan İnişi |
+| 🦋 Stochastic Gradient Descent | Stokastik Gradyan İnişi |
+| 🦋 Batch Gradient Descent | Bölümlü Gradyan İnişi |
+| 🦋 Mini Batch Gradient Descent | Mini Bölümlü Gradyan İnişi |
+| 🦋 Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
 | 📚 Learning Rate | Öğrenme Hızı |
 | 📚 Artificial Neural Network | Yapay Sinir Ağı |
 | 🦋 Vectorization | Vektörleştirme |
@@ -41,6 +45,11 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 Overfitting | Aşırı Öğrenme |
 | 📚 Under-fitting | Eksik Öğrenme |
 | 📚 Regularization | Düzenlileştirme |
+| 🦋 Dropout | Eleme Düzenlileştirmesi |
+| 📚 Backpropagation | Geri Yayılma |
+| 📚 Data Augmentation | Veri Artırma |
+| 📚 Optimizer | Eniyileyici |
+| 📚 Tensor | Tensör |
 
 
 ## 👷‍♀️ Yapılacaklar

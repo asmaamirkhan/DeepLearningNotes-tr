@@ -1,8 +1,8 @@
 # 👩‍🔧 NN Düzenlileştirme (Regularization)
-Kısaca: _overfitting_'i önleyen -ve varyansı- azaltan bir tekniktir
+Kısaca: Aşırı öğrenmeyi önleyen -ve varyansı- azaltan bir tekniktir
 
 ## 🙄 Problem
-_Overfitting_ durumunda, modelimiz eğitim verilerindeki ayrıntıları ve daha önce görülmeyen veriler (test set) üzerinde düşük performansa neden olan gürültüyü çok iyi öğrenmeye çalışır.
+Aşırı öğrenme durumunda, modelimiz eğitim verilerindeki ayrıntıları ve daha önce görülmeyen veriler (test seti) üzerinde düşük performansa neden olan gürültüyü çok iyi öğrenmeye çalışır.
 
 Aşağıdaki grafik daha iyi açıklar:
 
@@ -13,17 +13,17 @@ Modelin daha iyi genelleşmesi için öğrenme algoritmasında ufak değişiklik
 
 ## 🔨 Düzenlileştirme Teknikleri
 
-### 🔩 L2 Regularization (Weight decay)
+### 🔩 L2 Düzenlileştirmesi (Weight Decay)
 En yaygın düzenlileştirme türüdür, aşağıdaki formüle göre uygulanır 
 
 $$J=Loss+\frac{\lambda}{2m}-\sum ||w||^{2}$$
 
-Burada, lambda regülasyon parametresidir. Daha iyi sonuçlar için değeri optimize edilmiş olan **hiper-parametredir**. L2 regülasyonu, ağırlıkları sıfıra indirgemeye zorladığı için ağırlık azalması _(Weight decay)_ olarak da bilinir (ancak tam olarak sıfır değildir)
+Burada, lambda düzenlileştirme parametresidir. Daha iyi sonuçlar için değeri optimize edilmiş olan **hiper-parametredir**. L2 düzenlileştirmesi, ağırlıkları sıfıra indirgemeye zorladığı için ağırlık azalması _(Weight decay)_ olarak da bilinir (ancak tam olarak sıfır değildir)
 
-### 🔩 Dropout
-Bazı nöronları **rastgele** belirli bir oranda elimine ederek başka bir düzenlileştirme yöntemi 
+### 🔩 Eleme Düzenlileştirmesi (Dropout)
+Bazı sinirleri **rastgele** belirli bir oranda elimine ederek başka bir düzenlileştirme yöntemidir.
 
-> Basitçe: Her p olasılığına sahip düğümü için, _backpropagation_ sırasında giriş veya çıkış ağırlıklarını güncellemiyoruz (Yani onu düşürüyoruz 😅)
+> Basitçe: Her p olasılığına sahip düğümü için, geri yayılma sırasında giriş veya çıkış ağırlıklarını güncellemiyoruz (Yani onu düşürüyoruz 😅)
 
 Daha iyi görselleştirme:
 <p float="left">
@@ -31,12 +31,12 @@ Daha iyi görselleştirme:
     <img src="../res/NNWithDropout.JPG" width="200"  />
 </p>
 
-> Dropout işleminden önce ve sonra bir NN
+> Eleme işleminden önce ve sonra bir NN
 
-Genellikle bilgisayarlı görüşte kullanılır, ancak olumsuz yönü _Cost FunctionJ_ artık iyi tanımlanmadığıdır.
+Genellikle bilgisayarlı görüşte kullanılır, ancak olumsuz yönü maliyet fonksiyonunun _J_ artık iyi tanımlanmadığıdır.
 
-### 🤡 Data Augmentation
-_Overfitting_'i azaltmanın en basit yolu, eğitim verilerinin boyutunu artırmaktır, daha fazla veri elde etmek çok maliyetli olduğu için her zaman mümkün değildir, ancak bazen verilerimize dayanarak verilerimizi artırabiliriz, örneğin:
+### 🤡 Veri Artırma (Data Augmentation)
+Aşırı öğrenmeyi azaltmanın en basit yolu, eğitim verilerinin boyutunu artırmaktır, daha fazla veri elde etmek çok maliyetli olduğu için her zaman mümkün değildir, ancak bazen verilerimize dayanarak verilerimizi artırabiliriz, örneğin:gg
 
 * Resimler üzerinde dönüşüm yapmak veri setimizi büyütebilir
 

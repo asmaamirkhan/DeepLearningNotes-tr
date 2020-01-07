@@ -1,8 +1,8 @@
 # 🏃‍♀️ Tensorflow'a Hızlı Giriş
 
 ## 🚩 Tensorflow'daki programların ana akışı
-1. Daha _execute_ edilmemiş _tensor_'ları oluştur
-2. _Tensor_'ların arasındaki işlemeleri yaz
+1. Daha işletilmemiş _tensör_ leri oluştur
+2. _Tensör_'lerin arasındaki işlemeleri yaz
 3. _Tensor_'ları başlat _(initialize)_
 4. Bir _Session_ oluştur
 5. _Session_'ı çalıştır. Bu, yukarıda yazdığın işlemleri yürütecektir.
@@ -32,7 +32,7 @@ with tf.Session() as session:
     print(session.run(loss)) 
 ```
 
-> _Loss_ için bir değişken oluşturduğumuzda, _loss_'u basitçe diğer miktarların bir fonksiyonu olarak tanımladık, ancak değerini değerlendirmedik. Bunu değerlendirmek için _initializer_'ı kullanırız.
+> Kayıp fonksiyonu için bir değişken oluşturduğumuzda, _loss_'u basitçe diğer miktarların bir fonksiyonu olarak tanımladık, ancak değerini değerlendirmedik. Bunu değerlendirmek için _initializer_'ı kullanırız.
 
 ## ❗ Değişken Başlatma _(initalization)_ Hakkında Not
 
@@ -92,7 +92,7 @@ def sigmoid(z):
     return result
 ```
 
-_Cost_ Fonksiyonun değerini TF ile hesaplamak
+Maliyet Fonksiyonun değerini TF ile hesaplamak
 
 ```python
 def cost(logits, labels):
