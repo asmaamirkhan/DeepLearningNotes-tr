@@ -14,46 +14,45 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 
 ## 💫 Kavramlar
 
-| İngilizce | Türkçe              |
-| ---------- |--------------------|
-| 📚 Data Set | Veri Seti          |
-| 📚 Notation | Notasyon           |
-| 📚 Loss Function | Kayıp Fonksiyonu  |
-| 📚 Cost Function | Maliyet Fonksiyonu |
-| 📚 Training Set | Eğitim Seti |
-| 🦋 Validation Set | Doğrulama Seti|
-| 📚 Test Set | Test Seti |
-| 📚 Convex Function | Konveks Fonksiyon |
-| 🦋 Non-Convex Function | Konveks Olmayan Fonksiyon |
-| 📚 Gradient Descent | Gradyan İnişi |
-| 🦋 Stochastic Gradient Descent | Stokastik Gradyan İnişi |
-| 🦋 Batch Gradient Descent | Bölümlü Gradyan İnişi |
-| 🦋 Mini Batch Gradient Descent | Mini Bölümlü Gradyan İnişi |
-| 🦋 Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
-| 📚 Learning Rate | Öğrenme Hızı |
-| 📚 Artificial Neural Network | Yapay Sinir Ağı |
-| 🦋 Vectorization | Vektörleştirme |
-| 🦋 Broadcasting  | Yayma |
-| ❓ Dot Product    |  |
-| ❓ Outer Product  |  |
-| ❓ element wise multiplication |  |
-| 📚 Activation Function | Aktivasyon Fonksiyonu |
-| 🦋 Binary Classification | İkili Sınıflandırma |
-| 📚 Hidden Layer | Gizli Katman |
-| 📚 Bias | yanlılık |
-| 📚 Biased / Unbiased | Yanlılıklı / Yanlılıksız |
-| 📚 Overfitting | Aşırı Öğrenme |
-| 📚 Under-fitting | Eksik Öğrenme |
-| 📚 Regularization | Düzenlileştirme |
-| 🦋 Dropout | Eleme Düzenlileştirmesi |
-| 📚 Backpropagation | Geri Yayılma |
-| 📚 Data Augmentation | Veri Artırma |
-| 📚 Optimizer | Eniyileyici |
-| 📚 Tensor | Tensör |
-| 📚 Computer Vision | Bilgisayar Görüşü |
-| 📚 Threshold | Eşik |
-
+| Kaynak |İngilizce | Türkçe              |
+| ------ |---------- |--------------------|
+| 📚 | Activation Function | Aktivasyon Fonksiyonu |
+| 📚 | Artificial Neural Network | Yapay Sinir Ağı |
+| 📚 | Backpropagation | Geri Yayılma |
+| 🦋 | Batch Gradient Descent | Bölümlü Gradyan İnişi |
+| 📚 | Bias | yanlılık |
+| 📚 | Biased / Unbiased | Yanlılıklı / Yanlılıksız |
+| 🦋 | Binary Classification | İkili Sınıflandırma |
+| 🦋 | Broadcasting  | Yayma |
+| 📚 | Computer Vision | Bilgisayar Görüşü |
+| 📚 | Convex Function | Konveks Fonksiyon |
+| 📚 | Cost Function | Maliyet Fonksiyonu |
+| 📚 | Data Augmentation | Veri Artırma |
+| 📚 | Data Set | Veri Seti          |
+| ❓ | Dot Product    |  |
+| 🦋 | Dropout | Eleme Düzenlileştirmesi |
+| ❓ | element wise multiplication |  |
+| 📚 | Gradient Descent | Gradyan İnişi |
+| 🦋 | Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
+| 📚 | Hidden Layer | Gizli Katman |
+| 📚 | Learning Rate | Öğrenme Hızı |
+| 📚 | Loss Function | Kayıp Fonksiyonu  |
+| 🦋 | Mini Batch Gradient Descent | Mini Bölümlü Gradyan İnişi |
+| 🦋 | Non-Convex Function | Konveks Olmayan Fonksiyon |
+| 📚 | Notation | Notasyon           |
+| 📚 | Optimizer | Eniyileyici |
+| ❓ | Outer Product  |  |
+| 📚 | Overfitting | Aşırı Öğrenme |
+| 📚 | Regularization | Düzenlileştirme |
+| 🦋 | Stochastic Gradient Descent | Stokastik Gradyan İnişi |
+| 📚 | Tensor | Tensör |
+| 📚 | Test Set | Test Seti |
+| 📚 | Threshold | Eşik |
+| 📚 | Training Set | Eğitim Seti |
+| 📚 | Under-fitting | Eksik Öğrenme |
+| 🦋 | Validation Set | Doğrulama Seti|
+| 🦋 | Vectorization | Vektörleştirme |
 
 ## 👷‍♀️ Yapılacaklar
-- [ ] 🔠 Kavramlar alfabetik sıraya göre sıralanacak
+- [x] 🔠 Kavramlar alfabetik sıraya göre sıralanacak
 - [ ] 🎨 Kavramlar kategorize edilecek
