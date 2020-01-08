@@ -1,14 +1,14 @@
 # 👀 Evrişimli Sinir Ağlarının Görselleştirilmesi
 Kavramları toplamak için [P1](./0-GenelKavramlar.md) ve [P2](./1-GenelKavramlar-P2.md) 'de açıklanan kavramların görselleştirilmesi
 
-### 💫 Convolution
+### 💫 Konvolüsyon
 Özellikleri çıkarmak için filtre uygulama 🤗
 
 <img src="../res/ConvolutionEx.png" width="450"  />
 
 **Problem 😰:** Görüntüler küçülüyor 😱
 
-### 😏 Padding'e Bir Göz At  
+### 😏 Dolgulamaya Bir Göz At  
 
 <img src="../res/Padding.png" width="350"  />
 

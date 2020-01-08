@@ -26,6 +26,8 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 🦋 | Broadcasting  | Yayma |
 | 📚 | Computer Vision | Bilgisayar Görüşü |
 | 📚 | Convex Function | Konveks Fonksiyon |
+| 📚 | Convolution | Konvolüsyon |
+| 📚 | Convolutional Neural Network | Evrişimki Sinir Ağı |
 | 📚 | Cost Function | Maliyet Fonksiyonu |
 | 📚 | Data Augmentation | Veri Artırma |
 | 📚 | Data Set | Veri Seti          |
@@ -43,14 +45,18 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 | Optimizer | Eniyileyici |
 | ❓ | Outer Product  |  |
 | 📚 | Overfitting | Aşırı Öğrenme |
+| 🦋 | Padding | Dolgulama |
 | 📚 | Regularization | Düzenlileştirme |
+| 🦋 | Same Convolution | Dolgulamalı Konvolüsyon |
 | 🦋 | Stochastic Gradient Descent | Stokastik Gradyan İnişi |
+| 🦋 | Strided Convolution| Adımlı Konvolüsyon |
 | 📚 | Tensor | Tensör |
 | 📚 | Test Set | Test Seti |
 | 📚 | Threshold | Eşik |
 | 📚 | Training Set | Eğitim Seti |
 | 📚 | Under-fitting | Eksik Öğrenme |
-| 🦋 | Validation Set | Doğrulama Seti|
+| 🦋 | Valid Convolution | Normal Konvolüsyon |
+| 🦋 | Validation Set | Doğrulama Seti |
 | 🦋 | Vectorization | Vektörleştirme |
 
 ## 👷‍♀️ Yapılacaklar
