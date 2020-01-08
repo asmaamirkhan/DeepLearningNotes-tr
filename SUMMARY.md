@@ -1,6 +1,7 @@
 <!--Index-->
 - [💫 Derin Öğrenme Notları](README.md)
 - [🚀 English Version](https://dl.asmaamir.com/)
+- [💼 Kullanışlı Araçlar](Araclar.md)
 - [🦋 Proje Sözlüğü](Sozluk.md)
 - [💎 Yapay Sinir Ağları Kavramları](0-NNKavramlar%C4%B1/README.md)
   - [🔎 Esas Problem](0-NNKavramlar%C4%B1/0-GenelKavramlar.md)
