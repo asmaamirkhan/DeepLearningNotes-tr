@@ -1,4 +1,4 @@
-# 🌟 Evrişimli Sinir Ağları ile İlgili İleri Kavramlar
+# 🌟 Evrişimli Sinir Ağları Gelişmiş Kavramları
 
 ## Önemli Terimler
 | Terim               | Açıklama      |
