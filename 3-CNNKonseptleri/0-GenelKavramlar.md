@@ -3,10 +3,10 @@
 ## 📚 Önemli Terim
 | Terim           | Açıklama      |
 | --------------- |---------------|
-| Convolution     | Görüntüye bir filtre uygulayarak görüntüdeki bazı özellikler vurgulanır. |
+| Konvülosyon(Convolution)     | Görüntüye bir filtre uygulayarak görüntüdeki bazı özellikler vurgulanır. |
 
 
-## 🎀 Convolution Örneği
+## 🎀 Konvolüsyon Örneği
 <img src="../res/ConvolutionEx.png" width="450"  />
 
 #### 🤔 -7'yi nasıl bulduk? 
@@ -29,7 +29,7 @@ Ve diğer elemanlar için bu şekilde devam eder 🙃
 
 
 ## 🔎 Kenar Algılama
-Evrişim _Convolution_ işleminin bir uygulaması
+Konvolüsyon işleminin bir uygulaması
 
 ### 🔎 Kenar Algılama Örnekleri
 <img src="../res/ConvolutionExH.JPG" width="450"  />
@@ -80,7 +80,7 @@ Bu sayede, elle elde etmek yerine otomatik olarak yatay, dikey, açılı veya he
 2. 🤨 Köşelerdeki piksellere yeterince dokunulmadığından, görüntünün kenarlarından birçok bilgi göz ardı ediliyor
 
 ### 💡 Çözüm
-Resimlere [_pading_](./1-CommonConcepts-P2.md#padding) işlemini uygulayabiliriz 💪 
+Resimlere [Dolgulama](./1-GenelKavramlar-P2.md/#Dolgulama(Padding)) işlemini uygulayabiliriz 💪 
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/0-commonconcepts)

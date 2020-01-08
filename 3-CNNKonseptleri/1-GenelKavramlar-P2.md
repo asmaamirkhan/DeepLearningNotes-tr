@@ -3,27 +3,27 @@
 ## Önemli Terimler
 | Terim               | Açıklama      |
 | ------------------- |---------------|
-| 🔷 Padding             | _Convolution_'dan önce görüntüye ek kenar(lar) ekleme  |
-| 🌠 Strided Convolution | `s` adım atarak _convolution_ yapma |
-| 🏐 Convolutions Over Volume | _Convolution_'ları n boyutlu girişe uygulama (örneğin RGB görüntüsü) |
+| 🔷 Dolgulama (Padding) | Konvolüsyondan önce görüntüye ek kenar(lar) ekleme  |
+| 🌠 Adımlı Konvolüsyon | `s` adım atarak konvolüsyon uygulama |
+| 🏐 Hacim üzerine konvolüsyon | Konvolüsyonları n boyutlu girişe uygulama (örneğin RGB görüntüsü) |
 
-## 🙌 Padding
-Resme `n+2 x n+2` olacak şekilde görüntüye bir veya daha fazla kenar ekleyerek ve _convolution_'dan sonra görüntünün orijinal boyutu olan `n x n` resimle sonuçlanır.
+## 🙌 Dolgulama (Padding)
+Resme `n+2 x n+2` olacak şekilde görüntüye bir veya daha fazla kenar ekleyerek ve konvolüsyondan sonra görüntünün orijinal boyutu olan `n x n` resimle sonuçlanır.
 
 `p` = eklenen sınır sayısı
 
 > For convention: 0 ile doldurulur
 
-## 🤔 Ne kadar 'pad' edilmeli?
+## 🤔 Ne kadar dolgulanmalı?
 Daha iyi anlaşılması için iki kavramımız olduğunu varsayalım:
 
-### 🕵️‍♀️ Valid Convolutions
-_Padding_ yok demektir, yani:
+### 🕵️‍♀️ Normal Konvolüsyon (Valid Convolution)
+Dolgulama yok demektir, yani:
 
 `n x n`  *  `f x f`  ➡  `n-f+1 x n-f+1`
 
-### 🥽 Same Convolutions
-Çıktı boyutunun, girdi boyutuyla **aynı** olmasını sağlayacak kadar _pad_ edilir
+### 🥽 Dolgulamalı Konvolüsyon (Same Convolution)
+Çıktı boyutunun, girdi boyutuyla **aynı** olmasını sağlayacak kadar dolgulanır
 
 Yani biz istiyoruz ki 🧐: 
 
@@ -33,27 +33,27 @@ Bundan dolayı:
 
 `p` = `(f-1)/2`
 
-> For convention: f tek sayı olarak seçilir 👩‍🚀
+> Kabul: f tek sayı olarak seçilir 👩‍🚀
 
 
 ### 👀 Görselleştirme
 <img src="../res/Conv.gif" width="250"  />
 
 
-## 🔢 Strided Convolution
-_Convolution_'ların başka bir yaklaşımı, bölgelere belirli bir  `s` (adım sayısı) değerine göre filtre uygulayarak çıktıyı hesaplıyoruz. 
+## 🔢 Adımlı Konvolüsyon (Strided Convolution)
+Konvolüsyonların başka bir yaklaşımı, bölgelere belirli bir  `s` (adım sayısı) değerine göre filtre uygulayarak çıktıyı hesaplıyoruz. 
 
 ### 👀 Görselleştirme
 <img src="../res/StridedConv.gif" width="250"  />
 
 
 ## 🤗 Genellemek İçin
-Bir `n x n`'lik görüntü ve `f x f`'lik filtre için, `p` padding miktarı ve `s` striding miktarı ile; çıkış görüntünün boyutu aşağıdaki formülle hesaplanabilir
+Bir `n x n`'lik görüntü ve `f x f`'lik filtre için, `p` dolgulama miktarı ve `s` adım boyutu miktarı ile; çıkış görüntünün boyutu aşağıdaki formülle hesaplanabilir
 
 $$\left \lfloor{\frac{n+2p-f}{s}+1}\right \rfloor \times \left \lfloor{\frac{n+2p-f}{s}+1}\right \rfloor$$
 
-## 🚀 Convolutions Over Volume
-RGB görüntüsü üzerine _convolution_ işlemini uygulamak için; örneğin, 10x10 piksel RGB görüntüsünde, teknik olarak görüntünün boyutu 10x10x3'tür, bu nedenle örneğin 3x3x3'lük _veya fxfx3_'lük filtre uygulayabiliriz 🤳
+## 🚀 Hacim Üzerine Konvolüsyon
+RGB görüntüsü üzerine konvolüsyon işlemini uygulamak için; örneğin, 10x10 piksel RGB görüntüsünde, teknik olarak görüntünün boyutu 10x10x3'tür, bu nedenle örneğin 3x3x3'lük _veya fxfx3_'lük filtre uygulayabiliriz 🤳
 
 > Filtreler özel bir renk kanalına uygulanabilir 🎨
 
@@ -77,7 +77,7 @@ RGB görüntüsü üzerine _convolution_ işlemini uygulamak için; örneğin, 1
 
 > Kabul: `CONV1` + `POOL1` = `LAYER1`
 
-## 🤔 Neden Convolotion'ları Kullanalım?
+## 🤔 Neden Konvolüsyonları Kullanalım?
 Ayarlanacak parametreleri düşürdüklerinden dolayı daha iyi performans 💫
 
 ## 🌞 Yazının Aslı
