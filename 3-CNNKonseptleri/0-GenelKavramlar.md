@@ -80,7 +80,7 @@ Bu sayede, elle elde etmek yerine otomatik olarak yatay, dikey, açılı veya he
 2. 🤨 Köşelerdeki piksellere yeterince dokunulmadığından, görüntünün kenarlarından birçok bilgi göz ardı ediliyor
 
 ### 💡 Çözüm
-Resimlere [Dolgulama](./1-genelkavramlar-p2#dolgulama-padding) işlemini uygulayabiliriz 💪 
+Resimlere [Dolgulama](./1-GenelKavramlar-P2.md#dolgulama-padding) işlemini uygulayabiliriz 💪 
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/0-commonconcepts)
