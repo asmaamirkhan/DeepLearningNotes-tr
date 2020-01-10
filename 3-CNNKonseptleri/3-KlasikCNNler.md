@@ -9,9 +9,9 @@
 
 ## 🔢 LeNet-5
 LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı vardır
--  bunların arasında 3 evrişim katmanı vardır _(C1, C3 and C5)_
--  2 sub-sampling (pooling) katmanları _(S2 and S4)_
--  1 fully connected katman _(F6)_
+-  bunların arasında 3 konvolüsyon katmanı vardır _(C1, C3 and C5)_
+-  2 sub-sampling (sıkıştırma) katmanları _(S2 and S4)_
+-  1 tam bağlanmış katman _(F6)_
 -  Çıkış katmanı
 
 ### 👀 Ağın Görselleştirilmesi

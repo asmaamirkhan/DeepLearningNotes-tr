@@ -34,6 +34,7 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | ❓ | Dot Product    |  |
 | 🦋 | Dropout | Eleme Düzenlileştirmesi |
 | ❓ | element wise multiplication |  |
+| 🦋 | Fully Connected | Tam bağlanmış |
 | 📚 | Gradient Descent | Gradyan İnişi |
 | 🦋 | Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
 | 📚 | Hidden Layer | Gizli Katman |
