@@ -26,8 +26,8 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 - LeNet-5' çok benziyor
 - Katman başına daha fazla filtresi vardır
 -  _tanh_ yerine _ReLU_ kullanıyor
-- _SGD_ with momentum
-- regularaization yerine dropout kullanıyor
+- Momentumlu Gradyan İnişi
+- Düzenlileştirme yerine eleme düzenlileştirmesi _(dropout)_ kullanıyor
 
 ### 👀 Ağın Görselleştirilmesi
 <img src="../res/AlexNetArch.png" width="500"  />
@@ -50,11 +50,10 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 <img src="../res/VGG.gif" width="500"  />
 
 ### 😐 Olumsuz Yanları
-- It is painfully slow to train (It has 138 million parameters 🙄)
 - Eğitilmesi aşırı yavaş (138 milyon parametresi var 🙄)
 
 ## 👩‍🔧 Emplementasyon
-- [Implementation of AlexNet](https://github.com/pytorch/vision/blob/master/torchvision/models/alexnet.py   )
+- [AlexNet'in Emplementasyon](https://github.com/pytorch/vision/blob/master/torchvision/models/alexnet.py   )
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/3-classiccnns)

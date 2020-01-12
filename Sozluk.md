@@ -34,20 +34,26 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | ❓ | Dot Product    |  |
 | 🦋 | Dropout | Eleme Düzenlileştirmesi |
 | ❓ | element wise multiplication |  |
+| 📚 | Exploiding Gradient | Patlayan Gradyan |
 | 🦋 | Fully Connected | Tam bağlanmış |
 | 📚 | Gradient Descent | Gradyan İnişi |
 | 🦋 | Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
 | 📚 | Hidden Layer | Gizli Katman |
+| ❓ | Identity Shortcut Connection |  |
 | 📚 | Learning Rate | Öğrenme Hızı |
 | 📚 | Loss Function | Kayıp Fonksiyonu  |
 | 🦋 | Mini Batch Gradient Descent | Mini Bölümlü Gradyan İnişi |
 | 🦋 | Non-Convex Function | Konveks Olmayan Fonksiyon |
-| 📚 | Notation | Notasyon           |
+| 📚 | Notation | Notasyon |
+| 🦋 | Neural Style Transfer | Sinirsel Stil Aktarımı |
+| 📚 | One By One Convolution | Bire bir konvolüsyon |
 | 📚 | Optimizer | Eniyileyici |
 | ❓ | Outer Product  |  |
 | 📚 | Overfitting | Aşırı Öğrenme |
 | 🦋 | Padding | Dolgulama |
+| 🦋 | Pooling | Sıkıştırma |
 | 📚 | Regularization | Düzenlileştirme |
+| 🦋 | Residual Networks | Artıklı Ağlar |
 | 🦋 | Same Convolution | Dolgulamalı Konvolüsyon |
 | 🦋 | Stochastic Gradient Descent | Stokastik Gradyan İnişi |
 | 🦋 | Strided Convolution| Adımlı Konvolüsyon |
@@ -58,6 +64,7 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 | Under-fitting | Eksik Öğrenme |
 | 🦋 | Valid Convolution | Normal Konvolüsyon |
 | 🦋 | Validation Set | Doğrulama Seti |
+| 📚 | Vanishing Gradients | kaybolan eğim |
 | 🦋 | Vectorization | Vektörleştirme |
 
 ## 👷‍♀️ Yapılacaklar

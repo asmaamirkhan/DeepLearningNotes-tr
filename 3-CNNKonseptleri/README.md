@@ -8,10 +8,10 @@ description: ✨ Bilgisayar Görüşü problemlerinde kullanılan Sinir Ağları
 ## 📚 Önemli Terimler
 | Terim              | Açıklama      |
 | ------------------ |---------------|
-| 💫 Convolutoin     | Görüntüye bir filtre uygulanarak görüntüdeki bazı özellikler vurgulanması |
-| 🌀 Pooling         | Görüntüyü sıkıştırma yöntemi |
+| 💫 Konvolüsyon     | Görüntüye bir filtre uygulanarak görüntüdeki bazı özellikler vurgulanması |
+| 🌀 Sıkıştırma (Pooling) | Görüntüyü sıkıştırma yöntemi |
 | 🔷 2*2 max pooling | Her 4 komşu piksel için en büyüğü kurtulur |
-| ⭕ Padding         | Convolution'dan önce görüntüye ek sınır(lar) ekleme  |
+| ⭕ Dolgulama (Padding) | Convolution'dan önce görüntüye ek sınır(lar) ekleme  |
 
 
 ## 💫 Performans Üzerine Notlar
