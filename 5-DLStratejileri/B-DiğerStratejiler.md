@@ -1,16 +1,16 @@
 # 📚 Derin Öğrenmede Diğer Stratejiler
 
-## ➰ Multi-Task Learning
+## ➰ Çoklu Görev Öğrenmesi (Multi-Task Learning)
 Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz ve sonra bu görevlerin her biri diğer tüm görevlere yardımcı oluyor 🚀
 
-**Başka bir deyişle:** Diyelim ki 4 nesne sınıfını tespit etmek için bir _detector_ kurmak istiyoruz, Her sınıf için 4 NN oluşturmak yerine, dört sınıfı tespit etmek için bir NN oluşturabiliriz 🤔 (Çıkış katmanı 4 birimlidir) 
+**Başka bir deyişle:** Diyelim ki 4 nesne sınıfını tespit etmek için bir algılayıcı kurmak istiyoruz, Her sınıf için 4 NN oluşturmak yerine, dört sınıfı tespit etmek için bir NN oluşturabiliriz 🤔 (Çıkış katmanı 4 birimlidir) 
 
 ### 🤔 Ne zaman kullanılması pratiktir?
 * 🤳 Ortak **alt seviye özelliklere** sahip olmanın faydalarından yararlanabilecek görevlerle ilgili eğitim yapma durumunda 
 * ⛱ Her görev için sahip olduğumuz veri miktarı oldukça benzer (_bazen_) ⛱
 * 🤗 Tüm görevlerde başarılı olmak için yeterince büyük bir NN eğitebilir (her görev için ayrı bir ağ kurmak yerine) 
 
-> 👓 Multi task learning transfer learning'e göre daha az kullanılır 
+> 👓 Çoklu görev öğrenmesi, öğrenme aktarmasına göre daha az kullanılır 
 
 ### 👀 Görselleştirme
 
@@ -25,17 +25,18 @@ Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz 
 ### ➕ Avantajlar:
 
 * 🦸‍♀️ Verinin gücünü gösterir
-* ✨ Less hand designing of components needed (çeviremedim 😢)
+* ✨ İşleiyişin tasarımına daha az elle müdahele edilir
 
 ### ➖ Dezavantajlar:
 
 * 💔 Büyük miktarda veriye ihtiyaç olabilir
 * 🔎 Excludes potentially useful hand designed components
+  * Çeviremedim 😢
 
 ### 🚩 Kullanma Kararını Verme İçin Talimatlar
 **Anahtar soru:** x ile y arasında eşlemek için gereken karmaşıklığın bir fonksiyonunu öğrenmek için yeterli veriye sahip misin?
 
-## 🔃 End to End Learning vs Transfer Learning
+## 🔃 End to End Learning vs Aktarma Öğrenmesi
 
 <img src="../res/E2EVsTL.png" width="400"  />
 

@@ -1,20 +1,20 @@
-# 🚙 Transfer Learning
+# 🚙 Öğrenme Aktarması (Transfer Learning)
 Kısaca: Bir görevden öğrenmek ve öğrenilenleri başka farklı görevler için kullanmak 🛰🚙
 
-## ❓ Transfer Learning Nedir?
-- 🕵️‍♀️ Transfer Learning, bir görev için eğitilmiş bir modelin, ilgili ikinci bir görevde yeniden kullanıldığı bir makine öğrenme tekniğidir. 
+## ❓ Öğrenme Aktarması Nedir?
+- 🕵️‍♀️ Öğrenme Aktarması, bir görev için eğitilmiş bir modelin, ilgili ikinci bir görevde yeniden kullanıldığı bir makine öğrenme tekniğidir. 
 - 🌟 Ek olarak, ikinci görevi modellerken hızlı ilerleme veya gelişmiş performans sağlayan bir optimizasyon yöntemidir.. 
-- 🤸‍♀️ Transfer Learning, yalnızca ilk görevden öğrenilen model özellikleri genel ise, derin öğrenmede işe yarar.
+- 🤸‍♀️ Öğrenme Aktarması, yalnızca ilk görevden öğrenilen model özellikleri genel ise, derin öğrenmede işe yarar.
 
 > Uzun lafın kısası: Bir sinir ağını sıfırdan eğitmek yerine, bir başkasının zaten haftalarca büyük bir veri setinde eğittiği açık kaynaklı bir model indirebiliriz ve bu parametreleri modelimizi elimizdeki biraz daha küçük veri setiyle eğitmek için başlangıç noktası olarak kullanabiliriz. ✨
 
-## 💫 Geleneksel ML - Transfer Learning
+## 💫 Geleneksel ML - Öğrenme Aktarması
 
 <img src="../res/MLvsTL.png" width="450"  />
 
 
 ## 🙄 Problem
-Bir sinir ağındaki katmanlar bazen benzer ağırlıklara sahip olabilir ve birbirlerini **over-fitting** neden olacak şekilde etkileyebilirler. Büyük karmaşık bir model ile bu bir risktir. Yani eğer _Dense_ katmanlarını hayal ettiğimizde, biraz buna benzeyebilir.
+Bir sinir ağındaki katmanlar bazen benzer ağırlıklara sahip olabilir ve birbirlerini **aşırı öğrenme** neden olacak şekilde etkileyebilirler. Büyük karmaşık bir model ile bu bir risktir. Yani eğer _Dense_ katmanlarını hayal ettiğimizde, biraz buna benzeyebilir.
 
 Komşularla benzer ağırlıkları olan bazı nöronları kaldırabiliriz, böylece over fitting kaldırılır..
 
@@ -31,7 +31,7 @@ Komşularla benzer ağırlıkları olan bazı nöronları kaldırabiliriz, böyl
     <img src="../res/AccuracyWithDropOut.JPG" width="300"  />
 </p>
 
-> ✨ Dropout işleminden önce ve sonra accuracy durumu
+> ✨ Sönümleme (dropout) işleminden önce ve sonra accuracy durumu
 
 ## 🤔 Ne zaman kullanılması pratiktir?
 Kendisinden aktardığımız problem (kaynak) için çok fazla veriye sahip olduğumuzda ve aktardığımız problem (hedef) için genellikle nispeten daha az veri olduğunda pratiktir 🕵️‍

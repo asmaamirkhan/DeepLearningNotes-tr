@@ -7,8 +7,8 @@ description: 🥽 Derin Öğrenme Bağlamında Kullanılan Popüler Stratejiler
 ## 📚 Popüler Terimler
 | Terim                  | Açıklama      |
 | ---------------------- |---------------|
-| 🚙 Transfer Learning   | Bir görevden öğrenmek ve öğrenilenleri başka farklı görevler için kullanmak 🛰🚙 |
-| ➰ Multi-Task Learning | Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz ve sonra bu görevlerin her biri diğer tüm görevlere yardımcı oluyor 🚀 |
+| 🚙 Aktarma Öğrenmesi (Transfer Learning) | Bir görevden öğrenmek ve öğrenilenleri başka farklı görevler için kullanmak 🛰🚙 |
+| ➰ Çoklu Görev Öğrenmesi (Multi-Task Learning) | Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz ve sonra bu görevlerin her biri diğer tüm görevlere yardımcı oluyor 🚀 |
 | 🏴 End to End Deep Learning | aynı NN ile büyük görevi alt küçük görevlere bölmek ✂ |
 
 ## 👩‍💻 Kodum

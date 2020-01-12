@@ -27,7 +27,7 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 - Katman başına daha fazla filtresi vardır
 -  _tanh_ yerine _ReLU_ kullanıyor
 - Momentumlu Gradyan İnişi
-- Düzenlileştirme yerine eleme düzenlileştirmesi _(dropout)_ kullanıyor
+- Düzenlileştirme yerine sönümleme _(dropout)_ kullanıyor
 
 ### 👀 Ağın Görselleştirilmesi
 <img src="../res/AlexNetArch.png" width="500"  />

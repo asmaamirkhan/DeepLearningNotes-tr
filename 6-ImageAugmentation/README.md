@@ -1,14 +1,14 @@
 ---
-description: 🤡 Image Augmentation Tekniği Kavramları
+description: 🤡 Resim Artırma Tekniği Kavramları
 ---
 
-# 🤡 Image Augmentation
-- 💥 _Overfitting_'den kaçınmak için kullanılan bir teknik olan _Image Augmentation_ Temelleri
-- ⭐ Küçük bir veri setine sahip isek, veri setini eğitim için tüm senaryoları açacak ve _Image Augmentation_'in çeşitli teknikleriyle çalıştırabilecek temel görüntüleri değiştirmeden manipüle edebiliyoruz.
+# 🤡 Resim Artırma (Image Augmentation)
+- 💥 Aşırı öğrenmeden kaçınmak için kullanılan bir teknik olan _Resim Artırma_ Temelleri
+- ⭐ Küçük bir veri setine sahip isek, veri setini eğitim için tüm senaryoları açacak ve resim artırmanın çeşitli teknikleriyle çalıştırabilecek temel görüntüleri değiştirmeden manipüle edebiliyoruz.
 
-> Not: Image Augmentation Hem eğitim hem de test seti için gereklidir 😅
+> Not: Resim artırma Hem eğitim hem de test seti için gereklidir 😅
 
-## 🚩 Image Augmentation'ın Temel Kavramları
+## 🚩 Resim Artırmanın Temel Kavramları
 
 👩‍🏫 Konsept çok basittir:
 

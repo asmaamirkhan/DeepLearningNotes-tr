@@ -20,7 +20,7 @@ $$J=Loss+\frac{\lambda}{2m}-\sum ||w||^{2}$$
 
 Burada, lambda düzenlileştirme parametresidir. Daha iyi sonuçlar için değeri optimize edilmiş olan **hiper-parametredir**. L2 düzenlileştirmesi, ağırlıkları sıfıra indirgemeye zorladığı için ağırlık azalması _(Weight decay)_ olarak da bilinir (ancak tam olarak sıfır değildir)
 
-### 🔩 Eleme Düzenlileştirmesi (Dropout)
+### 🔩 Sönümleme (Dropout)
 Bazı sinirleri **rastgele** belirli bir oranda elimine ederek başka bir düzenlileştirme yöntemidir.
 
 > Basitçe: Her p olasılığına sahip düğümü için, geri yayılma sırasında giriş veya çıkış ağırlıklarını güncellemiyoruz (Yani onu düşürüyoruz 😅)

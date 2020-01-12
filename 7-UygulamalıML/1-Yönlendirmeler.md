@@ -33,7 +33,7 @@ Aşağıdaki iki durumun olduğunu varsayalım:
 
 Training ve dev hataları aynı olsa bile, daha iyi performans için farklı taktikler uygulayacağız
 
-* **Durum1**'de, `Yüksek Bias` vardır, o yüzden _bias azaltma tekniklerine_ odaklanmamız lazım 🤔, başka bir deyişle, training ve insan hatası arasındaki farkı azaltmamız gerekmektedir, ona da **the avoidable error** denir.
+* **Durum1**'de, `Yüksek Bias` vardır, o yüzden _yanlılık azaltma tekniklerine_ odaklanmamız lazım 🤔, başka bir deyişle, training ve insan hatası arasındaki farkı azaltmamız gerekmektedir, ona da **the avoidable error** denir.
   * Daha iyi algoritma, daha iyi NN yapısı, ......
 * **Durum2**'de, `Yüksek Varyans` vardır, o yüzden _varyans azaltma tekniklerine_ odaklanmamız lazım 🙄, başka bir deyişle training ve dev hatalarının arasındaki farkı azaltmamız lazım
   * regularization ekleme, daha çok veri elde etme, ......
