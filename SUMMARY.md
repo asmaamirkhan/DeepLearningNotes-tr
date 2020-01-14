@@ -2,7 +2,6 @@
 - [💫 Derin Öğrenme Notları](README.md)
 - [🚀 English Version](https://dl.asmaamir.com/)
 - [🦋 Projeye Katkıda Bulunma](CONTRIBUTING.md)
-- [📕 Proje Sözlüğü](Sozluk.md)
 - [💼 Kullanışlı Araçlar](Araclar.md)
 - [💎 Yapay Sinir Ağları Kavramları](0-NNKavramlar%C4%B1/README.md)
   - [🔎 Esas Problem](0-NNKavramlar%C4%B1/0-GenelKavramlar.md)
@@ -43,6 +42,7 @@
   - [💬 NLP Hakkında Karışık Bilgiler](9-DiziModelleri/4-NLPHakk%C4%B1nda.md)
 - [📚 Bulduğum ve Tavsiye Ettiğim PDF'ler](Z-Faydal%C4%B1PDFler/README.md)
 - [👀 Hızlı Görsel Bilgiler](Z-H%C4%B1zl%C4%B1G%C3%B6rselBilgiler/README.md)
+- [📕 Proje Sözlüğü](Sozluk.md)
 
 <!--Index-->
 
