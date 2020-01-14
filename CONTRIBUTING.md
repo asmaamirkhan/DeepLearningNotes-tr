@@ -1,7 +1,7 @@
 # 🚀 Projeye Katkıda Bulunma Rehberi
 ## 🧐 Proje Hakkında
 - 🕸 Düz Yapay Sinir Ağları, Evrişimli Yapay Sinir Ağları ve Tekrarlayan Yapay Sinir Ağlarının kavramları, teoriği ve uygulanması ile ilgili ayrıntılı notlar içermektedir
-- 🌱 Projenin aslı [**DeepLearningNotes💫**](https://dl.asmaamir.com/) adı altında İngilizce olarak başlatılmıştır daha sonra Türkçe'ye çevrilmiştir 🚀 ve şuan paralel yürütülmekte
+- 🌱 Proje, [**DeepLearningNotes💫**](https://dl.asmaamir.com/) adı altında İngilizce olarak başlatılmıştır, daha sonra Türkçe'ye çevrilmiştir 🚀 ve şuanda paralel yürütülmekte
 
 ## 🎨 Katkıda Bulunma Türleri
 
