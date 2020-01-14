@@ -17,12 +17,12 @@
 ## 🦋 Nasıl Katkıda Bulunabilirim?
 ### 🌟 Dil Tarafı
 - Çeviremediğim cümlerleri (`çeviremedim 😢`) yazısıyla belirtiyorum
-- Her yazının sonunda, asıl projedeki karşılığına ait bir link bulunmakta, dil hatası veya anlaşılamayan bir cümle bulduğunuz zaman düzeltmek için _Pull Request_ açarsanız veya benle iletişime geçerseniz hoş olur ⭐ (Hatta çok hoş olur 🤗)
+- Her yazının sonunda, asıl projedeki karşılığına ait bir link bulunmakta, dil hatası veya anlaşılamayan bir cümle bulduğunuz zaman düzeltmek için _GitHub_ üzerinden _Pull Request_ açarsanız veya benle iletişime geçerseniz hoş olur ⭐ (Hatta çok hoş olur 🤗)
 
 > Hatalar basit (örn. 'yazım hatası', 'böyle olsa daha iyi anlaşılır' vs. gibi) olsa bile **çekinmeden** bildirmeniz çok hoş olur 🎉
 
 ### 👩‍🏫 Bilgi Tarafı
-- Hatalı bilgi veya yeni bilgi eklemek istediğinizde bilgi kaynağını belirterek _Pull Request_ açarsanız veya benimle iletişime geçerseniz projeyi büyütmeme ve daha faydalı hale getirmeme yardımcı olursunuz (şimdiden teşekkür ederim 🎊)
+- Hatalı bilgi veya yeni bilgi eklemek istediğinizde bilgi kaynağını belirterek _GitHub_ üzerinden _Pull Request_ açarsanız veya benimle iletişime geçerseniz projeyi büyütmeme ve daha faydalı hale getirmeme yardımcı olursunuz (şimdiden teşekkür ederim 🎊)
 
 ## 📚 Proje Sözlüğü Hakkında
 - Projedeki bütün çeviriler [Proje Sözlüğüne 📕](Sozluk.md) göre yapılmıştır
