@@ -7,6 +7,7 @@ description: Derin Öğrenme Hakkında Notlarım
 ## 🎈 Açıklama
 - 🤝 Türkçe içeriğine katkıda bulunmak adına İngilizce olan [DeepLearningNotes 🦋](https://dl.asmaamir.com/) projemin çevirisidir
 - 🐛 Dil hataları veya düzgün çevrilmemiş cümleler bulduğunuzda _Pull Request_ veya _Issue_ açarak bana bildirmeniz hoş olur 😇
+- Katkıda bulunma hakkında detaylı bilgi almak için [Katkıda Bulunma 🦋](CONTRIBUTING.md) bölümüne bakabilirsiniz
 
 ## 📑 İçerikler
 
