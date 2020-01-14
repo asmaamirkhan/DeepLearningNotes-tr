@@ -1,7 +1,7 @@
 <!--Index-->
 - [💫 Derin Öğrenme Notları](README.md)
 - [🚀 English Version](https://dl.asmaamir.com/)
-- [🦋 Projeye Katkıda Bulunma Rehberi](CONTRIBUTING.md)
+- [🦋 Projeye Katkıda Bulunma](CONTRIBUTING.md)
 - [📕 Proje Sözlüğü](Sozluk.md)
 - [💼 Kullanışlı Araçlar](Araclar.md)
 - [💎 Yapay Sinir Ağları Kavramları](0-NNKavramlar%C4%B1/README.md)
