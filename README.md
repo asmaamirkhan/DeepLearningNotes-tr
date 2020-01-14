@@ -9,7 +9,7 @@ description: Derin Öğrenme Hakkında Notlarım
 - 🕸 Düz Yapay Sinir Ağları, Evrişimli Yapay Sinir Ağları ve Tekrarlayan Yapay Sinir Ağlarının kavramları, teoriği ve uygulanması ile ilgili ayrıntılı notlar içermektedir
 - 🔎 Sağ üst köşedeki arama bölümü istediğiniz kavramla ilgili bilgi bulmanıza yardımcı olacaktır
 - 🐛 Dil hataları veya düzgün çevrilmemiş cümleler bulduğunuzda _Pull Request_ veya _Issue_ açarak bana bildirmeniz hoş olur 😇
-- Katkıda bulunma hakkında detaylı bilgi almak için [Katkıda Bulunma 🦋](CONTRIBUTING.md) bölümüne bakabilirsiniz
+- 🤗 Katkıda bulunma hakkında detaylı bilgi almak için [Katkıda Bulunma 🦋](CONTRIBUTING.md) bölümüne bakabilirsiniz
 
 ## 📑 İçerikler
 
