@@ -4,7 +4,7 @@ description: Derin Öğrenme Hakkında Notlarım
 
 # 💫 Derin Öğrenme Notları
 
-## 🎈 Açıklama
+## 🎤 Açıklama
 - 🤝 Türkçe içeriğine katkıda bulunmak adına İngilizce olan [**DeepLearningNotes 💫**](https://dl.asmaamir.com/) projemin çevirisidir
 - 🕸 Düz Yapay Sinir Ağları, Evrişimli Yapay Sinir Ağları ve Tekrarlayan Yapay Sinir Ağlarının kavramları, teoriği ve uygulanması ile ilgili ayrıntılı notlar içermektedir
 - 🦋 Yeni kavramlar öğrendikçe bu projeye ekleyeceğim (takipte kalın 🎉)
