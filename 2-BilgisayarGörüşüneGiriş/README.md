@@ -41,6 +41,7 @@ MNIST'in açılımı: **(Modified National Institute of Standards and Technology
 ## 👩‍💻 Kodlarım
 - [👗 Fashion MNIST](./0-Fashion-MNIST.ipynb)
 - [1️⃣ Digit MNIST](./1-DIGIT-MNIST.ipynb)
+- [🎈 Genel Akış](./5-CNNWorkflow.ipynb)
 
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/2-intro2computervision)
