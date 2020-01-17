@@ -26,5 +26,8 @@ description: ⛓ Dizi Modellerinin Temelleri
   - ✔ Girdi verilerini çok kısa kesmek yerine uzun vadeli bağımlılıkları takip eden
   - ✔ Parametreleri dizi boyunca paylaşabilen (Dizi boyunca eskiyi silip **tekrar** öğrenmeyen)
 
+## 👩‍💻 Kodlarım
+- [💬 Metin sınıflandırma](A-TextClassification.ipynb)
+
 ## 🌞 Yazının Aslı
 - [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels)
