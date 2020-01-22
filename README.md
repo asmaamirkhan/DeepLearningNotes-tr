@@ -1,5 +1,5 @@
 ---
-description: Derin Öğrenme Hakkında Notlarım
+description: Asmaa Mirkhan'ın Derin Öğrenme Hakkında Notları
 ---
 
 # 💫 Derin Öğrenme Notları
@@ -41,4 +41,4 @@ description: Derin Öğrenme Hakkında Notlarım
 - 👓 Bana bir [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya _issue_ açarak önerilerinizi söyleyin
 
 ## 🤝 İletişim
-Bana [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya [LinkedIn](https://www.linkedin.com/in/asmaamirkhan/) üzerinden ulaşarak benimle iletişime geçebilirsiniz, **Asmaa 🦋**
+Bana [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya [LinkedIn](https://www.linkedin.com/in/asmaamirkhan/) üzerinden ulaşarak benimle iletişime geçebilirsiniz, **Asmaa Mirkhan 🦋**
