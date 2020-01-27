@@ -122,6 +122,6 @@ Not:
 - [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/3-activationfunctions)
 
 ## 🧐 Daha Fazla Oku
-* [Which Activation Function Should I Use? (Siraj Raval :sparkles:)](https://www.youtube.com/watch?v=-7scQpJT7uo)
+* [Which Activation Function Should I Use? (Siraj Raval ✨)](https://www.youtube.com/watch?v=-7scQpJT7uo)
 * [Activation Functions in Neural Networks](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
 * [Understanding Activation Functions in Neural Networks](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
