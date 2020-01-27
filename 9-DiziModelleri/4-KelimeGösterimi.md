@@ -96,7 +96,7 @@ $$e^{(final)}_w=\frac{e_w+\theta_w}{2}$$
 - Kelime embedding'lerinin eğitilmesi çok maliyetli bir işlem olduğu için, çoğu ML'ciler önceden eğitilmiş embedding'ler kullanırlar.
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/3-wordrepres)
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/4-wordrepres)
 
 ## 🧐 Referanslar
 - [Recurrent Neural Networks Cheatsheet ✨](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)

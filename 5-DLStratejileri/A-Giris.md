@@ -18,4 +18,4 @@ description: 🥽 Derin Öğrenme Bağlamında Kullanılan Popüler Stratejiler
 [Netron ✨✨](https://github.com/lutzroeder/netron)
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies)
+- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies/a-introduction)

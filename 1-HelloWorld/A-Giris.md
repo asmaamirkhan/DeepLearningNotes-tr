@@ -57,7 +57,7 @@ print(model.predict([10.0]))
 <img src="../res/TraditionalProgvsML.JPG" width="350"  />
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/1-helloworld)
+- [Burada 🐾](https://dl.asmaamir.com/1-helloworld/a-introduction)
 
 ## 🧐 Referanslar
 * [Official Documentation of Keras](https://keras.io/)

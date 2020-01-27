@@ -119,7 +119,7 @@ Not:
 > Bu fonksiyonlardan hangisinin en iyi sonucu verdiğinden emin değil isen 😵, hepsini dene 🤕 ve farklı doğrulama setleri üzerinden değerlendir ve hangisinin daha iyi çalıştığını gör ve kullan 🤓😇
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/3-activationfunctions)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/4-activationfunctions)
 
 ## 🧐 Daha Fazla Oku
 * [Which Activation Function Should I Use? (Siraj Raval ✨)](https://www.youtube.com/watch?v=-7scQpJT7uo)

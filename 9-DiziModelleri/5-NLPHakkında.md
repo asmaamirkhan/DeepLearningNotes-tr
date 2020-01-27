@@ -22,4 +22,4 @@ Doğal Dil İşleme Hakkında Karışık Bilgiler
 > TODO: Add details
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/4-aboutnlp)
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/5-aboutnlp)

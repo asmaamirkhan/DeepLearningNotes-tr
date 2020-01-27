@@ -30,4 +30,4 @@ description: ⛓ Dizi Modellerinin Temelleri
 - [💬 Metin sınıflandırma](A-TextClassification.ipynb)
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels)
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/0-introduction)

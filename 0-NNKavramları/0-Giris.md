@@ -30,7 +30,7 @@ Birçok tür sinir ağı vardır, uygun türü seçmek, çözmeye çalıştığ�
   * Modelimizi oluşturmak için özellik çıkarma _feature extraction_ algoritmaları kullanmamız gerekiyor
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/0-introduction)
 
 ## 🧐 Referanslar
 - [Introduction to Artificial Neural Networks (ANN)](https://searchenterpriseai.techtarget.com/definition/neural-network)

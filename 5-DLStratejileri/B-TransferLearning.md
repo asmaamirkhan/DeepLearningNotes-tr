@@ -45,7 +45,7 @@ Kendisinden aktardığımız problem (kaynak) için çok fazla veriye sahip oldu
 * 🔎 `görev A`'nın Düşük seviye özellikleri `task B`'yi öğrenmek için faydalı ise 
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies/a-transferlearning)
+- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies/b-transferlearning)
 
 ## 🧐 Referanslar
 * [More about transfer learning in Tensorflow](https://www.tensorflow.org/tutorials/images/transfer_learning)

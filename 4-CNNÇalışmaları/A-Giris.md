@@ -77,7 +77,7 @@ Her katmanın çıktısının görselleştirilmesi [burada](./1-CNNVisualization
 [Netron ✨✨](https://github.com/lutzroeder/netron)
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/4-cnnworks)
+- [Burada 🐾](https://dl.asmaamir.com/4-cnnworks/a-introduction)
 
 ## 🧐 Referanslar
 * [Binary Cross-Entropy](https://gombru.github.io/2018/05/23/cross_entropy_loss/)

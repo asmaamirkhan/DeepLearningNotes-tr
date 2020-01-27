@@ -32,4 +32,4 @@ Bu soruları cevaplamadan önce süreci bir bütün olarak inceleyelim 🧐
 > Neyin yanlış olduğunu bulmak, uygun bir çözüm seçmemize ve daha sonra projeyi etkilemeden bu kısmı düzeltmemize yardımcı olabilir.  👩‍🔧
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/7-appliedml)
+- [Burada 🐾](https://dl.asmaamir.com/7-appliedml/0-introduction)

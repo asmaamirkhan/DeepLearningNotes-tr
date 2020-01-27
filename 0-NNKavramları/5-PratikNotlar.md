@@ -91,7 +91,7 @@ Eğitim setine uygun son bir modelin yanlıksız bir değerlendirmesini sağlama
 > TADAAA işimiz bitti 🤗🎉🎊
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/4-practicalaspects)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/5-practicalaspects)
 
 ## 🧐 Referanslar
 * [About Train, Validation and Test Sets in Machine Learning](https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7)

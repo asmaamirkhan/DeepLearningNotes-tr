@@ -43,4 +43,4 @@ description: 🕵️‍♀️ Popüler Obje Algılama Teknikleri
 <img src="../res/ObjectDetectionSeries.png" width="600"  />
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/8-objectdetection)
+- [Burada 🐾](https://dl.asmaamir.com/8-objectdetection/0-introduction)

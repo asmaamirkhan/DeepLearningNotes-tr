@@ -22,4 +22,4 @@ description: ✨ Bilgisayar Görüşü problemlerinde kullanılan Sinir Ağları
 * [More on Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF)
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts)
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/0-introduction)

@@ -114,7 +114,7 @@ $$b = b-\alpha \frac{v^{corrected}_{db}}{\sqrt{S^{corrected}_{db}}+\epsilon}$$
 * _ε_: $$10^{-8}$$
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/6-optimization)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/7-optimization)
 
 ## 🧐 Referanslar
 * [Machine learning Gradient Descent](https://medium.com/datadriveninvestor/gradient-descent-5a13f385d403)

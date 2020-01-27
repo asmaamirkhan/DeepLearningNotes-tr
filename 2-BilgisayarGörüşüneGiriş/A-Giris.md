@@ -47,7 +47,7 @@ MNIST'in açılımı: **(Modified National Institute of Standards and Technology
 
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/2-intro2computervision)
+- [Burada 🐾](https://dl.asmaamir.com/2-intro2computervision/a-introduction)
 
 ## 🧐 Referanslar
 * [Official Documentation of Keras](https://keras.io/)

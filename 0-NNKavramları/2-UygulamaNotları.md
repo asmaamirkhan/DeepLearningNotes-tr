@@ -193,7 +193,7 @@ print(np.dot(a,b))
 > Özet: Kodlarımızı daha hatasız ve kolay hata ayıklamak için rank-1 dizilerini kullanmaktan kaçınmalıyız 🐛
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/1-implementationnotes)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/2-implementationnotes)
 
 ## 🧐 Referanslar
 * [Official Documentation of Broadcasting in NumPy](https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html)

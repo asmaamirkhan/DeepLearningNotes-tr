@@ -83,7 +83,7 @@ train_datagenerator = ImageDataGenerator(
 > Full kod örneği [burada 🐾](./0-ImageAugmentation.ipynb) 👈
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/6-imageaugmentation)
+- [Burada 🐾](https://dl.asmaamir.com/6-imageaugmentation/a-introduction)
 
 ## 🧐 Referanslar
 * [More About Image Augmentation](https://github.com/keras-team/keras-preprocessing)

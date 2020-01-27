@@ -41,4 +41,4 @@ Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz 
 <img src="../res/E2EVsTL.png" width="400"  />
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies/b-otherstrategies)
+- [Burada 🐾](https://dl.asmaamir.com/5-dlstrategies/c-otherstrategies)

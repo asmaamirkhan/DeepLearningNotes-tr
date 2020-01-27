@@ -83,7 +83,7 @@ Bu sayede, elle elde etmek yerine otomatik olarak yatay, dikey, açılı veya he
 Resimlere [Dolgulama](./1-GenelKavramlar-P2.md#dolgulama-padding) işlemini uygulayabiliriz 💪 
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/0-commonconcepts)
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/1-commonconcepts)
 
 ## 🧐 Referanslar
 * [More on Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF)

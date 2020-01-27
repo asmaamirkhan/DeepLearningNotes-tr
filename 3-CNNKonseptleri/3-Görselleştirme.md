@@ -33,7 +33,7 @@ Filtrelerin renk kanalı sayısına eşit derinliğe sahip olması gerekir
 <img src="../res/FullCNNEx.png" width="450"  />
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/2-visualization)
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/3-visualization)
 
 ## 🧐 Referanslar
 - [DeepLearning series: Convolutional Neural Networks (😍✨✨✨)](https://medium.com/machine-learning-bites/deeplearning-series-convolutional-neural-networks-a9c2f2ee1524)

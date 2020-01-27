@@ -97,4 +97,4 @@ Açıklama:
 - _α_ ve _β_ hiper-parametrelerdir
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/5-applications)
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/6-applications)

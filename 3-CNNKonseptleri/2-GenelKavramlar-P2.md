@@ -81,7 +81,7 @@ RGB görüntüsü üzerine konvolüsyon işlemini uygulamak için; örneğin, 10
 Ayarlanacak parametreleri düşürdüklerinden dolayı daha iyi performans 💫
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/1-commonconcepts-p2)
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/2-commonconcepts-p2)
 
 ## 🧐 Referanslar
 - [Convolutional Neural Networks (CNN) Introduction (😍✨✨✨)](https://indoml.com/2018/03/07/student-notes-convolutional-neural-networks-cnn-introduction/)

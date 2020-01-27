@@ -44,7 +44,7 @@ Aşırı öğrenmeyi azaltmanın en basit yolu, eğitim verilerinin boyutunu art
 Eğitim setinin bir bölümünü doğrulama seti olarak tuttuğumuz bir tür çapraz doğrulama stratejisidir. Doğrulama setindeki performansın kötüye gittiğini gördüğümüzde, modelin eğitimini derhal durdururuz. Bu _Erken Durma_ olarak bilinir.
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/5-regularization)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/6-regularization)
 
 ## 🧐 Daha Fazla Oku
 * Uzun Lafın Kısası 😅: [Overfitting and Regularization in Neural Networks](https://medium.com/@rameshkjes/overfitting-and-regularization-in-neural-networks-d3d996e33c3)

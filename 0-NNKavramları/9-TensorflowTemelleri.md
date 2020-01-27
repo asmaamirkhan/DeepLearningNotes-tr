@@ -127,4 +127,4 @@ def cost(logits, labels):
 ```
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/8-tensorflowbasics)
+- [Burada 🐾](https://dl.asmaamir.com/0-nnconcepts/9-tensorflowbasics)

@@ -48,7 +48,7 @@ SSD obje algılama algoritması 2 bölümden oluşur:
 <img src="../res/SSDvsYOLO.png" width="600"  />
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/8-objectdetection/1-ssdandyolo)
+- [Burada 🐾](https://dl.asmaamir.com/8-objectdetection/2-ssdandyolo)
 
 ## 🧐 Referanslar
 - [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3)

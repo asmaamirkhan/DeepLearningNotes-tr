@@ -42,7 +42,7 @@ CNN'lerimizi geliştirmek için bu bilgiyi nasıl kullanabiliriz? 🙄
 Diyelim ki `28x28x192` boyutlu girişimiz var, `1x1x192` boyutunda `32` filtre ve [Dolgulamalı](./1-GenelKavramlar-P2.md#same-convolutions) konvolüsyon uygularsak çıkışımız `28x28x32` ✨
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/4-otherapproaches)
+- [Burada 🐾](https://dl.asmaamir.com/3-cnnconcepts/5-otherapproaches)
 
 ## 🧐 Daha Fazla Oku
 - [Detailed ResNets](https://engmrk.com/residual-networks-resnets/)

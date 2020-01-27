@@ -44,4 +44,4 @@ Dizileri bu şekilde temsil ederek verileri sinir ağlarına aktarabiliriz ✨
 - Bu gösterim anlamsal özellikleri yakalayamaz 💔
 
 ## 🌞 Yazının Aslı
-- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/0-generalconcepts)
+- [Burada 🐾](https://dl.asmaamir.com/9-sequencemodels/1-generalconcepts)
