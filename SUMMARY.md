@@ -13,7 +13,7 @@
   - [✨ Optimizasyon Algoritmaları](0-NNKavramlar%C4%B1/6-Optimizasyon.md)
   - [🎨 Softmax Regression](0-NNKavramlar%C4%B1/7-%C4%B0kiliS%C4%B1n%C4%B1fland%C4%B1rma.md)
   - [🏃‍♀️ Tensorflow'ya Hızlı Giriş](0-NNKavramlar%C4%B1/8-TensorflowTemelleri.md)
-  - [👩‍💻 Yapay Sinir Ağlarıyla ilgili Pyhton Kod Parçaları](0-NNKavramlar%C4%B1/A-KodPar%C3%A7alar%C4%B1.md)
+  - [👩‍💻 Yapay Sinir Ağlarıyla ilgili Python Kod Parçaları](0-NNKavramlar%C4%B1/A-KodPar%C3%A7alar%C4%B1.md)
 - [🙋‍♀️ Yapay Sinir Ağları ile Derin Öğrenme'nin Hello World'u](1-HelloWorld/README.md)
 - [🚪 Bilgisayar Görüşüne Giriş](2-BilgisayarG%C3%B6r%C3%BC%C5%9F%C3%BCneGiri%C5%9F/README.md)
 - [🚩 Evrişimli Sinir Ağları Kavramları](3-CNNKonseptleri/README.md)

@@ -1,4 +1,4 @@
-# 👩‍💻 Yapay Sinir Ağlarıyla ilgili Pyhton Kod Parçaları
+# 👩‍💻 Yapay Sinir Ağlarıyla ilgili Python Kod Parçaları
 
 ## 📚 ML'de Genel Kod Parçaları
 
