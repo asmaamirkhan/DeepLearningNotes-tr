@@ -1,18 +1,18 @@
 ---
-description: Notes on Implementing CNNs In The Browser
+description: 🚀 CNN'leri Tarayıcıya Uygulama İle İlgili Notlar
 ---
 
-# 🌐 CNNs In Browser
-To implement our CNN based works in the Browser we need to use _Tensorflow.JS_ 🚀
+# 🌐 Tarayıcıda CNNler
+CNN tabanlı çalışmalarımızı Tarayıcıda uygulamak için _Tensorflow.JS_ kullanmalıyız 🚀
 
-## 👷‍♀️ Workflow
+## 👷‍♀️ İş Akışı
 1. 🚙 Import [Tensorflow.js](https://js.tensorflow.org/)
-2. 👷‍♀️ Create models
-3. 👩‍🏫 Train
-4. 👩‍⚖️ Do inference
+2. 👷‍♀️ Modeli kur
+3. 👩‍🏫 Eğit
+4. 👩‍⚖️ Modeli kullan
 
-### 🚙 Importing Tensorflow.js
-We can import Tensorflow.js in the way below
+### 🚙 Tensorflow.js' Import Etme
+Tensorflow.js'yi aşağıdaki şekilde _import_ edebiliriz
 ```html
     <script 
         src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest">
@@ -20,14 +20,14 @@ We can import Tensorflow.js in the way below
 
 ```
 
-### 👷‍♀️ Creating The Model
-😎 Same as we did in Python:
+### 👷‍♀️ Modeli Kurma
+😎 Python'da yaptığımız gibi:
 
-1. 🐣 Decalre a Sequential object
-2. 👩‍🔧 Add layers
-3. 🚀 Compile the model
-4. 👩‍🎓 Train _(fit)_
-5. 🐥 Use the model to predict
+1. 🐣 _Sequential_ objesi tanımla
+2. 👩‍🔧 Katmanları ekle
+3. 🚀 Modeli derle `.compile()`
+4. 👩‍🎓 Eğit _(fit)_
+5. 🐥 Modeli tahmin için kullan
 
 ```js
 // create sequential 
@@ -56,13 +56,14 @@ doTraining(model).then(() => {
 ```
 > `([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], [6, 1])`
 > 
-> `[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0]`: Data set values
+> `[-1.0, 0.0, 1.0, 2.0, 3.0, 4.0]`: Veri seti değerleri _(girişler)_
 > 
-> `[6, 1]`: Shape of input
+> `[6, 1]`: Girişin boyutu
 
 
-#### 👁‍🗨 Attention
-- 🐢 Training is a long process so that we have to do it in an asynchronous function
+#### 👁‍🗨 Dikkat
+- 🐢 Eğitim uzun bir süreç olduğundan onu asenkron bir fonksiyonda yapmalıyız
+
 ```js
 async function doTraining(model){
     const history = 
@@ -81,7 +82,8 @@ async function doTraining(model){
 }
 ```
 
+## 👩‍💻 Kodun tamamı
+- [🐾 Burada](./1-TFJS.html)
 
-
-## 👩‍💻 Full Code
-- [🐾 Here](./1-TFJS.html)
+## 🌞 Yazının Aslı
+- [🐾 Burada](https://dl.asmaamir.com/1-helloworld/b-cnnsinbrowser)
