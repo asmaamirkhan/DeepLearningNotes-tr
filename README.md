@@ -1,5 +1,5 @@
 ---
-description: Asmaa Mirkhan'ın Derin Öğrenme Hakkında Notları
+description: [Asmaa Mirkhan'ın](https://www.linkedin.com/in/asmaamirkhan/) Derin Öğrenme Hakkında Notları
 ---
 
 # 💫 Derin Öğrenme Notları
