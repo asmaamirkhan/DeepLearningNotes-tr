@@ -30,7 +30,6 @@
   - [✨ CNN'leri Kurmak İçin Diğer Yaklaşımlar](3-CNNKonseptleri/5-Di%C4%9FerYakla%C5%9F%C4%B1mlar.md)
   - [🕸 CNN'lerin Popüler Uygulamaları](3-CNNKonseptleri/6-Uygulamalar.md)
 - [👩‍💻 CNN'ler Üzerinde Kodlar ve Notlar](4-CNN%C3%87al%C4%B1%C5%9Fmalar%C4%B1/README.md)
-  - [HandDigitClassifier](4-CNN%C3%87al%C4%B1%C5%9Fmalar%C4%B1/HandDigitClassifier)
   - [🌱 Giriş](4-CNN%C3%87al%C4%B1%C5%9Fmalar%C4%B1/A-Giris.md)
 - [💄 Derin Öğrenmenin Popüler Stratejileri](5-DLStratejileri/README.md)
   - [🌱 Giriş](5-DLStratejileri/A-Giris.md)
