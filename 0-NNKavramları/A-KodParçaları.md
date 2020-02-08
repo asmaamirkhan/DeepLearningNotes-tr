@@ -239,7 +239,7 @@ def L2(yhat, y):
 {% endtab %}
 {% endtabs %}
 
-### 🏃‍♀️ Yayılma Fonksiyonnu _Propagation Function_
+### 🏃‍♀️ Yayılma Fonksiyonu (_Propagation Function_)
 
 {% tabs %}
 {% tab title="👩‍🏫 Açıklama" %}
@@ -260,7 +260,7 @@ $$\frac{\partial J}{\partial b}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})$$
 ```python
 def propagate(w, b, X, Y):
     """
-    Cost fonksiyonunu ve gradient'leri hasaplamanın emplemantasyonu
+    Cost fonksiyonunu ve gradient'leri hasaplamanın implementasyonu
 
     Argümanlar:
     w -- ağırlıklar, (num_px * num_px * 3, 1) boyutunda bir Numpy dizisi
