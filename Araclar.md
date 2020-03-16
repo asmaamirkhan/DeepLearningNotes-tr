@@ -14,4 +14,4 @@ description: 💼 Derin Öğrenme bağlamında faydalı araçlar
 
 ## 🖼️ OpenImages İndirme Aracı
 - 🚀 Sınıfa göre resim indi 
-- [OID](https://github.com/EscVM/OIDv4_ToolKit)
+- [🔗 OID](https://github.com/EscVM/OIDv4_ToolKit)
