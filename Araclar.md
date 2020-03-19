@@ -15,3 +15,8 @@ description: 💼 Derin Öğrenme bağlamında faydalı araçlar
 ## 🖼️ OpenImages İndirme Aracı
 - 🚀 Sınıfa göre resim indi 
 - [🔗 OID](https://github.com/EscVM/OIDv4_ToolKit)
+
+## 🔗 Toplu Link İndirme Aracı
+- 💁‍♀️ Tek tıklama ile toplu link indir
+- 👩‍💻 Google Chrome eklentisi
+- [⚓ Tab Save](https://chrome.google.com/webstore/detail/tab-save/lkngoeaeclaebmpkgapchgjdbaekacki/related)
