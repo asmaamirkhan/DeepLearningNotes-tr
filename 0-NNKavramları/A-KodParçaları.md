@@ -40,7 +40,7 @@ def sigmoid(x):
 
 {% tab title="➗ Formül" %}
 
-$$\sigma^'(x)=\sigma(x)(1-\sigma(x))$$
+$$\sigma^{'}(x)=\sigma(x)(1-\sigma(x))$$
 
 {% endtab %}
 
