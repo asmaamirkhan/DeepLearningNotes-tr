@@ -2,6 +2,7 @@
 
 ## 🔷 R-CNN _(Region Based Convoltional Neural Network)_
 Aşağıdaki temellere dayanır:
+
 1. Çok sayıda bölge seçmek
 2. Ve sonra bunları _selective search_ yaparak 2000’e düşürmek
    * Her bölgeye 'bölge adayı' _region proposal_ denir
