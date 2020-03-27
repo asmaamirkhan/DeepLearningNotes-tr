@@ -48,7 +48,7 @@ Renk kanallarına değerler ekleme ve çıkarma
 Açı dönüşümü görüntünün açısını kaydırır
 
 #### 🚀 Example
-<img src="../res/ShearingTransform.jpg" width="400"  />
+<img src="../res/ShearingTransform.png" width="400"  />
 
 
 ## 👩‍💻 Kod Örneği
