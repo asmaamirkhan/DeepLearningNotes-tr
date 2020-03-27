@@ -103,7 +103,7 @@ _Anchor boxes_, görüntü boyunca yerleştirilmiş ve farklı şekil ve boyutla
 | ➰ Faster R-CNN |  _Selective search_ yöntemini RPN ile değiştirir                  | yavaş (?)  |
 
 
-## ⚖ Benchmarks
+## :🤹‍♀️ Benchmarks
 
 <img src="../res/RCNNComparison.png" width="400"  />
 
