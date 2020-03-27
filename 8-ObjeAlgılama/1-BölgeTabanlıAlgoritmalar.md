@@ -40,6 +40,7 @@ R-CNN'ler çok yavaştır 🐢 sebepler:
 Görüntü başına 2.000 kez CNN çalıştırmak yerine, görüntü başına yalnızca bir kez çalıştırabilir ve ilgi alanlarını (Region Of Interest _ROI_) elde edebiliriz (bazı objeler içeren bölgeler).
 
 Yani, aşağıdaki mantığa dayanır:
+
 1. **Tüm** görüntüyü CNN'ye besliyoruz
 2. CNN bir _feature map_ oluşturur
 3. Oluşturulan _feature map_'i kullanarak ROI'i çıkardık (Region of interests)
@@ -63,6 +64,7 @@ Bölge adayları Fast R-CNN algoritmasında hala darboğazlar oluşturuyor ve pe
 Faster R-CNN, Selective search sorununu Region Proposal Network (RPN) ile değiştirerek giderir 🤗
 
 Yani, aşağıdaki mantığa dayanır:
+
 1. **Tüm** görüntüyü CNN'ye besliyoruz
 2. CNN bir _feature map_ oluşturur
 3. _Feature map_ üzerine RPN uygularız 
