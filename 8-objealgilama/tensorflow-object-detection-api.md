@@ -4,6 +4,10 @@ description: Adım Adım Özel Nesne Algılayıcısı Eğitimi
 
 # 🤖 TensorFlow Object Detection API
 
+{% hint style="warning" %}
+Bu yazı çeviri aşamasındadır, yazının aslına [**buradan**](https://dl.asmaamir.com/8-objectdetection/tensorflow-object-detection-api) bakabilirsiniz 👀
+{% endhint %}
+
 ## 🌱 Giriş
 
 * ✨ Tensorflow Object Detection API, güçlü AI bilgimiz veya güçlü TensorFlow bilgimiz olmasa bile önceden eğitilmiş modellere bağlı olarak özel nesne algılayıcısı oluşturmamızı sağlayan güçlü bir araçtır.
