@@ -64,7 +64,22 @@ _Scharr_ filtresi de bu şekildedir:
 3    0   -3
 ```
 
+_Prewitt_ filtresi:
+
+```text
+-1   0   1
+-1   0   1
+-1   0   1
+```
+
 > Yani buradaki kritik nokta orta satıra dikkat etmek.
+
+Ve _Roberts_ filtresi:
+
+```text
+1    0
+0   -1
+```
 
 ### ✨ Başka Bir Yaklaşım
 
