@@ -69,7 +69,7 @@ For a given word _w_, the embedding matrix _E_ is a matrix that maps its 1-hot r
 * Bu, daha sonra aldığımız **pencere boyutu**na bağlı olan bağlam \(context\) ve hedef \(target\) kelime çiftleri yaparak yapılır.
   * **Pencere boyutu**: Bağlam sözcüğünün soluna ve sağına bakan bir parametredir
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/ctpairs.png)
+![](../.gitbook/assets/CTPairs.png)
 
 > _pencere boyutu = 2_ ile _bağlam-hedef_ çiftleri oluşturma 🙌
 
@@ -83,7 +83,7 @@ $$P(t|c)=\frac{exp(\theta^T_te_c)}{\sum_{j=1}^{|V|}exp(\theta^T_je_c)}$$
 
 ### 🚀 One Hot Rep. vs Word Embedding
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/onehotvswordembedding.PNG)
+![](../.gitbook/assets/OneHotVsWordEmbedding.PNG)
 
 ## 🧤 GloVe
 

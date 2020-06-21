@@ -11,7 +11,7 @@ Doğal Dil İşleme Hakkında Karışık Bilgiler
 
 ### 🕵️‍♀️ Dikkatli Sinirsel Makine Çevirisi \(Neural Machine Translation with Attention\)
 
-* Bir kitabın paragrafını Fransızca'dan İngilizce'ye çevirmeksek, paragrafın tamamını okuyup sonra kitabı kapatıp çeviri yapmıyoruz 😅
+* Bir kitabın paragrafını Fransızca'dan İngilizce'ye çevirmek istesek, paragrafın tamamını okuyup sonra kitabı kapatıp çeviri yapmıyoruz 😅
 * Tercüme sürecinde, Fransızca paragrafın yazdığımız İngilizce kısımlarına karşılık gelen kısımlarını okuyup/yeniden okuyup odaklanıyoruz 🤔
 * Dikkat mekanizması, Neural Makine Çeviri modeline her adımda dikkat etmesi gerekenleri söyler 👩‍🏫
 

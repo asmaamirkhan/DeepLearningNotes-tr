@@ -12,13 +12,13 @@
 
 #### 🔶 RNN Tamamının Mimarisi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rnnstructure2.png)
+![](../.gitbook/assets/RNNStructure2.png)
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rnnstructure.png)
+![](../.gitbook/assets/RNNStructure.png)
 
 #### 🧩 Bir RNN Hücresi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rnncell.png)
+![](../.gitbook/assets/RNNCell.png)
 
 Temel bir RNN hücresi. $$x^{⟨t⟩}$$'yi \(Şimdiki girdi\) ve $$a^{⟨t−1⟩}$$'yi \(geçmişten gelen bilgileri içeren önceki gizli durum\) girdi olarak alır, bir sonraki RNN hücresine verilen ve aynı zamanda $$y^{⟨t⟩}$$'yi tahmin etmek için kullanılan $$a^{⟨t⟩}$$'yi çıktı olarak verir
 
@@ -34,7 +34,7 @@ $$\hat{y}^{<t>} = g(W_{ya}a^{<t>}+b_y)$$
 
 #### 👀 Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rnnforwardvis.png)
+![](../.gitbook/assets/RNNForwardVis.png)
 
 ### ⏪ Back Propagation
 
@@ -52,7 +52,7 @@ $$L(\hat{y},y)=\sum_{t=1}^{T_y}L^{<t>}(\hat{y}^{<t>}, y^{<t>})$$
 * 🔢 ➡ 🔢 **Many-to-Many** $$T_x = T_y$$ \(Konuşma tanıma\)
 * 🔢 ➡ 🔢 **Many-to-Many** $$T_x \neq T_y$$ \(Makine Çevirisi\)
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rnntypes.png)
+![](../.gitbook/assets/RNNTypes.png)
 
 ## 🔥 Gelişmiş Tekrarlayan Sinir Ağları
 
@@ -76,7 +76,7 @@ Tahmin yapmadan önce tüm veri dizisine ihtiyacımız vardır.
 
 #### 👀 Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/brnn.png)
+![](../.gitbook/assets/BRNN.png)
 
 ### 🕸 Derin RNN'ler
 
@@ -86,7 +86,7 @@ Derin tekrarlayan ağlarla sonuçlanan yukarıdaki dönüşümlerin her biri iç
 
 #### 👀 Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/deeprnn.PNG)
+![](../.gitbook/assets/DeepRNN.PNG)
 
 ### ❌ Problem: Vanishing Gradients with RNNs
 
@@ -96,7 +96,7 @@ Derin tekrarlayan ağlarla sonuçlanan yukarıdaki dönüşümlerin her biri iç
 
 #### 🧙‍♀️ Çözümler
 
-* RNN'deki Vanishing Gradients problemi üzerine [Yazımı](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/e17776b1b8771d34c5ad3be2b028a41ce37fe32c/9-DiziModelleri/2-VanishingGradients.md) okuyabilirsin  🤸‍♀️
+* RNN'deki Vanishing Gradients problemi üzerine [Yazımı](3-vanishing-gradients.md) okuyabilirsin  🤸‍♀️
 
 ### 🌞 Yazının Aslı
 
