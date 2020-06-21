@@ -2,7 +2,7 @@
 description: Projenin Temel Aldığı Kavram Sözlüğü
 ---
 
-# 📕 Proje Sözlüğü
+# 🦋 Proje Sözlüğü
 
 Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 
@@ -19,7 +19,6 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | Kaynak | İngilizce | Türkçe |
 | :--- | :--- | :--- |
 | 📚 | Activation Function | Aktivasyon Fonksiyonu |
-| 📚 | Anchor | Çapa |
 | 📚 | Artificial Neural Network | Yapay Sinir Ağı |
 | 📚 | Backpropagation | Geri Yayılma |
 | 🦋 | Batch Gradient Descent | Bölümlü Gradyan İnişi |
@@ -35,32 +34,22 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 | Data Augmentation | Veri Artırma |
 | 📚 | Data Set | Veri Seti |
 | ❓ | Dot Product |  |
-| 📚 | Dropout | sönümleme |
+| 🦋 | Dropout | Eleme Düzenlileştirmesi |
 | ❓ | element wise multiplication |  |
-| ❓ | End to End Deep Learning |  |
-| 📚 | Exploiding Gradient | Patlayan Gradyan |
 | 🦋 | Fully Connected | Tam bağlanmış |
 | 📚 | Gradient Descent | Gradyan İnişi |
 | 🦋 | Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
 | 📚 | Hidden Layer | Gizli Katman |
-| ❓ | Identity Shortcut Connection |  |
-| 📚 | Image Augmentation | Resim Artırma |
 | 📚 | Learning Rate | Öğrenme Hızı |
 | 📚 | Loss Function | Kayıp Fonksiyonu |
-| 📚 | Margin | Kenar payı |
 | 🦋 | Mini Batch Gradient Descent | Mini Bölümlü Gradyan İnişi |
-| 📚 | Multi-Task Learning | Çoklu görev öğrenmesi |
 | 🦋 | Non-Convex Function | Konveks Olmayan Fonksiyon |
 | 📚 | Notation | Notasyon |
-| 🦋 | Neural Style Transfer | Sinirsel Stil Aktarımı |
-| 📚 | One By One Convolution | Bire bir konvolüsyon |
 | 📚 | Optimizer | Eniyileyici |
 | ❓ | Outer Product |  |
 | 📚 | Overfitting | Aşırı Öğrenme |
 | 🦋 | Padding | Dolgulama |
-| 🦋 | Pooling | Sıkıştırma |
 | 📚 | Regularization | Düzenlileştirme |
-| 🦋 | Residual Networks | Artıklı Ağlar |
 | 🦋 | Same Convolution | Dolgulamalı Konvolüsyon |
 | 🦋 | Stochastic Gradient Descent | Stokastik Gradyan İnişi |
 | 🦋 | Strided Convolution | Adımlı Konvolüsyon |
@@ -68,11 +57,9 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 | Test Set | Test Seti |
 | 📚 | Threshold | Eşik |
 | 📚 | Training Set | Eğitim Seti |
-| 📚 | Transfer Learning | Öğrenme Aktarması |
 | 📚 | Under-fitting | Eksik Öğrenme |
 | 🦋 | Valid Convolution | Normal Konvolüsyon |
 | 🦋 | Validation Set | Doğrulama Seti |
-| 📚 | Vanishing Gradients | kaybolan eğim |
 | 🦋 | Vectorization | Vektörleştirme |
 
 ## 👷‍♀️ Yapılacaklar

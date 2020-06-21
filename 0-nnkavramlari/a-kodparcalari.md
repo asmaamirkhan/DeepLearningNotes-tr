@@ -1,4 +1,4 @@
-# 👩‍💻 Yapay Sinir Ağlarıyla ilgili Python Kod Parçaları
+# 👩‍💻 Yapay Sinir Ağlarıyla ilgili Pyhton Kod Parçaları
 
 ## 📚 ML'de Genel Kod Parçaları
 
@@ -35,7 +35,7 @@ _backpropagation_ kullanarak loss fonksiyonlarını optimize etmek için _gradie
 {% endtab %}
 
 {% tab title="➗ Formül" %}
-$$\sigma^{'}(x)=\sigma(x)(1-\sigma(x))$$
+$$\sigma^'(x)=\sigma(x)(1-\sigma(x))$$
 {% endtab %}
 
 {% tab title="👩‍💻 Kod" %}
@@ -210,7 +210,7 @@ def L2(yhat, y):
 {% endtab %}
 {% endtabs %}
 
-### 🏃‍♀️ Yayılma Fonksiyonu \(_Propagation Function_\)
+### 🏃‍♀️ Yayılma Fonksiyonnu _Propagation Function_
 
 {% tabs %}
 {% tab title="👩‍🏫 Açıklama" %}
@@ -227,7 +227,7 @@ $$\frac{\partial J}{\partial b}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})$$
 ```python
 def propagate(w, b, X, Y):
     """
-    Cost fonksiyonunu ve gradient'leri hasaplamanın implementasyonu
+    Cost fonksiyonunu ve gradient'leri hasaplamanın emplemantasyonu
 
     Argümanlar:
     w -- ağırlıklar, (num_px * num_px * 3, 1) boyutunda bir Numpy dizisi
@@ -467,7 +467,7 @@ Ağırlıkların uygun şekilde ayarlanması daha düşük hata oranlarını gar
 {% endtab %}
 
 {% tab title="➗ Formül" %}
-![](../.gitbook/assets/summarygd.PNG)
+![](../.gitbook/assets/SummaryGD.PNG)
 {% endtab %}
 
 {% tab title="👩‍💻 Kod" %}

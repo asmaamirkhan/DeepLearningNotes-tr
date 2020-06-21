@@ -1,29 +1,25 @@
 ---
-description: Asmaa Mirkhan'ın Derin Öğrenme Hakkında Notları
+description: Derin Öğrenme Hakkında Notlarım
 ---
 
 # 💫 Derin Öğrenme Notları
 
-## 🎤 Açıklama
+## 🎈 Açıklama
 
-* 🤝 Türkçe içeriğine katkıda bulunmak adına İngilizce olan [**DeepLearningNotes 💫**](https://dl.asmaamir.com/) projemin çevirisidir
-* 🕸 Düz Yapay Sinir Ağları, Evrişimli Yapay Sinir Ağları ve Tekrarlayan Yapay Sinir Ağlarının kavramları, teoriği ve uygulanması ile ilgili ayrıntılı notlar içermektedir
-* 🦋 Yeni kavramlar öğrendikçe bu projeye ekleyeceğim \(takipte kalın 🎉\)
-* 🔎 Sağ üst köşedeki arama alanı istediğiniz kavramla ilgili bilgi bulmanıza yardımcı olacaktır
+* 🤝 Türkçe içeriğine katkıda bulunmak adına İngilizce olan [DeepLearningNotes 🦋](https://dl.asmaamir.com/) projemin çevirisidir
 * 🐛 Dil hataları veya düzgün çevrilmemiş cümleler bulduğunuzda _Pull Request_ veya _Issue_ açarak bana bildirmeniz hoş olur 😇
-* 🤗 Katkıda bulunma hakkında detaylı bilgi almak için [Katkıda Bulunma 🦋](contributing.md) bölümüne bakabilirsiniz
 
 ## 📑 İçerikler
 
 | \# | Başlık |
 | :--- | :--- |
 | 0. | [👩‍🏫 Yapay Sinir Ağlarının Teorik Kavramları](0-nnkavramlari/) |
-| 1. | [🙋‍♀️ Yapay Sinir Ağları ile Derin Öğrenme'nin Hello World'u](1-helloworld/) |
-| 2. | [👓  Bilgisayar Görüşüne Giriş](2-bilgisayargoeruesuenegiris/) |
+| 1. | [🙋‍♀️ Yapay Sinir Ağları ile Derin Öğrenme'nin Hello World'u](1-helloworld.md) |
+| 2. | [👓  Bilgisayar Görüşüne Giriş](2-bilgisayargoeruesuenegiris.md) |
 | 3. | [👩‍🏫 Evrişimli Sinir Ağları Kavramları](3-cnnkonseptleri/) |
-| 4. | [👩‍🔧 CNN'ler Üzerinde Kodlar ve Notlar ](4-cnncalismalari/) |
+| 4. | [👩‍🔧 CNN'ler Üzerinde Kodlar ve Notlar ](4-cnncalismalari.md) |
 | 5. | [🚙 Derin Öğrenmenin Popüler Stratejileri](5-dlstratejileri/) |
-| 6. | [🤡 Image Augmentation](6-imageaugmentation/) |
+| 6. | [🤡 Image Augmentation](6-imageaugmentation.md) |
 | 7. | [👷‍♀️ Uygulamalı Makine Öğrenmesi Üzerine Notlar](7-uygulamaliml/) |
 | 8. | [🕵️‍♀️ Popüler Obje Algılama Teknikleri](8-objealgilama/) |
 | 9. | [➰ Dizi Modelleri](9-dizimodelleri/) |
@@ -37,7 +33,7 @@ description: Asmaa Mirkhan'ın Derin Öğrenme Hakkında Notları
 
 ## 🙌 Söz
 
-"_Öğrenme algoritmanızın iki ana bilgi kaynağı vardır; bir tanesi **veri**dir, diğeri de **elle** müdahele ederek yaptığımız dokunuşlardır_" 🤔🚀
+Öğrenme algoritmanızın iki ana bilgi kaynağı vardır; bir tanesi **veri**, diğeri de **elle** müdahele ederek yaptığımız dokunuşlar 🤔🚀
 
 ## ⭐ Lütfen..
 
@@ -46,5 +42,5 @@ description: Asmaa Mirkhan'ın Derin Öğrenme Hakkında Notları
 
 ## 🤝 İletişim
 
-Bana [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya [LinkedIn](https://www.linkedin.com/in/asmaamirkhan/) üzerinden ulaşarak benimle iletişime geçebilirsiniz, **Asmaa Mirkhan 🦋**
+Bana [mail](mailto:asmaamirkhan.am@gmail.com) atarak veya [LinkedIn](https://www.linkedin.com/in/asmaamirkhan/) üzerinden ulaşarak benimle iletişime geçebilirsiniz, **Asmaa 🦋**
 

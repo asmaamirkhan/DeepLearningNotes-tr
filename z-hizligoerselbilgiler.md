@@ -8,19 +8,19 @@ description: "\U0001F440 Kısa sürede fazla bilgi veren görsel materyaller"
 
 ## 📚 Makine Öğrenmesi Türleri
 
-![](.gitbook/assets/typesofml.jpg)
+![](.gitbook/assets/TypesofML.jpg)
 
 ### 👓 Gözetimli Öğrenme vs Gözetimsiz Öğrenme
 
-![](.gitbook/assets/slvsusl.jpg)
+![](.gitbook/assets/SLvsUSL.jpg)
 
 ### 🕶 Makine Öğrenmesi vs Derin Öğrenme
 
-![](.gitbook/assets/mlvsdl.jpg)
+![](.gitbook/assets/MLvsDL.jpg)
 
 ### 🧠 Makine Öğrenmesi Akıl Haritası
 
-![](.gitbook/assets/mlmindmap.jpg)
+![](.gitbook/assets/MLMindMap.jpg)
 
 ## 🐾 Takip Edilmesi Gereken Kaliteli Kaynaklar
 
