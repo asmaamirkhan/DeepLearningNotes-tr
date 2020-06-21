@@ -39,11 +39,11 @@ Model ağırlıkları her güncellendiğinde karşılık gelen tahmini hata nede
 
 ### 🎀 İyi Öğrenme Hızı
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/goodsgd.gif)
+![](../.gitbook/assets/GoodSGD.gif)
 
 ### 💢 Kötü Öğrenme Hızı
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/badsgd.gif)
+![](../.gitbook/assets/BadSGD.gif)
 
 ## 🌞 Yazının Aslı
 

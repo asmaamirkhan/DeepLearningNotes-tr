@@ -4,7 +4,7 @@ Yapay Sinir Ağlarının temel kavramları
 
 ## 🍭 Temel Sinir Ağı
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/basicann.png)
+![](../.gitbook/assets/BasicANN.png)
 
 > **Convention:** Giriş katmanı sayılmadığından görüntüdeki NN 2 kat NN olarak adlandırılır 📢❗
 
@@ -68,7 +68,7 @@ $$dA^{[l-1]}=W^{[l]T}dZ^{[l]}$$
 
 ## ➰➰ İleri ve Geri Yayılımı Bir Arada
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/forbacksummary.png)
+![](../.gitbook/assets/ForBackSummary.png)
 
 > 😵🤕
 
