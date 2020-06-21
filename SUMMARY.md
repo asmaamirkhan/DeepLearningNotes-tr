@@ -53,8 +53,4 @@
   * [🌚 Kelime Gösterimi](9-dizi-modelleri/4-kelime-gosterimi.md)
   * [💬 NLP Hakkında Karışık Bilgiler](9-dizi-modelleri/5-nlp-hakkinda.md)
 * [🦋 Proje Sözlüğü](sozluk.md)
-* [.github](.github/README.md)
-  * [📄 Başlık](.github/pull_reuequest_template.md)
-  * [ISSUE\_TEMPLATE](.github/issue_template/README.md)
-    * [hata-d-zeltme](.github/issue_template/hata-d-zeltme.md)
 
