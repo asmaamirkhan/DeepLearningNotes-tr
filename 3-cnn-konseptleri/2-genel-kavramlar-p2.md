@@ -42,7 +42,7 @@ Bundan dolayı:
 
 ### 👀 Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/conv.gif)
+![](../.gitbook/assets/conv.gif)
 
 ## 🔢 Adımlı Konvolüsyon \(Strided Convolution\)
 
@@ -50,7 +50,7 @@ Konvolüsyonların başka bir yaklaşımı, bölgelere belirli bir `s` \(adım s
 
 ### 👀 Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/stridedconv.gif)
+![](../.gitbook/assets/StridedConv.gif)
 
 ## 🤗 Genellemek İçin
 
@@ -66,11 +66,11 @@ RGB görüntüsü üzerine konvolüsyon işlemini uygulamak için; örneğin, 10
 
 ### 👀 Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convvolume.png)
+![](../.gitbook/assets/ConvVolume.png)
 
 ## 🤸‍♀️ Birden Fazla Filtre
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convmulti.png)
+![](../.gitbook/assets/ConvMulti.png)
 
 ## 🎨 CNN'lerin Katman Türleri
 

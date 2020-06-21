@@ -70,7 +70,7 @@ Eğitim setine uygun son bir modelin yanlıksız bir değerlendirmesini sağlama
 
 ## 👀 Varyans / Yanlılık Görselleştirilmesi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/fittings.png)
+![](../.gitbook/assets/Fittings.png)
 
 ## ↘ Modeli Uygularken..
 

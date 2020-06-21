@@ -32,7 +32,7 @@
   * [🌱 Giriş](4-cnn-calismalari/a-giris.md)
 * [💄 Derin Öğrenmenin Popüler Stratejileri](5-dl_stratejileri/README.md)
   * [🌱 Giriş](5-dl_stratejileri/a-giris.md)
-  * [🚙 Öğrenme Aktarması \(Transfer Learning\)](5-dl_stratejileri/b-transferlearning.md)
+  * [🚙 Öğrenme Aktarması \(Transfer Learning\)](5-dl_stratejileri/b-transfer-learning.md)
   * [📚 Derin Öğrenmede Diğer Stratejiler](5-dl_stratejileri/c-digerstratejiler.md)
 * [🤡 Resim Artırma \(Image Augmentation\)](6-image-augmentation/README.md)
   * [🌱 Giriş](6-image-augmentation/a-giris.md)

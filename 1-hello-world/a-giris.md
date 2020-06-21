@@ -62,11 +62,11 @@ print(model.predict([10.0]))
 
 ## 👩‍💻 Benim Kodum
 
-* Tam kaynak kodu [burada 🐾](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/2b2468e60dccea9c260e8a24c5202ecf69ce34b2/1-HelloWorld/HelloWorldWithTF.ipynb)
+* Tam kaynak kodu [burada 🐾](https://github.com/asmaamirkhan/DeepLearningNotes-tr/blob/master/1-hello-world/0-HelloWorldWithTF.ipynb)
 
 ## 🔃 Geleneksel Programlamaya vs. Makine Öğrenmesi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/traditionalprogvsml.JPG)
+![](../.gitbook/assets/TraditionalProgvsML.JPG)
 
 ## 🌞 Yazının Aslı
 

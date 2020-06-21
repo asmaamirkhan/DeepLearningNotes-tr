@@ -45,7 +45,7 @@ Training ve dev hataları aynı olsa bile, daha iyi performans için farklı tak
 
 ## 👀 Hata Türlerinin Görselleştirilmesi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/errortypes.png)
+![](../.gitbook/assets/ErrorTypes.png)
 
 > Bilgisayar görüşü problemlerinde, `human-level-error ≈ bayes-error` çünkü insanlar görüş prblemlerinde çok iyiler
 
@@ -59,7 +59,7 @@ Training ve dev hataları aynı olsa bile, daha iyi performans için farklı tak
 
 ## ✨ Bias / Varyans ve İlgili Prosedürler Hakkında Detaylı Notlarım
 
-* [Burada 🐾](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/e17776b1b8771d34c5ad3be2b028a41ce37fe32c/0-NNKavramları/4-PratikNotlar.md)
+* [Burada 🐾](../0-nn-kavramlari/5-pratik_notlar.md)
 
 ## 🤸‍♀️ Tavsiyeler
 

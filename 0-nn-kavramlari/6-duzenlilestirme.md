@@ -8,7 +8,7 @@ Aşırı öğrenme durumunda, modelimiz eğitim verilerindeki ayrıntıları ve 
 
 Aşağıdaki grafik daha iyi açıklar:
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/overfitting.png)
+![](../.gitbook/assets/Overfitting.png)
 
 ## 👩‍🏫 Düzenlileştirme Daha İyi Tanımı
 
@@ -32,7 +32,9 @@ Bazı sinirleri **rastgele** belirli bir oranda elimine ederek başka bir düzen
 
 Daha iyi görselleştirme:
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/nnwithoutdropout.JPG) ![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/nnwithdropout.JPG)
+![](../.gitbook/assets/NNWithoutDropout.JPG)
+
+![](../.gitbook/assets/NNWithDropout.JPG)
 
 > Eleme işleminden önce ve sonra bir NN
 

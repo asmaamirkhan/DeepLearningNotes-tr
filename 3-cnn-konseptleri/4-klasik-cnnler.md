@@ -17,11 +17,11 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 
 ### 👀 Ağın Görselleştirilmesi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/lenet5arch.png)
+![](../.gitbook/assets/LeNet5Arch.png)
 
 ### 🙌 Ağın Özeti
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/lenetsummay.jpg)
+![](../.gitbook/assets/LeNetSummay.jpg)
 
 ## 🛸 AlexNet
 
@@ -33,29 +33,29 @@ LeNet-5 çok basit bir ağdır - Modern standartlara göre -. Sadece 7 katmanı 
 
 ### 👀 Ağın Görselleştirilmesi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/alexnetarch.png)
+![](../.gitbook/assets/alexnetarch.png)
 
 ### 🔎 Daha Ayrınıtılı
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/alexnet.gif)
+![](../.gitbook/assets/AlexNet.gif)
 
 ### 🙌 Ağın Özeti
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/alexnetsummary.jpg)
+![](../.gitbook/assets/AlexNetSummary.jpg)
 
 ## 🌱 VGG-16
 
 ### 👀 Ağın Görselleştirilmesi
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/vggarch.jpg)
+![](../.gitbook/assets/VGGArch.jpg)
 
 ### 🙌 Ağın Özeti
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/vgg16summary.jpg)
+![](../.gitbook/assets/vgg16summary.jpg)
 
 ### 🔎 Daha Ayrıntılı
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/vgg.gif)
+![](../.gitbook/assets/VGG.gif)
 
 ### 😐 Olumsuz Yanları
 

@@ -31,7 +31,7 @@ Görüntüyü eksene göre yansıtmak
 
 #### 🚀 Örnek
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/mirroring.jpg)
+![](../.gitbook/assets/Mirroring.jpg)
 
 ### ✂ Rastgele Kesme \(Random Cropping\)
 
@@ -39,7 +39,7 @@ Bir görüntüyü alıp rastgele kesimler almak
 
 #### 🚀 Örnek
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/cropping.jpg)
+![](../.gitbook/assets/Cropping.jpg)
 
 ### 🎨 Renk Kaydırma \(Color Shifting\)
 
@@ -47,7 +47,7 @@ Renk kanallarına değerler ekleme ve çıkarma
 
 #### 🚀 Örnek
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/colorshifting.jpg)
+![](../.gitbook/assets/ColorShifting.jpg)
 
 ### 📐 \(Açı Dönüştürme\) Shearing Transformation
 
@@ -55,7 +55,7 @@ Açı dönüşümü görüntünün açısını kaydırır
 
 #### 🚀 Example
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/shearingtransform.png)
+![](../.gitbook/assets/shearingtransform.png)
 
 ## 👩‍💻 Kod Örneği
 

@@ -8,7 +8,7 @@
 
 ## 🎀 Konvolüsyon Örneği
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convolutionex.png)
+![](../.gitbook/assets/ConvolutionEx%20%281%29.png)
 
 #### 🤔 -7'yi nasıl bulduk?
 
@@ -28,7 +28,7 @@ Ve diğer elemanlar için bu şekilde devam eder 🙃
 
 ### 👼 Hesaplamayı Görselleştirme
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convcal.gif)
+![](../.gitbook/assets/ConvCal.gif)
 
 ## 🔎 Kenar Algılama
 
@@ -36,11 +36,11 @@ Konvolüsyon işleminin bir uygulaması
 
 ### 🔎 Kenar Algılama Örnekleri
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convolutionexh.JPG)
+![](../.gitbook/assets/ConvolutionExH.JPG)
 
 > Sonuç: yatay çizgiler ortaya çıkıyor
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convolutionexv.JPG)
+![](../.gitbook/assets/ConvolutionExV.JPG)
 
 > Sonuç: dikey çizgiler ortaya çıkıyor
 
@@ -104,7 +104,7 @@ Bu sayede, elle elde etmek yerine otomatik olarak yatay, dikey, açılı veya he
 
 ### 💡 Çözüm
 
-Resimlere [Dolgulama](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/e17776b1b8771d34c5ad3be2b028a41ce37fe32c/3-CNNKonseptleri/1-GenelKavramlar-P2.md#dolgulama-padding) işlemini uygulayabiliriz 💪
+Resimlere [Dolgulama](2-genel-kavramlar-p2.md#dolgulama-padding) işlemini uygulayabiliriz 💪
 
 ## 🌞 Yazının Aslı
 

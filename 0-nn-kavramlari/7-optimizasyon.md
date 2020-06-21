@@ -51,7 +51,7 @@ Bu momentumun geliştirebileceği şeydir, salınımı bir yönde kısıtlar, b�
 
 Aşağıdaki resim daha iyi anlatmaktadır: 🧐
 
-![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/gdvsgdm.png)
+![](../.gitbook/assets/GDvsGDM.png)
 
 **Formül:**
 
