@@ -13,16 +13,16 @@ description: Derin Öğrenme Hakkında Notlarım
 
 | \# | Başlık |
 | :--- | :--- |
-| 0. | [👩‍🏫 Yapay Sinir Ağlarının Teorik Kavramları]() |
-| 1. | [🙋‍♀️ Yapay Sinir Ağları ile Derin Öğrenme'nin Hello World'u]() |
-| 2. | [👓  Bilgisayar Görüşüne Giriş]() |
-| 3. | [👩‍🏫 Evrişimli Sinir Ağları Kavramları]() |
-| 4. | [👩‍🔧 CNN'ler Üzerinde Kodlar ve Notlar ]() |
-| 5. | [🚙 Derin Öğrenmenin Popüler Stratejileri]() |
-| 6. | [🤡 Image Augmentation]() |
+| 0. | [👩‍🏫 Yapay Sinir Ağlarının Teorik Kavramları](0-nn-kavramlari/) |
+| 1. | [🙋‍♀️ Yapay Sinir Ağları ile Derin Öğrenme'nin Hello World'u](1-hello-world/) |
+| 2. | [👓  Bilgisayar Görüşüne Giriş](2-bilgisayar-gorusune-giris/) |
+| 3. | [👩‍🏫 Evrişimli Sinir Ağları Kavramları](3-cnn-konseptleri/) |
+| 4. | [👩‍🔧 CNN'ler Üzerinde Kodlar ve Notlar ](4-cnn-calismalari/) |
+| 5. | [🚙 Derin Öğrenmenin Popüler Stratejileri](5-dl_stratejileri/) |
+| 6. | [🤡 Image Augmentation](6-image-augmentation/) |
 | 7. | [👷‍♀️ Uygulamalı Makine Öğrenmesi Üzerine Notlar](7-uygulamali-ml/) |
-| 8. | [🕵️‍♀️ Popüler Obje Algılama Teknikleri]() |
-| 9. | [➰ Dizi Modelleri]() |
+| 8. | [🕵️‍♀️ Popüler Obje Algılama Teknikleri](8-obje-algilama/) |
+| 9. | [➰ Dizi Modelleri](9-dizi-modelleri/) |
 
 ## 💉 Eklentiler
 
