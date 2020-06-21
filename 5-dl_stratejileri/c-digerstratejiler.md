@@ -16,7 +16,7 @@ Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz 
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/singletaskvsmultitask.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/singletaskvsmultitask.png)
 
 ## 🏴 End to End Deep Learning
 
@@ -42,7 +42,7 @@ Kısaca: Bir NN'nin aynı anda birkaç şey yapmasını sağlamaya başlıyoruz 
 
 ## 🔃 End to End Learning vs Aktarma Öğrenmesi
 
-![](../.gitbook/assets/e2evstl.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/e2evstl.png)
 
 ## 🌞 Yazının Aslı
 

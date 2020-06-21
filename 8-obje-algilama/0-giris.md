@@ -42,7 +42,7 @@ description: "\U0001F575️‍♀️ Popüler Obje Algılama Teknikleri"
 
 ## 🤸‍♀️ Obje Algılama Serisi
 
-![](../.gitbook/assets/objectdetectionseries.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/objectdetectionseries.png)
 
 ## 🌞 Yazının Aslı
 

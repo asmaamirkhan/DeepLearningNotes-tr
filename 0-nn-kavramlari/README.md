@@ -3,3 +3,4 @@ description: "\U0001F469‍\U0001F3EB Yapay Sinir Ağlarıyla İlgili Teorik Det
 ---
 
 # 💎 Yapay Sinir Ağları Kavramları
+

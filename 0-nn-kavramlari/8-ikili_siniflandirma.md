@@ -22,7 +22,7 @@ Yani, $$\hat{y}_j$$ \(C, 1\) boyutunda bir vektördür.
 
 Softmax, çıktı katmanından hemen önce bir sinir ağı katmanı vasıtasıyla uygulanır. Softmax katmanı, çıkış katmanı ile aynı sayıda düğüme sahip olmalıdır.
 
-![](../.gitbook/assets/softmaxlayer.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/softmaxlayer.png)
 
 ### 💥 Softmax Aktivasyon Fonksiyonu
 

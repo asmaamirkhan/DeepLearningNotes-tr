@@ -50,11 +50,11 @@ SSD obje algılama algoritması 2 bölümden oluşur:
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/ssd.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/ssd.png)
 
 ## 🚫 SSD vs YOLO
 
-![](../.gitbook/assets/ssdvsyolo.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/ssdvsyolo.png)
 
 ## 🌞 Yazının Aslı
 

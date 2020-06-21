@@ -6,35 +6,35 @@ Kavramları toplamak için [P1](https://github.com/asmaamirkhan/DeepLearningNote
 
 Özellikleri çıkarmak için filtre uygulama 🤗
 
-![](../.gitbook/assets/convolutionex.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convolutionex.png)
 
 **Problem 😰:** Görüntüler küçülüyor 😱
 
 ### 😏 Dolgulamaya Bir Göz At
 
-![](../.gitbook/assets/padding.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/padding.png)
 
 Görüntüler Çok Büyük, Performans Düşük 😔
 
 ### 😉 Pooling' Bakalım
 
-![](../.gitbook/assets/maxpooling.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/maxpooling.png)
 
 ### 🙄 Peki, RGB resmim var
 
 Filtrelerin renk kanalı sayısına eşit derinliğe sahip olması gerekir
 
-![](../.gitbook/assets/convovervol.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convovervol.png)
 
 ### 🤡 Tamam, `n` tane filtre uygulamak istiyorum
 
 Çıktının derinliği `n` ye eşit olacaktır
 
-![](../.gitbook/assets/convmultifilter.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convmultifilter.png)
 
 ## 🤗 Tam Bir Örnekle Anlamanı Kontrol Et
 
-![](../.gitbook/assets/fullcnnex.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/fullcnnex.png)
 
 ## 🌞 Yazının Aslı
 

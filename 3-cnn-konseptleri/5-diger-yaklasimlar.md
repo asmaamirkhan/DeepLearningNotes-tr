@@ -15,15 +15,15 @@ Bir sinir ağı eğitiminin her iterasyon sırasında, tüm ağırlıklar, mevcu
 
 ResNet'in ana fikri, aşağıdaki gibi bir veya daha fazla katmanı atlayan **identity shortcut connection** sunmaktır.
 
-![](../.gitbook/assets/resnetconcept.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/resnetconcept.png)
 
 ### 🙌 Düz Ağlar vs ResNet'ler
 
-![](../.gitbook/assets/plainvsres.jpg)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/plainvsres.jpg)
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/resnetvisualization.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/resnetvisualization.png)
 
 ## 🤗 Avantajlar
 
@@ -41,7 +41,7 @@ _Sıkıştırma_ ve çeşitli evrişim uygulayarak girişlerin boyutunu azaltabi
 
 Bir CNN çıktısının derinliğinin girişte uyguladığımız filtre sayısına eşit olduğunu biliyoruz;
 
-![](../.gitbook/assets/convmulti.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/convmulti.png)
 
 Yukarıdaki örnekte **2** filtre uyguladık, böylece çıkış derinliği **2**
 

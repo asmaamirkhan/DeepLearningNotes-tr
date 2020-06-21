@@ -44,7 +44,7 @@ Mevcut birim için bilgi tutan ve onu daha sonra ağa iletecek bir vektör.
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/gru.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/gru.png)
 
 ### 🎉 GRU Özeti
 
@@ -94,7 +94,7 @@ $$a^{<t>} = \Gamma _o^{<t>}*tanh(c^{<t>})$$
 
 Birinci denklemde, _sigmoid_ fonksiyonunu kullanarak neyin çıktısı alınacağına karar verirken, ikinci denklemde önceki durumu _tanh_ fonksiyonu ile çarpıyoruz.
 
-![](../.gitbook/assets/rnnlstm.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rnnlstm.png)
 
 > GRU, LSTM'den daha yeni, LSTM daha güçlü, ancak GRU'nun uygulanması daha kolay 🚧
 

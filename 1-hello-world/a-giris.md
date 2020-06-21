@@ -66,7 +66,7 @@ print(model.predict([10.0]))
 
 ## 🔃 Geleneksel Programlamaya vs. Makine Öğrenmesi
 
-![](../.gitbook/assets/traditionalprogvsml.JPG)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/traditionalprogvsml.JPG)
 
 ## 🌞 Yazının Aslı
 

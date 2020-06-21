@@ -45,7 +45,7 @@ Training ve dev hataları aynı olsa bile, daha iyi performans için farklı tak
 
 ## 👀 Hata Türlerinin Görselleştirilmesi
 
-![](../.gitbook/assets/errortypes.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/errortypes.png)
 
 > Bilgisayar görüşü problemlerinde, `human-level-error ≈ bayes-error` çünkü insanlar görüş prblemlerinde çok iyiler
 

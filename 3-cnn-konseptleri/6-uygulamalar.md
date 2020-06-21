@@ -47,11 +47,11 @@ Yüz Doğrulama bağlamında kullanılan bir CNN, iki görüntüyü girdi olarak
 
 #### 👀 Görselleştirme
 
-![](../.gitbook/assets/siameseconcept.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/siameseconcept.png)
 
 Mimarisi:
 
-![](../.gitbook/assets/siamesearch.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/siamesearch.png)
 
 ### 👩‍🏫 Nasıl Eğitebilirim?
 
@@ -82,7 +82,7 @@ Bir içerik görüntüsü **C** \(content\) ve stil görüntüsü **S** \(style\
 
 ### 👀 Göreslleştirme
 
-![](../.gitbook/assets/nstyletransfer.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/nstyletransfer.png)
 
 Bu nedenle **G**'yi üretmek için NN'miz **S**'nin özelliklerini öğrenmeli ve **C**'ye uygun filtreler uygulamalı.
 

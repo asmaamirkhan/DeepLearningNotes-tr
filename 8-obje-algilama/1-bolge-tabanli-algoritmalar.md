@@ -18,9 +18,9 @@ Farklı bölgeleri tanımlamak için bir algoritma, Temelde bir objeyi oluştura
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/rcnn2.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rcnn2.png)
 
-![](../.gitbook/assets/rcnn.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rcnn.png)
 
 ### 🙄 Dezavantajlar
 
@@ -53,9 +53,9 @@ Yani, aşağıdaki mantığa dayanır:
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/fastrcnn2.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/fastrcnn2.png)
 
-![](../.gitbook/assets/fastrcnn.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/fastrcnn.png)
 
 ### 🙄 Dezavanatjlar
 
@@ -77,7 +77,7 @@ Yani, aşağıdaki mantığa dayanır:
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/fasterrcnn.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/fasterrcnn.png)
 
 ### 👩‍🏫 RPN Nasıl Çalışır?
 
@@ -94,7 +94,7 @@ _Anchor boxes_, görüntü boyunca yerleştirilmiş ve farklı şekil ve boyutla
 
 #### 👀 Görselleştirme
 
-![](../.gitbook/assets/rpn.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rpn.png)
 
 ## 😵 Kavramları Bir Araya Getirmek İçin
 
@@ -106,9 +106,9 @@ _Anchor boxes_, görüntü boyunca yerleştirilmiş ve farklı şekil ve boyutla
 
 ## 🤹‍♀️ Benchmarks
 
-![](../.gitbook/assets/rcnncomparison.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rcnncomparison.png)
 
-![](../.gitbook/assets/rcnnchart.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/rcnnchart.png)
 
 ## 🌞 Yazının Aslı
 

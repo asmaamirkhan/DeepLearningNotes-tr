@@ -20,7 +20,7 @@ $$linear(x)=x$$
 
 **Grafik:**
 
-![](../.gitbook/assets/linearactivationgraph.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/linearactivationgraph.png)
 
 > Regresyon problemlerindeki çıktı katmanında kullanılabilir.
 
@@ -32,7 +32,7 @@ $$sigmoid(x)=\frac{1}{1+exp(-x)}$$
 
 **Grafik:**
 
-![](../.gitbook/assets/sigmoidgraph.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/sigmoidgraph.png)
 
 ### 🎩 Tangent Fonksiyonu
 
@@ -46,7 +46,7 @@ $$tanh(x)=\frac{2}{1+e^{-2x}}-1$$
 
 **Grafik:**
 
-![](../.gitbook/assets/tanhgraph.PNG)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/tanhgraph.PNG)
 
 > Aktivasyon fonksiyonları farklı katmanlar için farklı olabilir, örneğin, gizli katman için _tanh_ fonksiyonunu, çıkış katmanı için _sigmoid_ fonksiyonunu kullanabiliriz
 
@@ -70,7 +70,7 @@ $$
 
 **Grafik:**
 
-![](../.gitbook/assets/relugraph.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/relugraph.png)
 
 Yani türev, z pozitif olduğunda 1 ve z negatif olduğunda 0'dır.
 
@@ -90,11 +90,11 @@ $$
 
 **Grafik:**
 
-![](../.gitbook/assets/leakyrelugraph.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/leakyrelugraph.png)
 
 **Veya:** 😛
 
-![](../.gitbook/assets/leakyrelugraphmeme.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/leakyrelugraphmeme.png)
 
 ### 🎀 Relu'nun Avantajları
 

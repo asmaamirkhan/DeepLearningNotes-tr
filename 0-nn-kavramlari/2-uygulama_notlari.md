@@ -22,7 +22,7 @@ Vektörleştirme, Python veya Matlab kodunu döngü kullanmadan hızlandırmak i
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/vectorization.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/vectorization.png)
 
 ### 👩‍💻 Kod Örnekleri:
 
@@ -109,7 +109,7 @@ Aynı şekilde: Elimizde `(m,n)` boyutundaki **A** matrisi olsun. `(m,1)` boyutu
 
 ### 👀 Görselleştirme
 
-![](../.gitbook/assets/broadcasting.jpg)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/broadcasting.jpg)
 
 ### 👩‍💻 Kod Örnekleri
 

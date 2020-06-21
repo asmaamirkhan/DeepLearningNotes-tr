@@ -7,7 +7,7 @@ description: "\U0001F4BC Derin Öğrenme bağlamında faydalı araçlar"
 ## 👷‍♀️ Ağ Görselleştirme Aracı
 
 * Ağın grafiğini görselleştir
-* [Netron ✨✨](https://github.com/lutzroeder/netron)
+* [Netron ✨](https://github.com/lutzroeder/netron)
 
 ## 💫 CNN Giriş / Çıkış Görselleştirme Aracı
 

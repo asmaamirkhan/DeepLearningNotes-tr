@@ -3,3 +3,4 @@ description: "\U0001F97D Derin Öğrenme Bağlamında Kullanılan Popüler Strat
 ---
 
 # 💄 Derin Öğrenmenin Popüler Stratejileri
+

@@ -12,7 +12,7 @@ Kısaca: Bir görevden öğrenmek ve öğrenilenleri başka farklı görevler i�
 
 ## 💫 Geleneksel ML - Öğrenme Aktarması
 
-![](../.gitbook/assets/mlvstl.png)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/mlvstl.png)
 
 ## 🙄 Problem
 
@@ -22,11 +22,11 @@ Komşularla benzer ağırlıkları olan bazı nöronları kaldırabiliriz, böyl
 
 ### 🔃 Karşılaştırma
 
- ![](../.gitbook/assets/nnwithoutdropout.JPG) ![](../.gitbook/assets/nnwithdropout.JPG)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/nnwithoutdropout.JPG) ![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/nnwithdropout.JPG)
 
 > 🤸‍♀️ Dropout işleminden önce ve sonra bir NN
 
- ![](../.gitbook/assets/accuracywithoutdropout.JPG) ![](../.gitbook/assets/accuracywithdropout.JPG)
+![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/accuracywithoutdropout.JPG) ![](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/c9ee03241414e86f59a83b656e48738150bfa1bb/.gitbook/assets/accuracywithdropout.JPG)
 
 > ✨ Sönümleme \(dropout\) işleminden önce ve sonra accuracy durumu
 
