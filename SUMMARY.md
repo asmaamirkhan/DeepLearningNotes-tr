@@ -1,6 +1,7 @@
 # Table of contents
 
 * [💫 Derin Öğrenme Notları](README.md)
+* [🚀 English Version](https://dl.asmaamir.com/)
 * [🦋 Projeye Katkıda Bulunma](contributing.md)
 * [💼 Kullanışlı Araçlar](araclar.md)
 * [💎 Yapay Sinir Ağları Kavramları](0-nn-kavramlari/README.md)
