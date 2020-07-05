@@ -53,4 +53,6 @@
   * [🌚 Kelime Gösterimi](9-dizi-modelleri/4-kelime-gosterimi.md)
   * [💬 NLP Hakkında Karışık Bilgiler](9-dizi-modelleri/5-nlp-hakkinda.md)
 * [🦋 Proje Sözlüğü](sozluk.md)
+* [📚 Faydalı PDF'ler](Z-faydali-pdfler/README.md)
+* [👀 Hızlı Görsel Bilgiler](faydali-gorseller.md)
 
