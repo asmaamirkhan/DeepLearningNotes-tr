@@ -2,7 +2,7 @@
 description: Projenin Temel Aldığı Kavram Sözlüğü
 ---
 
-# 🔤 Proje Sözlüğü
+# 📕 Proje Sözlüğü
 
 Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 
