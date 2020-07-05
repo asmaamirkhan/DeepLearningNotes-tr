@@ -52,7 +52,7 @@
   * [🌌 RNN'deki Vanishing Gradients](9-dizi-modelleri/3-vanishing-gradients.md)
   * [🌚 Kelime Gösterimi](9-dizi-modelleri/4-kelime-gosterimi.md)
   * [💬 NLP Hakkında Karışık Bilgiler](9-dizi-modelleri/5-nlp-hakkinda.md)
-* [🦋 Proje Sözlüğü](sozluk.md)
-* [📚 Faydalı PDF'ler](Z-faydali-pdfler/README.md)
+* [🔤 Proje Sözlüğü](sozluk.md)
+* [📚 Faydalı PDF'ler](z-faydali-pdfler.md)
 * [👀 Hızlı Görsel Bilgiler](faydali-gorseller.md)
 
