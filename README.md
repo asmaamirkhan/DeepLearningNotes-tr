@@ -28,8 +28,8 @@ description: Derin Öğrenme Hakkında Notlarım
 
 | \# | Başlık |
 | :--- | :--- |
-| 0. | [📚 Tavsiye ettiğim faydalı PDF'ler]() |
-| 1. | [👀  Hızlı Görsel Bilgiler]() |
+| 0. | [📚 Tavsiye ettiğim faydalı PDF'ler](z-faydali-pdfler.md) |
+| 1. | [👀  Hızlı Görsel Bilgiler](faydali-gorseller.md) |
 
 ## 🙌 Söz
 
