@@ -29,13 +29,13 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 📚 | Computer Vision | Bilgisayar Görüşü |
 | 📚 | Convex Function | Konveks Fonksiyon |
 | 📚 | Convolution | Konvolüsyon |
-| 📚 | Convolutional Neural Network | Evrişimki Sinir Ağı |
+| 📚 | Convolutional Neural Network | Evrişimli Sinir Ağı |
 | 📚 | Cost Function | Maliyet Fonksiyonu |
 | 📚 | Data Augmentation | Veri Artırma |
 | 📚 | Data Set | Veri Seti |
-| ❓ | Dot Product |  |
+| 📚 | Dot Product | Nokta Çarpım |
 | 🦋 | Dropout | Eleme Düzenlileştirmesi |
-| ❓ | element wise multiplication |  |
+| 📚 | element wise multiplication | Hadamard Çarpımı |
 | 🦋 | Fully Connected | Tam bağlanmış |
 | 📚 | Gradient Descent | Gradyan İnişi |
 | 🦋 | Gradient Descent with Momentum | Momentumlu Gradyan İnişi |
@@ -46,7 +46,7 @@ Yazılardaki kavramlar buradaki çevirilerden alınmıştır
 | 🦋 | Non-Convex Function | Konveks Olmayan Fonksiyon |
 | 📚 | Notation | Notasyon |
 | 📚 | Optimizer | Eniyileyici |
-| ❓ | Outer Product |  |
+| 📚 | Outer Product | Dış Çarpım |
 | 📚 | Overfitting | Aşırı Öğrenme |
 | 🦋 | Padding | Dolgulama |
 | 📚 | Regularization | Düzenlileştirme |
