@@ -8,13 +8,13 @@ Yapay sinir ağı kavramlarını **teorik** detayları ile barındırır
 
 ## 🔎 Tanım
 
-Bir sinir ağı, insan beyninden sonra kendini modelleyen bir makine öğrenmesi türüdür. Bu, bir algoritma ile bilgisayarın yeni veriler ekleyerek öğrenmesini sağlayan yapay bir sinir ağı oluşturur.
+Bir sinir ağı, insan beyni gibi kendini modelleyen bir makine öğrenmesi türüdür. Bu, bir algoritma ile bilgisayarın yeni veriler eklenerek öğrenmesini sağlayan yapay bir sinir ağı oluşturur.
 
-Yapay sinir ağları derin öğrenme olarak adlandırılan şeyi gerçekleştirebilir. Beynin temel birimi **nöron** olsa da, yapay bir sinir ağının temel yapı taşı basit sinyal işlemeyi gerçekleştiren bir **algılayıcıdır** ve bunlar daha sonra büyük bir ağa bağlanır.
+Yapay sinir ağları derin öğrenme olarak adlandırılan şeyi gerçekleştirebilir. Beynin temel birimi **nöron** iken, yapay bir sinir ağının temel yapı taşı basit sinyal işlemeyi gerçekleştiren bir **algılayıcıdır** ve bunlar daha sonra büyük bir ağa bağlanır.
 
 ## 📑 NN Türleri
 
-Birçok tür sinir ağı vardır, uygun türü seçmek, çözmeye çalıştığımız soruna bağlıdır, örneğin
+Birçok sinir ağı türü vardır, uygun türü seçmek, çözmeye çalıştığımız soruna bağlıdır, örneğin
 
 | Tür | Açıklama | Uygulama |
 | :--- | :--- | :--- |
