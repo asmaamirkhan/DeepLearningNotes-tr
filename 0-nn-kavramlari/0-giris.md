@@ -19,8 +19,8 @@ Birçok sinir ağı türü vardır, uygun türü seçmek, çözmeye çalıştı�
 | Tür | Açıklama | Uygulama |
 | :--- | :--- | :--- |
 | 👼 Standart NN | Bazı özellikleri giriyoruz ve çıktısını tahmin ediyoruz | Online Reklamcılık, Emlak |
-| 🎨 CNN | Özellik çıkarımı _feature extraction_ için `convolutions` ekleriz | Fotoğraf Etiketleme |
-| 🔃 RNN | Dizi _sequence_ verileri için uygun | Makine Çevirisi, Konuşma Tanıma _speech recognition_ |
+| 🎨 CNN | Özellik çıkarımı (_feature extraction_) için `convolutions` ekleriz | Fotoğraf Etiketleme |
+| 🔃 RNN | Dizi _sequence_ verileri için uygun | Makine Çevirisi, Konuşma Tanıma (_speech recognition_) |
 | 🤨 Özel NN / Hibrit | Karmaşık problemler için | Otonom Sürüş |
 
 ## 🎨 Denetimli Öğrenmede Veri Türleri
@@ -30,7 +30,7 @@ Birçok sinir ağı türü vardır, uygun türü seçmek, çözmeye çalıştı�
   * Giriş alanlarımız ve çıktı alanımız var
 * 🤹‍♂️ Yapılandırılmamış Veriler
   * Görüntüler, sesler ve metinler gibi
-  * Modelimizi oluşturmak için özellik çıkarma _feature extraction_ algoritmaları kullanmamız gerekiyor
+  * Modelimizi oluşturmak için özellik çıkarma algoritmaları kullanmamız gerekiyor
 
 ## 🌞 Yazının Aslı
 
