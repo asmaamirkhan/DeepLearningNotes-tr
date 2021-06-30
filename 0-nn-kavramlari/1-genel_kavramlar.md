@@ -25,6 +25,8 @@ $$\hat{y}^{(i)} \approx y^{(i)}$$
 
 ## 📉 Gradyan İnişi
 
+Gradyan inişi, türevlenebilir bir fonksiyonun yerel minimumunu bulmak için birinci dereceden yinelemeli bir optimizasyon algoritmasıdır. Buradaki ana fikir, mevcut noktada fonksiyonun gradyanının (veya yaklaşık gradyanının) zıt yönünde tekrarlanan adımlar atmaktır, çünkü bu en dik iniş yönüdür. Diğer taraftan, gradyan yönünde adım atmak, bu fonksiyonun yerel bir maksimumuna yol açacaktır; bu prosedür de gradyan yükselişi olarak bilinir.
+
 Genel Formül:
 
 $$w:=w-\alpha\frac{dJ(w,b)}{dw}$$
@@ -53,4 +55,5 @@ Model ağırlıkları her güncellendiğinde karşılık gelen tahmini hata nede
 
 * [Introduction to Artificial Neural Networks \(ANN\)](https://searchenterpriseai.techtarget.com/definition/neural-network)
 * [More on Learning Rate](https://machinelearningmastery.com/learning-rate-for-deep-learning-neural-networks/)
+* [Gradient descent - Wikipedia](https://en.wikipedia.org/wiki/Gradient_descent)
 
