@@ -2,9 +2,9 @@
 
 ## 📈 Veri Normalleştirme
 
-_Veri Hazırlama_'nın bir
+_Veri Hazırlama_'nın bir parçasıdır
 
-* Elimizde, hepsi pozitif ya da negatif olan bir özelliğe var ise, bu, içeren katmandaki düğümler için öğrenmeyi zorlaştıracaktır. Sigmoid aktivasyon fonksiyonunu izleyenler gibi _zikzak_ yapmak zorunda kalacaklar. 
+* Elimizde, hepsi pozitif ya da negatif olan bir özellik varsa bu, bunları içeren katmandaki düğümler için öğrenmeyi zorlaştıracaktır. Sigmoid aktivasyon fonksiyonunu izleyenler gibi _zikzak_ yapmak zorunda kalacaklar.
 * Verilerimizi sıfıra yakın bir ortalama olacak şekilde dönüştürürsek, hem pozitif değerlerin hem de negatif değerlerin olduğundan emin olacağız.
 
 **Formül:**
@@ -17,37 +17,37 @@ $$normalized=\frac{x_{i}-\mu }{\sigma}$$
 
 Katman sayısı, gizli birimlerin sayısı, öğrenme hızı, aktivasyon fonksiyonları...
 
-İlk seferinde hepsini doğru seçmek çok zor, bu yüzden iteratif bir süreç olarak ele almamız lazım.
+İlk seferinde hepsini doğru seçmek çok zor, bu yüzden bunu iteratif bir süreç olarak ele almamız lazım.
 
 Fikir ➡ Kod ➡ Deney ➡ Fikir 🔁
 
 > Yani burada mesele, bu döngüde nasıl verimli bir şekilde dolaşılacağıdır 🤔
 
-## 👷‍♀️ Train / Dev / Test Ayırması
+## 👷‍♀️ Eğitim, Doğrulama ve Test Verilerinin Ayrılması
 
 İyi bir değerlendirme için veri setini aşağıdaki gibi bölmek iyidir:
 
 | Kısım | Açıklama |
 | :--- | :--- |
 | Eğitim Seti _\(Training Set\)_ | Modeli eğitmek için kullanılır |
-| Doğrulama Seti _\(Development \(Validation\) Set\)_ | Model hiper-parametrelerini ayarlarken yanlılıksız _\(unbiased\)_ bir değerlendirme yapmak için kullanılır |
-| Test Seti | **Son** modelin yanlılıksız bir değerlendirmesini sağlamak için kullanılır |
+| Doğrulama Seti _\(Development \(Validation\) Set\)_ | Model hiper-parametrelerini ayarlarken yansız _\(unbiased\)_ bir değerlendirme yapmak için kullanılır |
+| Test Seti | **Son** modelin yansız bir değerlendirmesini sağlamak için kullanılır |
 
 ### 🤓 Eğitim Seti
 
 Modeli eğitmek için kullandığımız gerçek veri seti \(NN durumunda ağırlık ve yanlılık\).
 
-> Model bu verileri **görüyor** ve **öğreniyor** 👶
+> Model bu verilerden **görür** ve **öğrenir** 👶
 
 ### 😐 Doğrulama Seti
 
-Model hiper-parametrelerini ayarlarken eğitim setine uygun bir modelin yanlılıksız bir değerlendirmesini sağlamak için kullanılan veri örneği. Doğrulama setindeki beceri, model konfigürasyonuna dahil edildiğinden değerlendirme daha yanlılıklı hale gelir.
+Model hiper-parametrelerini ayarlarken eğitim setine uygun bir modelin yansız bir değerlendirmesini sağlamak için kullanılan veri örneği. Doğrulama setindeki beceri, model konfigürasyonuna dahil edildiğinden değerlendirme daha yanlı hale gelir.
 
-> Model bu verileri **görüyor**, ancak bundan asla **öğrenmiyor** 👨‍🚀
+> Model bu verileri **görür**, ancak bunlarda asla **öğrenmez** 👨‍🚀
 
 ### 🧐 Test Seti
 
-Eğitim setine uygun son bir modelin yanlıksız bir değerlendirmesini sağlamak için kullanılan veri örneği. Modeli değerlendirmek için kullanılan altın standardı sağlar 🌟.
+Eğitim setine uygun son bir modelin yansız bir değerlendirmesini sağlamak için kullanılan veri örneği. Modeli değerlendirmek için kullanılan altın standardı sağlar 🌟.
 
 **Uygulama Notu:** Test seti, gerçek dünyada kullanıldığında modelin karşılaşacağı çeşitli sınıfları kapsayan dikkatlice örneklenmiş verileri içermelidir 🚩🚩🚩❗❗❗
 
@@ -57,7 +57,7 @@ Eğitim setine uygun son bir modelin yanlıksız bir değerlendirmesini sağlama
 
 ### 🕹 Yanlılık
 
-**Yanlılık** gerçek değerlerden tahmin edilen değerlerin ne kadar uzak olduğunu gösteren bir kavramdır. Ortalama öngörülen değerler gerçek değerlerden uzaksa, yanlılık yüksektir.
+**Yanlılık**, tahmin edilen değerlerin gerçek değerlerden ne kadar uzak olduğunu gösteren bir kavramdır. Ortalama öngörülen değerler gerçek değerlerden uzaksa yanlılık yüksektir.
 
 > Yüksek yanlılığa sahip olmak, modelin çok basit olduğunu ve verilerin karmaşıklığını yakalamadığını **Eksik öğrendiğini** _\(underfitting\)_ ve bu nedenle verilere uygun olmadığını gösterir. 🤕
 
@@ -66,7 +66,7 @@ Eğitim setine uygun son bir modelin yanlıksız bir değerlendirmesini sağlama
 * Varyans, belirli bir veri noktası için model tahmininin değişkenliği veya bize verilerimizin yayılmasını söyleyen bir değerdir.
 * Varyansı yüksek olan model, daha önce görmediği verilerde genelleme yapamamaktadır.
 
-> Yüksek varyansa sahip olmak algoritmanın eğitim verilerindeki rastgele gürültüyü modellediğini ve verilerin üstüne **aşırı öğrendiğini** _\(overfitting\)_ gösterir. 🤓
+> Yüksek varyansa sahip olmak algoritmanın eğitim verilerindeki rastgele gürültüyü modellediğini ve verileri **aşırı öğrendiğini** _\(overfitting\)_ gösterir. 🤓
 
 ## 👀 Varyans / Yanlılık Görselleştirilmesi
 
@@ -74,12 +74,12 @@ Eğitim setine uygun son bir modelin yanlıksız bir değerlendirmesini sağlama
 
 ## ↘ Modeli Uygularken..
 
-İstenilen performansı elde edemezsek, modelimizi geliştirmek için şu soruları sormamız gerekir:
+İstenilen performansı elde edemezsek modelimizi geliştirmek için şu soruları sormamız gerekir:
 
 > Aşağıdaki çözümlerin performansını doğrulama seti üzerinden kontrol ediyoruz
 
 1. Yüksek yanlılık var mıdır? varsa, bu bir eğitim problemidir, yapılabilecekler:
-   * Daha büyük ağı dene
+   * Daha büyük bir ağ dene
    * Daha uzun eğit
    * Daha iyi optimizasyon algoritması dene
    * Başka bir NN mimarisini dene
