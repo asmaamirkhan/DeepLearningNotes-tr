@@ -14,7 +14,7 @@ Yapay Sinir Ağlarının temel kavramları
 | :--- | :--- |
 | 🌚 Giriş Katmanı | NN'nin girişlerini içeren katmandır |
 | 🌜 Gizli Katman | Hesaplamalı işlemlerin yapıldığı katman |
-| 🌝 Çıkış Katmanı | NN'nin son katmanı ve tahmin edilen değerin _ŷ_ üretilmesinden sorumludur |
+| 🌝 Çıkış Katmanı | NN'nin son katmanı ve tahmin edilen değer _ŷ_'nin üretilmesinden sorumludur |
 | 🧠 Nöron | Bir matematik fonksiyonu için bir yer tutucu, girdilere bir fonksiyon uygular ve çıktı sağlar |
 | 💥 Aktivasyon Fonksiyonu | Dönüşümler uygulayarak bir düğümün giriş sinyalini bir çıkış sinyaline dönüştüren bir fonksiyon |
 | 👶 Shallow NN | Az sayıda gizli katmana sahip NN \(bir veya iki\) |
@@ -25,9 +25,9 @@ Yapay Sinir Ağlarının temel kavramları
 
 Girişinin ağırlıklı toplamını hesaplar, _bias_ ekler ve ardından bir aktivasyon fonksiyonu nedeniyle nöronun tetiklenip tetiklenmeyeceğine karar verir.
 
-> Aktivasyon fonksiyonları ile ilgili ayrıntılı notlarım: [burada](https://github.com/asmaamirkhan/DeepLearningNotes-tr/tree/e17776b1b8771d34c5ad3be2b028a41ce37fe32c/0-NNKavramları/3-AktivasyonFonksiyonları.md) 👩‍🏫
+> Aktivasyon fonksiyonları ile ilgili ayrıntılı notlarım: [burada](https://dltr.asmaamir.com/0-nn-kavramlari/4-aktivasyon_fonksiyonlari) 👩‍🏫
 
-## 👩‍🔧 Parametreler Boyut Kontrolü
+## 👩‍🔧 Parametre Boyut Kontrolü
 
 | Parametre | Boyut |
 | :--- | :--- |
@@ -72,7 +72,7 @@ $$dA^{[l-1]}=W^{[l]T}dZ^{[l]}$$
 
 > 😵🤕
 
-## ✨ Parametreler vs Hiper-parametreler
+## ✨ Parametreler ve Hiper-parametreler
 
 ### 👩‍🏫 Parametreler
 
@@ -85,7 +85,7 @@ $$dA^{[l-1]}=W^{[l]T}dZ^{[l]}$$
 * Öğrenme hızı
 * İterasyon sayısı
 * Gizli katmanların sayısı
-* gizli birimlerin sayısı
+* Gizli birimlerin sayısı
 * Aktivasyon Fonksiyonunun Seçimi 
 * ......
 
