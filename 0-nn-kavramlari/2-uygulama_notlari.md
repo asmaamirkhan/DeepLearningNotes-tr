@@ -13,7 +13,7 @@
 
 ## 🔩 Vektörleştirme _\(Vectorization\)_
 
-Vektörleştirme, Python veya Matlab kodunu döngü kullanmadan hızlandırmak için kullanılır. Onu kullanan bir fonksiyon kodun çalışma süresini verimli bir şekilde en aza indirmeye yardımcı olabilir. Vektörlerin _dot product_'ı, vektörlerin _outer products_'ı ve _element wise multiplication_ gibi vektör üzerinden çeşitli işlemler gerçekleştirilebilmektedir
+Vektörleştirme, Python veya Matlab kodunu döngü kullanmadan hızlandırmak için kullanılır. Böyle bir fonksiyon kullanmak kodun çalışma süresini verimli bir şekilde en aza indirmeye yardımcı olabilir. Vektörlerin nokta çarpımı (_dot product_), vektörlerin dış çarpımı (_outer products_) ve Hadamard Çarpımı (_element wise multiplication_) gibi çeşitli işlemler vektörler üzerinden gerçekleştirilebilmektedir.
 
 ### ➕ Avantajlar
 
@@ -26,7 +26,7 @@ Vektörleştirme, Python veya Matlab kodunu döngü kullanmadan hızlandırmak i
 
 ### 👩‍💻 Kod Örnekleri:
 
-İki dizinin _dot product_'ını bulma:
+İki dizinin nokta çarpımını bulma:
 
 ```python
 import numpy as np
@@ -58,29 +58,29 @@ array = np.random.rand(1000)
 sigmoid = 1 / (1 + np.exp(-array))
 ```
 
-### 👩‍💻 Numpy'de Ortak Desteklenen İşlemler
+### 👩‍💻 Numpy'de Desteklenen Yaygın İşlemler
 
-#### 🤸‍♀️ Ortak Tek Dizi Fonksiyonları
+#### 🤸‍♀️ Yaygın Tek Dizi Fonksiyonları
 
 * Dizideki her elemanın karekökünü alma
   * `np.sqrt(x)`
 * Dizinin tüm elemanlarının toplamını almak
   * `np.sum(x)`
-* Dizideki her bir elemanın mutlak değerini alarak
+* Dizideki her bir elemanın mutlak değerini alma
   * `np.abs(x)`
 * Dizideki her elemana **trigonometrik** fonksiyonlar uygulama
   * `np.sin(x)`, `np.cos(x)`, `np.tan(x)`
 * Dizideki her bir eleman üzerine **logaritmik** fonksiyonlar uygulama
   * `np.log(x)`, `np.log10(x)`, `np.log2(x)`
 
-#### 🤸‍♂️ Ortak Çoklu Dizi Fonksiyonları
+#### 🤸‍♂️ Yaygın Çoklu Dizi Fonksiyonları
 
 * **Aritmetik** işlemleri dizilerdeki karşılık gelen elemanlara uygulama
   * `np.add(x, y)`, `np.subtract(x, y)`, `np.divide(x, y)`, `np.multiply(x, y)`
 * Dizideki karşılık gelen elemanlara kuvvet işlemi uygulama
   * `np.power(x, y)`
 
-#### ➰ Ortak Dizili _Sequence_ Fonksiyonlar
+#### ➰ Yaygın Dizili _Sequence_ Fonksiyonlar
 
 * Bir dizinin **ortalama**sını bulma
   * `np.mean(x)`
@@ -105,7 +105,7 @@ Elimizde `(m,n)` boyutundaki **A** matrisi olsun. `(1,n)` boyutundaki **B** matr
 
 Aynı şekilde: Elimizde `(m,n)` boyutundaki **A** matrisi olsun. `(m,1)` boyutundaki **B** matrisi ile toplamak / çıkarmak / çarpmak / bölmek istiyorsak, **B** matrisi `n` kez kopyalanacak, daha sonra istenen işlem gerçekleşecek.
 
-> Uzun lafın kısası: Farklı boyutlardaki diziler \(veya matrisler\) eklenemez, çıkartılamaz veya genel olarak aritmetik olarak kullanılamaz. Dolayısıyla, boyutları genişletmek mümkün kılmanın bir yoludur, böylece uyumlu şekillere sahip olurlar.
+> Uzun lafın kısası: Farklı boyutlardaki diziler \(veya matrisler\) toplanamaz, çıkartılamaz veya genel olarak aritmetik olarak kullanılamaz. Dolayısıyla, boyutları genişletmek bunu mümkün kılmanın bir yoludur, böylece uyumlu şekillere sahip olurlar.
 
 ### 👀 Görselleştirme
 
@@ -159,7 +159,7 @@ print('shape:', z.shape, 'rank:', z.ndim)
 
 > Rank-1 dizilerinin kullanıl**ma**ması tavsiye edilmektedir
 
-### 🤔 Neden kullanılmaması tavsiye edilir?
+### 🤔 Neden Rank-1 dizilerinin kullanılmaması tavsiye edilir?
 
 Rank-1 Dizileri, bulunması ve düzeltilmesi zor olan hatalara neden olabilir, örneğin:
 
