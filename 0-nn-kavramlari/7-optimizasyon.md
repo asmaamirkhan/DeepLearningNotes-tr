@@ -2,23 +2,23 @@
 
 Hızlı ve iyi optimizasyon algoritmalarına sahip olmak tüm işin verimliliğini hızlandırabilir ✨
 
-## 🔩 Bölümlü Gradyan İnişi \(Batch Gradient Descent\)
+## 🔩 Toplu Gradyan İnişi \(Batch Gradient Descent\)
 
-Bölümlü gradyan inişinde, gradyan inişinin her yinelemesi için maliyet fonksiyonunun gradyanını hesaplamak için **tüm** veri kümesini kullanırız ve ardından ağırlıkları güncelleriz.
+Toplu gradyan inişinde, gradyan inişinin her yinelemesinde maliyet fonksiyonunun gradyanını hesaplamak için **tüm** veri kümesini kullanırız ve ardından ağırlıkları güncelleriz.
 
 * Tüm veri kümesini hesaplamada kullandığımızdan dolayı gradyanın yakınsaması yavaştır.
 
 ### 🎩 Stokastik Gradyan İnişi \(SGD\)
 
-Stokastik Gradyan İnişi'nde, gradyanı hesaplamak ve ağırlıkları **her** bir yinelemeyle güncellemek için tek bir veri noktası veya örnek kullanıyoruz, önce tamamen rastgele bir veri setini alabilmemiz için önce veri kümesini karıştırmamız gerekir.
+Stokastik Gradyan İnişi'nde, gradyanı hesaplamak ve ağırlıkları **her** bir yinelemeyle güncellemek için tek bir veri noktası veya örnek kullanıyoruz, tamamen rastgele bir veri setini alabilmemiz için önce veri kümesini karıştırmamız gerekir.
 
-Rastgele örnek, global bir minimumda bulunmamızda yardımcı olur ve yerel bir minimumda sıkışıp kalmaktan kurtarır.
+Rastgele örnek, global bir minimuma ulaşmaya yardımcı olur ve yerel bir minimumda takılıp kalmayı önler.
 
 * Büyük bir veri kümesi için öğrenme çok daha hızlı ve yakınsama çok hızlı 🚀
 
-### 🔩 Mini-Bölümlü Gradyan İnişi \(Mini Batch Gradient Descent\)
+### 🔩 Mini-Toplu Gradyan İnişi \(Mini Batch Gradient Descent\)
 
-* Tek bir eğitim örneği yerine, örneklerin küçük bölümü kullanıldığı bir Stokastik Gradyan İnişinin bir varyasyonudur.
+* Tek bir eğitim örneği yerine, örneklerin küçük bölümünün kullanıldığı bir Stokastik Gradyan İnişinin bir varyasyonudur.
 * Yaygın olarak kullanılır, daha hızlı yakınsar ve daha stabildir
 * Bölüm büyüklüğü veri kümesine bağlı olarak değişebilir
 
@@ -45,11 +45,11 @@ Rastgele örnek, global bir minimumda bulunmamızda yardımcı olur ve yerel bir
 
 ## 🔩 Momentumlu Gradyan İnişi \(Gradient Descent with Momentum\)
 
-Hemen hemen her zaman, gradient descent with momentum standart gradient descent algoritmasından daha hızlı yakınsar. Standart gradient descent algoritmasında, algoritmayı yavaşlatan bir yönde daha büyük ve başka bir yönde daha küçük adımlar atmamızdır 🤕
+Hemen hemen her zaman, momentumlu gradyan inişi, standart gradyan inişi algoritmasından daha hızlı yakınsar. Standart gradyan inişi algoritmasında, algoritmayı yavaşlatan bir yönde daha büyük ve başka bir yönde daha küçük adımlar atmamızdır 🤕
 
 Bu momentumun geliştirebileceği şeydir, salınımı bir yönde kısıtlar, böylece algoritmamız daha hızlı yakınsayabilir. Ayrıca, y yönünde atılan adımların sayısı sınırlı olduğu için daha yüksek bir öğrenme hızı belirleyebiliriz 🤗
 
-Aşağıdaki resim daha iyi anlatmaktadır: 🧐
+Aşağıdaki resim durumu daha iyi anlatmaktadır: 🧐
 
 ![](../.gitbook/assets/GDvsGDM.png)
 
@@ -65,7 +65,7 @@ $$b = b -\alpha v_{db}$$
 
 Daha iyi anlamak için:
 
-Momentumlu gradyan inişinde, gradyan inişii hızlandırmaya çalışırken şunu söyleyebiliriz:
+Momentumlu gradyan inişinde, gradyan inişini hızlandırmaya çalışırken şunu söyleyebiliriz:
 
 * Türevler hızlandırıcıdır
 * v'ler hızdır
